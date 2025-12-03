@@ -56,3 +56,32 @@ CATEGORY_LABELS = {
     "city": "[CITY]",
     "state": "[STATE]"
 }
+
+def get_sorted_terms_by_length():
+    """Get all PII terms sorted by length (longest first).
+    Cities come before colors to prevent partial matches."""
+    terms = []
+    
+    # Add multi-word cities first (longest)
+    for city in CITIES_MULTI:
+        terms.append((city, "city"))
+    
+    # Add states (some are multi-word like "new york")
+    for state in STATES:
+        terms.append((state, "state"))
+    
+    # Add single-word cities
+    for city in CITIES_SINGLE:
+        terms.append((city, "city"))
+    
+    # Add other categories
+    for day in DAYS:
+        terms.append((day, "day"))
+    for month in MONTHS:
+        terms.append((month, "month"))
+    for color in COLORS:
+        terms.append((color, "color"))
+    
+    # Sort by length descending
+    terms.sort(key=lambda x: len(x[0]), reverse=True)
+    return terms
