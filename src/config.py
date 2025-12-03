@@ -14,3 +14,10 @@ BLEEP_AMPLITUDE = 0.5
 PADDING_BEFORE_MS = 150
 PADDING_AFTER_MS = 150
 OUTPUT_AUDIO_FORMAT = "flac"
+
+@dataclass
+class WordTimestamp:
+    """A word with its timestamp."""
+    word: str
+    start: float
+    end: float
