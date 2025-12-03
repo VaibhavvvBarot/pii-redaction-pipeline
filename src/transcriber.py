@@ -11,3 +11,16 @@ class TranscriptionResult:
     segments: List[dict] = field(default_factory=list)
     audio_duration: float = 0.0
     language: str = "en"
+
+    def get_all_words(self):
+        """Get all words with timestamps."""
+        from .config import WordTimestamp
+        words = []
+        for seg in self.segments:
+            for w in seg.get("words", []):
+                words.append(WordTimestamp(
+                    word=w["word"],
+                    start=w["start"],
+                    end=w["end"]
+                ))
+        return words
