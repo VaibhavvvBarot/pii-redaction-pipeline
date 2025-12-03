@@ -122,3 +122,58 @@ class PIIDetector:
         matches.sort(key=lambda m: m.start_time)
         logger.info(f"Detected {len(matches)} PII: {len(exact_matches)} exact, {len(fuzzy_matches)} fuzzy")
         return matches
+
+    def _exact_match(self, words: List[WordTimestamp], matched_indices: Set[int]) -> List[PIIMatch]:
+        """Layer 1: Exact matching, longest phrases first."""
+        matches = []
+        n_words = len(words)
+        max_phrase_len = 4
+        
+        i = 0
+        while i < n_words:
+            if i in matched_indices:
+                i += 1
+                continue
+            
+            matched = False
+            for phrase_len in range(min(max_phrase_len, n_words - i), 0, -1):
+                if matched:
+                    break
+                
+                word_slice = words[i:i + phrase_len]
+                phrase_words = [normalize_word(w.word) for w in word_slice]
+                phrase = " ".join(phrase_words)
+                
+                for term, category in self.sorted_terms:
+                    term_lower = term.lower()
+                    term_words = term_lower.split()
+                    
+                    if len(term_words) != phrase_len:
+                        continue
+                    
+                    if phrase == term_lower:
+                        # Special handling for "may"
+                        if term_lower == "may":
+                            full_text = " ".join(w.word for w in words)
+                            word_pos = sum(len(w.word) + 1 for w in words[:i])
+                            if not is_may_month(full_text, word_pos, word_pos + 3):
+                                continue
+                        
+                        indices = list(range(i, i + phrase_len))
+                        matched_indices.update(indices)
+                        
+                        match = PIIMatch(
+                            text=" ".join(w.word for w in word_slice),
+                            category=category,
+                            start_time=word_slice[0].start,
+                            end_time=word_slice[-1].end,
+                            confidence=1.0,
+                            word_indices=indices,
+                            is_fuzzy=False
+                        )
+                        matches.append(match)
+                        matched = True
+                        i += phrase_len - 1
+                        break
+            i += 1
+        return matches
