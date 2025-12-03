@@ -250,3 +250,46 @@ class PIIDetector:
                     logger.debug(f"Fuzzy: '{word_ts.word}' -> '{term}' (dist={distance})")
         
         return matches
+
+    def detect_in_text(self, text: str) -> List[Dict]:
+        """Detect PII in plain text (for verification)."""
+        matches = []
+        text_lower = text.lower()
+        matched_positions: Set[int] = set()
+        
+        for term, category in self.sorted_terms:
+            term_lower = term.lower()
+            start = 0
+            
+            while True:
+                pattern = r'\b' + re.escape(term_lower) + r'\b'
+                match = re.search(pattern, text_lower[start:], re.IGNORECASE)
+                
+                if not match:
+                    break
+                
+                abs_start = start + match.start()
+                abs_end = start + match.end()
+                
+                if any(pos in matched_positions for pos in range(abs_start, abs_end)):
+                    start = abs_start + 1
+                    continue
+                
+                if term_lower == "may":
+                    if not is_may_month(text, abs_start, abs_end):
+                        start = abs_end
+                        continue
+                
+                for pos in range(abs_start, abs_end):
+                    matched_positions.add(pos)
+                
+                matches.append({
+                    "text": text[abs_start:abs_end],
+                    "category": category,
+                    "start": abs_start,
+                    "end": abs_end
+                })
+                start = abs_end
+        
+        matches.sort(key=lambda m: m["start"])
+        return matches
