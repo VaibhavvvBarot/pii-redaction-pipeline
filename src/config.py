@@ -39,3 +39,7 @@ class ProcessingResult:
     conversation_id: str
     success: bool
     error: Optional[str] = None
+
+# Fuzzy matching
+FUZZY_MAX_DISTANCE = 2
+FUZZY_MIN_CONFIDENCE = 0.75
