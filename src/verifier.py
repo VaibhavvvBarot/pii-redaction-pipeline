@@ -77,3 +77,35 @@ class Verifier:
             leaked_pii=leaked_pii,
             notes=notes
         )
+
+    def _verify_audio(self, audio_path: str, leaked_pii: list, notes: list) -> VerificationStatus:
+        """Re-transcribe redacted audio and check for PII."""
+        try:
+            from .transcriber import Transcriber
+            
+            transcriber = Transcriber(model_size="base")
+            transcript = transcriber.transcribe(audio_path)
+            
+            text = " ".join(seg["text"] for seg in transcript.segments)
+            audio_pii = self.detector.detect_in_text(text)
+            
+            # Filter labels
+            real_leaks = [p for p in audio_pii if not p["text"].startswith("[")]
+            
+            # Count by confidence
+            high_conf = [p for p in real_leaks if not any(
+                label in p["text"].lower() for label in ["bleep", "beep", "tone"]
+            )]
+            
+            if len(high_conf) >= 3:
+                notes.append(f"Audio verification: {len(high_conf)} potential PII leaks")
+                return VerificationStatus.FAIL
+            elif len(high_conf) >= 1:
+                notes.append(f"Audio verification: {len(high_conf)} potential leaks (review)")
+                return VerificationStatus.REVIEW_REQUIRED
+            else:
+                return VerificationStatus.PASS
+                
+        except Exception as e:
+            notes.append(f"Audio verification failed: {e}")
+            return VerificationStatus.REVIEW_REQUIRED
