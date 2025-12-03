@@ -115,3 +115,71 @@ class AudioRedactor:
             ))
         
         return merge_overlapping_regions(regions)
+
+    def redact(
+        self,
+        audio_path: str,
+        pii_matches: List[PIIMatch],
+        output_path: Optional[str] = None
+    ) -> Tuple[str, List[BleepRegion]]:
+        """Redact PII from audio file."""
+        import soundfile as sf
+        
+        audio_path = Path(audio_path)
+        if not audio_path.exists():
+            raise FileNotFoundError(f"Audio file not found: {audio_path}")
+        
+        # Read audio
+        audio_data, sample_rate = sf.read(str(audio_path), dtype='float32')
+        
+        # Handle stereo
+        if len(audio_data.shape) > 1:
+            audio_data = audio_data.mean(axis=1)
+        
+        audio_duration = len(audio_data) / sample_rate
+        logger.info(f"Loaded audio: {audio_duration:.1f}s, {sample_rate}Hz")
+        
+        # Calculate regions
+        regions = self.calculate_bleep_regions(pii_matches, audio_duration)
+        logger.info(f"Calculated {len(regions)} bleep regions")
+        
+        # Apply bleeps
+        redacted_audio = audio_data.copy()
+        
+        for region in regions:
+            start_sample = int(region.start_time * sample_rate)
+            end_sample = int(region.end_time * sample_rate)
+            
+            bleep = generate_bleep_tone(
+                region.bleep_duration,
+                sample_rate,
+                self.bleep_freq,
+                self.bleep_amp
+            )
+            
+            segment_length = end_sample - start_sample
+            bleep_length = len(bleep)
+            
+            if bleep_length >= segment_length:
+                redacted_audio[start_sample:end_sample] = bleep[:segment_length]
+            else:
+                redacted_audio[start_sample:start_sample + bleep_length] = bleep
+                redacted_audio[start_sample + bleep_length:end_sample] = 0
+        
+        # Output path
+        if output_path is None:
+            output_path = audio_path.parent / f"{audio_path.stem}_redacted.{OUTPUT_AUDIO_FORMAT}"
+        else:
+            output_path = Path(output_path)
+        
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+        sf.write(str(output_path), redacted_audio, sample_rate)
+        logger.info(f"Saved redacted audio: {output_path}")
+        
+        return str(output_path), regions
+
+
+def redact_audio(audio_path: str, pii_matches: List[PIIMatch], output_path: Optional[str] = None):
+    """Convenience function."""
+    redactor = AudioRedactor()
+    return redactor.redact(audio_path, pii_matches, output_path)
