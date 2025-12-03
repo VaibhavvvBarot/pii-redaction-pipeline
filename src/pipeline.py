@@ -127,3 +127,17 @@ class Pipeline:
             output.processing_time_s = time.time() - start_time
         
         return output
+
+    def _save_outputs(self, output: ConversationOutput):
+        """Save outputs to disk."""
+        conv_id = output.conversation_id
+        
+        if output.transcript_raw:
+            path = self.output_dir / "transcripts_raw" / "train" / f"{conv_id}.json"
+            with open(path, "w") as f:
+                json.dump(output.transcript_raw.to_dict(), f, indent=2)
+        
+        if output.transcript_redacted:
+            path = self.output_dir / "transcripts_deid" / "train" / f"{conv_id}.json"
+            with open(path, "w") as f:
+                json.dump(output.transcript_redacted.to_dict(), f, indent=2)
