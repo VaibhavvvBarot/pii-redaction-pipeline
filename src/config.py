@@ -32,3 +32,10 @@ class PIIMatch:
     confidence: float
     word_indices: List[int]
     is_fuzzy: bool = False
+
+@dataclass
+class ProcessingResult:
+    """Result of processing a conversation."""
+    conversation_id: str
+    success: bool
+    error: Optional[str] = None
