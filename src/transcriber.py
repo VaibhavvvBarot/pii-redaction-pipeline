@@ -47,3 +47,30 @@ class Transcriber:
             from faster_whisper import WhisperModel
             self.model = WhisperModel(self.model_size, compute_type="int8")
         return self.model
+
+    def transcribe(self, audio_path: str) -> TranscriptionResult:
+        """Transcribe an audio file."""
+        model = self._load_model()
+        
+        segments_data, info = model.transcribe(
+            audio_path,
+            word_timestamps=True,
+            language="en"
+        )
+        
+        segments = []
+        for seg in segments_data:
+            words = [{"word": w.word, "start": w.start, "end": w.end} 
+                     for w in seg.words] if seg.words else []
+            segments.append({
+                "text": seg.text,
+                "start": seg.start,
+                "end": seg.end,
+                "words": words
+            })
+        
+        return TranscriptionResult(
+            segments=segments,
+            audio_duration=info.duration,
+            language=info.language
+        )
