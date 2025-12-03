@@ -75,3 +75,29 @@ def is_may_month(text: str, match_start: int, match_end: int) -> bool:
         if re.search(pattern, context, re.IGNORECASE):
             return True
     return False
+
+
+class PIIDetector:
+    """Detects PII using 2-layer detection: exact match then fuzzy."""
+    
+    def __init__(self):
+        self.sorted_terms = get_sorted_terms_by_length()
+        
+        # Build lookup sets
+        self.pii_sets: Dict[str, Set[str]] = {
+            "day": set(d.lower() for d in DAYS),
+            "month": set(m.lower() for m in MONTHS),
+            "color": set(c.lower() for c in COLORS),
+            "state": set(s.lower() for s in STATES),
+            "city": set(c.lower() for c in CITIES_MULTI + CITIES_SINGLE)
+        }
+        
+        self.all_pii_terms = set()
+        for terms in self.pii_sets.values():
+            self.all_pii_terms.update(terms)
+        
+        # Term to category mapping
+        self.term_to_category: Dict[str, str] = {}
+        for term, category in self.sorted_terms:
+            if term.lower() not in self.term_to_category:
+                self.term_to_category[term.lower()] = category
