@@ -190,3 +190,63 @@ class PIIDetector:
         }
         
         from .config import FUZZY_MAX_DISTANCE, FUZZY_MIN_CONFIDENCE
+        
+        for i, word_ts in enumerate(words):
+            if i in matched_indices:
+                continue
+            
+            word = normalize_word(word_ts.word)
+            
+            if word in FUZZY_BLACKLIST:
+                continue
+            
+            # Min 5 chars for fuzzy matching
+            if len(word) < 5:
+                continue
+            
+            best_match = None
+            
+            for term, category in self.sorted_terms:
+                term_lower = term.lower()
+                
+                if " " in term_lower:  # Only single words
+                    continue
+                if len(term_lower) < 5:
+                    continue
+                
+                distance = levenshtein_distance(word, term_lower)
+                
+                if distance == 0:
+                    continue
+                
+                # Stricter for distance=2
+                if distance == 2 and len(word) < 7:
+                    continue
+                
+                if distance <= FUZZY_MAX_DISTANCE:
+                    relative_distance = distance / max(len(word), len(term_lower))
+                    if relative_distance > 0.25:
+                        continue
+                    
+                    if best_match is None or distance < best_match[2]:
+                        best_match = (term_lower, category, distance)
+            
+            if best_match:
+                term, category, distance = best_match
+                confidence = 1.0 - (distance / max(len(word), len(term)))
+                
+                if confidence >= FUZZY_MIN_CONFIDENCE:
+                    matched_indices.add(i)
+                    match = PIIMatch(
+                        text=word_ts.word,
+                        category=category,
+                        start_time=word_ts.start,
+                        end_time=word_ts.end,
+                        confidence=confidence,
+                        word_indices=[i],
+                        is_fuzzy=True
+                    )
+                    matches.append(match)
+                    logger.debug(f"Fuzzy: '{word_ts.word}' -> '{term}' (dist={distance})")
+        
+        return matches
