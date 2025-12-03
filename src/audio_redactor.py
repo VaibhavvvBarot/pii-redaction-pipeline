@@ -73,3 +73,45 @@ def merge_overlapping_regions(regions: List[BleepRegion], min_gap_s: float = 0.1
         region.bleep_duration = max(MIN_BLEEP_DURATION_MS, duration_ms) / 1000
     
     return merged
+
+
+class AudioRedactor:
+    """Redacts PII from audio with bleep tones."""
+    
+    def __init__(
+        self,
+        min_bleep_ms: int = MIN_BLEEP_DURATION_MS,
+        bleep_freq: float = BLEEP_FREQUENCY_HZ,
+        bleep_amp: float = BLEEP_AMPLITUDE,
+        padding_before_ms: int = PADDING_BEFORE_MS,
+        padding_after_ms: int = PADDING_AFTER_MS
+    ):
+        self.min_bleep_ms = min_bleep_ms
+        self.bleep_freq = bleep_freq
+        self.bleep_amp = bleep_amp
+        self.padding_before_s = padding_before_ms / 1000
+        self.padding_after_s = padding_after_ms / 1000
+    
+    def calculate_bleep_regions(
+        self,
+        pii_matches: List[PIIMatch],
+        audio_duration: float
+    ) -> List[BleepRegion]:
+        """Calculate bleep regions from PII matches."""
+        regions = []
+        
+        for match in pii_matches:
+            start_time = max(0, match.start_time - self.padding_before_s)
+            end_time = min(audio_duration, match.end_time + self.padding_after_s)
+            
+            duration_ms = (end_time - start_time) * 1000
+            bleep_duration_s = max(self.min_bleep_ms, duration_ms) / 1000
+            
+            regions.append(BleepRegion(
+                start_time=start_time,
+                end_time=end_time,
+                bleep_duration=bleep_duration_s,
+                pii_matches=[match]
+            ))
+        
+        return merge_overlapping_regions(regions)
