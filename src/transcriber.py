@@ -24,3 +24,11 @@ class TranscriptionResult:
                     end=w["end"]
                 ))
         return words
+
+    def to_dict(self):
+        """Convert to dictionary."""
+        return {
+            "segments": self.segments,
+            "audio_duration": self.audio_duration,
+            "language": self.language
+        }
