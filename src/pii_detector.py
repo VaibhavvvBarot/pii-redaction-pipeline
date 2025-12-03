@@ -33,15 +33,20 @@ def levenshtein_distance(s1: str, s2: str) -> int:
 
 
 def normalize_word(word: str) -> str:
-    """Normalize a word for matching."""
+    """Normalize a word for matching. Handles possessives and plurals."""
     if not word:
         return ""
     word = word.lower()
-    # Remove possessives
     word = re.sub(r"['']s$", "", word)
-    # Remove punctuation
     word = word.rstrip(".,!?;:\"'")
     word = word.lstrip("\"'")
+    
+    # Handle plurals like "Mondays" -> "monday"
+    if word.endswith("s") and not word.endswith("ss") and len(word) > 3:
+        singular = word[:-1]
+        all_pii_lower = set(DAYS + MONTHS + COLORS + STATES + CITIES_SINGLE)
+        if singular in all_pii_lower:
+            word = singular
     return word
 
 
