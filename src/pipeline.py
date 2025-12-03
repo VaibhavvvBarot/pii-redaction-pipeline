@@ -168,3 +168,36 @@ class Pipeline:
         self._generate_report(results)
         self._generate_metadata_manifest(results)
         return results
+
+    def _generate_report(self, results: List[ConversationOutput]):
+        """Generate processing report."""
+        successes = [r for r in results if r.success]
+        failures = [r for r in results if not r.success]
+        
+        status_counts = {s.value: 0 for s in VerificationStatus}
+        for r in successes:
+            if r.verification:
+                status_counts[r.verification.overall_status.value] += 1
+        
+        total_pii = sum(len(r.pii_matches) for r in successes)
+        total_duration = sum(r.transcript_raw.audio_duration if r.transcript_raw else 0 for r in successes)
+        
+        report = {
+            "timestamp": datetime.now().isoformat(),
+            "summary": {
+                "total_conversations": len(results),
+                "successful": len(successes),
+                "failed": len(failures),
+                "total_duration_sec": round(total_duration, 1),
+                "total_pii_redacted": total_pii
+            },
+            "verification_status": status_counts,
+            "failures": [{"id": r.conversation_id, "stage": r.stage, "error": r.error} for r in failures]
+        }
+        
+        if self.save_outputs:
+            path = self.output_dir / "qa" / "processing_report.json"
+            with open(path, "w") as f:
+                json.dump(report, f, indent=2)
+        
+        logger.info(f"Complete: {len(successes)}/{len(results)} success, {total_pii} PII redacted")
