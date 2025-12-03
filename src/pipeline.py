@@ -31,3 +31,40 @@ class ConversationOutput:
     redacted_audio_path: Optional[str] = None
     verification: Optional[VerificationResult] = None
     processing_time_s: float = 0.0
+
+
+class Pipeline:
+    """Main PII de-identification pipeline."""
+    
+    def __init__(
+        self,
+        output_dir: Optional[str] = None,
+        whisper_model: str = WHISPER_MODEL,
+        verify_audio: bool = True,
+        save_outputs: bool = True
+    ):
+        self.output_dir = Path(output_dir) if output_dir else OUTPUT_DIR
+        self.whisper_model = whisper_model
+        self.verify_audio = verify_audio
+        self.save_outputs = save_outputs
+        
+        # Init components
+        self.transcriber = Transcriber(model_size=whisper_model)
+        self.detector = PIIDetector()
+        self.text_redactor = TextRedactor()
+        self.audio_redactor = AudioRedactor()
+        self.verifier = Verifier()
+        
+        if save_outputs:
+            self._create_output_dirs()
+    
+    def _create_output_dirs(self):
+        dirs = [
+            self.output_dir / "audio" / "train",
+            self.output_dir / "transcripts_raw" / "train",
+            self.output_dir / "transcripts_deid" / "train",
+            self.output_dir / "metadata",
+            self.output_dir / "qa"
+        ]
+        for d in dirs:
+            d.mkdir(parents=True, exist_ok=True)
