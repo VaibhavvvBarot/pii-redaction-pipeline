@@ -32,3 +32,18 @@ class TranscriptionResult:
             "audio_duration": self.audio_duration,
             "language": self.language
         }
+
+
+class Transcriber:
+    """Transcriber using faster-whisper."""
+    
+    def __init__(self, model_size: str = "base"):
+        self.model_size = model_size
+        self.model = None
+    
+    def _load_model(self):
+        """Lazy load the model."""
+        if self.model is None:
+            from faster_whisper import WhisperModel
+            self.model = WhisperModel(self.model_size, compute_type="int8")
+        return self.model
