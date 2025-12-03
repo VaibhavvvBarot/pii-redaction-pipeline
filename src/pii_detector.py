@@ -54,3 +54,24 @@ def normalize_phrase(phrase: str) -> str:
     """Normalize a multi-word phrase."""
     words = phrase.split()
     return " ".join(normalize_word(w) for w in words)
+
+
+# Context patterns for "may" as month vs modal verb
+MAY_MONTH_PATTERNS = [
+    r'\b(in|during|last|next|this|of|since|before|after|until|by)\s+may\b',
+    r'\bmay\s+\d{1,2}(st|nd|rd|th)?\b',
+    r'\bmay\s+of\s+\d{4}\b',
+    r'^may\s+\d',
+]
+
+
+def is_may_month(text: str, match_start: int, match_end: int) -> bool:
+    """Check if 'may' is the month (True) or modal verb (False)."""
+    context_start = max(0, match_start - 20)
+    context_end = min(len(text), match_end + 20)
+    context = text[context_start:context_end].lower()
+    
+    for pattern in MAY_MONTH_PATTERNS:
+        if re.search(pattern, context, re.IGNORECASE):
+            return True
+    return False
