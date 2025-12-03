@@ -21,3 +21,14 @@ class WordTimestamp:
     word: str
     start: float
     end: float
+
+@dataclass
+class PIIMatch:
+    """A detected PII match."""
+    text: str
+    category: str
+    start_time: float
+    end_time: float
+    confidence: float
+    word_indices: List[int]
+    is_fuzzy: bool = False
