@@ -141,3 +141,30 @@ class Pipeline:
             path = self.output_dir / "transcripts_deid" / "train" / f"{conv_id}.json"
             with open(path, "w") as f:
                 json.dump(output.transcript_redacted.to_dict(), f, indent=2)
+
+    def process_batch(self, audio_paths: List[str], continue_on_error: bool = True) -> List[ConversationOutput]:
+        """Process multiple conversations."""
+        results = []
+        total = len(audio_paths)
+        
+        logger.info(f"Processing batch of {total} conversations")
+        
+        for i, audio_path in enumerate(audio_paths, 1):
+            logger.info(f"[{i}/{total}] {Path(audio_path).stem}")
+            
+            try:
+                result = self.process_conversation(audio_path)
+                results.append(result)
+            except Exception as e:
+                if continue_on_error:
+                    logger.error(f"Failed: {e}")
+                    results.append(ConversationOutput(
+                        conversation_id=Path(audio_path).stem,
+                        success=False, error=str(e), stage="unknown"
+                    ))
+                else:
+                    raise
+        
+        self._generate_report(results)
+        self._generate_metadata_manifest(results)
+        return results
