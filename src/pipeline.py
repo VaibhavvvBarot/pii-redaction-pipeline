@@ -201,3 +201,33 @@ class Pipeline:
                 json.dump(report, f, indent=2)
         
         logger.info(f"Complete: {len(successes)}/{len(results)} success, {total_pii} PII redacted")
+
+    def _generate_metadata_manifest(self, results: List[ConversationOutput]):
+        """Generate metadata manifest."""
+        if not self.save_outputs:
+            return
+        
+        rows = []
+        for r in results:
+            if not r.success:
+                continue
+            rows.append({
+                "conversation_id": r.conversation_id,
+                "duration_sec": r.transcript_raw.audio_duration if r.transcript_raw else 0,
+                "num_speakers": 2,
+                "sample_rate": 16000,
+                "has_pii": len(r.pii_matches) > 0,
+                "pii_count": len(r.pii_matches),
+                "deid_version": datetime.now().strftime("%Y-%m-%d_v1"),
+                "qa_status": r.verification.overall_status.value if r.verification else "pending"
+            })
+        
+        path = self.output_dir / "metadata" / "manifest.json"
+        with open(path, "w") as f:
+            json.dump(rows, f, indent=2)
+
+
+def run_pipeline(audio_paths: List[str], output_dir: Optional[str] = None, whisper_model: str = "base", verify_audio: bool = True):
+    """Convenience function."""
+    pipeline = Pipeline(output_dir=output_dir, whisper_model=whisper_model, verify_audio=verify_audio)
+    return pipeline.process_batch(audio_paths)
