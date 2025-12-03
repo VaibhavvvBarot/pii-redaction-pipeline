@@ -30,3 +30,22 @@ def levenshtein_distance(s1: str, s2: str) -> int:
             current_row.append(min(insertions, deletions, substitutions))
         previous_row = current_row
     return previous_row[-1]
+
+
+def normalize_word(word: str) -> str:
+    """Normalize a word for matching."""
+    if not word:
+        return ""
+    word = word.lower()
+    # Remove possessives
+    word = re.sub(r"['']s$", "", word)
+    # Remove punctuation
+    word = word.rstrip(".,!?;:\"'")
+    word = word.lstrip("\"'")
+    return word
+
+
+def normalize_phrase(phrase: str) -> str:
+    """Normalize a multi-word phrase."""
+    words = phrase.split()
+    return " ".join(normalize_word(w) for w in words)
