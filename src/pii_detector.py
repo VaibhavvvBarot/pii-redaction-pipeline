@@ -293,3 +293,9 @@ class PIIDetector:
         
         matches.sort(key=lambda m: m["start"])
         return matches
+
+
+def detect_pii(transcript) -> List[PIIMatch]:
+    """Convenience function to detect PII."""
+    detector = PIIDetector()
+    return detector.detect(transcript)
