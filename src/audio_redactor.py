@@ -22,3 +22,26 @@ class BleepRegion:
     end_time: float
     bleep_duration: float
     pii_matches: List[PIIMatch]
+
+
+def generate_bleep_tone(
+    duration_s: float,
+    sample_rate: int = SAMPLE_RATE,
+    frequency: float = BLEEP_FREQUENCY_HZ,
+    amplitude: float = BLEEP_AMPLITUDE
+) -> np.ndarray:
+    """Generate a sine wave bleep with fade in/out."""
+    n_samples = int(duration_s * sample_rate)
+    t = np.linspace(0, duration_s, n_samples, dtype=np.float32)
+    
+    bleep = amplitude * np.sin(2 * np.pi * frequency * t)
+    
+    # Fade in/out to avoid clicks
+    fade_samples = int(0.01 * sample_rate)
+    if n_samples > 2 * fade_samples:
+        fade_in = np.linspace(0, 1, fade_samples)
+        fade_out = np.linspace(1, 0, fade_samples)
+        bleep[:fade_samples] *= fade_in
+        bleep[-fade_samples:] *= fade_out
+    
+    return bleep.astype(np.float32)
