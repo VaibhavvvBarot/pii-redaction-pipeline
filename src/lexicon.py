@@ -48,3 +48,11 @@ CITIES_SINGLE = [
     "minneapolis", "tulsa", "cleveland", "pittsburgh", "raleigh",
     "omaha", "tampa", "honolulu", "anchorage", "brownsville"
 ]
+
+CATEGORY_LABELS = {
+    "day": "[DAY]",
+    "month": "[MONTH]", 
+    "color": "[COLOR]",
+    "city": "[CITY]",
+    "state": "[STATE]"
+}
