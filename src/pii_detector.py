@@ -101,3 +101,24 @@ class PIIDetector:
         for term, category in self.sorted_terms:
             if term.lower() not in self.term_to_category:
                 self.term_to_category[term.lower()] = category
+
+    def detect(self, transcript) -> List[PIIMatch]:
+        """Detect all PII in a transcript."""
+        all_words = transcript.get_all_words()
+        if not all_words:
+            return []
+        
+        matches: List[PIIMatch] = []
+        matched_indices: Set[int] = set()
+        
+        # Layer 1: Exact matching
+        exact_matches = self._exact_match(all_words, matched_indices)
+        matches.extend(exact_matches)
+        
+        # Layer 2: Fuzzy matching
+        fuzzy_matches = self._fuzzy_match(all_words, matched_indices)
+        matches.extend(fuzzy_matches)
+        
+        matches.sort(key=lambda m: m.start_time)
+        logger.info(f"Detected {len(matches)} PII: {len(exact_matches)} exact, {len(fuzzy_matches)} fuzzy")
+        return matches
