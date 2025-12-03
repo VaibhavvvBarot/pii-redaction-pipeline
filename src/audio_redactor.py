@@ -45,3 +45,31 @@ def generate_bleep_tone(
         bleep[-fade_samples:] *= fade_out
     
     return bleep.astype(np.float32)
+
+
+def merge_overlapping_regions(regions: List[BleepRegion], min_gap_s: float = 0.1) -> List[BleepRegion]:
+    """Merge overlapping or adjacent bleep regions."""
+    if not regions:
+        return []
+    
+    sorted_regions = sorted(regions, key=lambda r: r.start_time)
+    merged = [sorted_regions[0]]
+    
+    for region in sorted_regions[1:]:
+        last = merged[-1]
+        if region.start_time <= last.end_time + min_gap_s:
+            merged[-1] = BleepRegion(
+                start_time=last.start_time,
+                end_time=max(last.end_time, region.end_time),
+                bleep_duration=0,
+                pii_matches=last.pii_matches + region.pii_matches
+            )
+        else:
+            merged.append(region)
+    
+    # Recalculate durations
+    for region in merged:
+        duration_ms = (region.end_time - region.start_time) * 1000
+        region.bleep_duration = max(MIN_BLEEP_DURATION_MS, duration_ms) / 1000
+    
+    return merged
