@@ -177,3 +177,16 @@ class PIIDetector:
                         break
             i += 1
         return matches
+
+    def _fuzzy_match(self, words: List[WordTimestamp], matched_indices: Set[int]) -> List[PIIMatch]:
+        """Layer 2: Fuzzy matching to catch ASR errors."""
+        matches = []
+        
+        # Words that should never be fuzzy matched
+        FUZZY_BLACKLIST = {
+            "like", "back", "lack", "read", "lead", "plan", "lime",
+            "goal", "coal", "pin", "tin", "tank", "beat", "heat",
+            "remember", "member", "around", "texture", "salon"
+        }
+        
+        from .config import FUZZY_MAX_DISTANCE, FUZZY_MIN_CONFIDENCE
