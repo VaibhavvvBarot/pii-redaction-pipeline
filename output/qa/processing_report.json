@@ -1,0 +1,21 @@
+{
+  "timestamp": "2025-12-03T14:49:56.576719",
+  "summary": {
+    "total_conversations": 1,
+    "successful": 1,
+    "failed": 0,
+    "total_duration_sec": 303.7,
+    "total_duration_min": 5.1,
+    "total_pii_redacted": 51
+  },
+  "verification_status": {
+    "PASS": 1,
+    "PASS_WITH_NOTE": 0,
+    "REVIEW_REQUIRED": 0,
+    "FAIL": 0
+  },
+  "failures": [],
+  "processing_times": {
+    "F2M2_USA_USA_010": 61.13934373855591
+  }
+}

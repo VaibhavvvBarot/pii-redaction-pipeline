@@ -1,0 +1,2113 @@
+{
+  "conversation_id": "F2308F2308_USA_USA_001",
+  "audio_path": "data_exploration/audio/F2308F2308_USA_USA_001.wav",
+  "audio_duration": 105.215625,
+  "language": "en",
+  "language_probability": 1,
+  "segments": [
+    {
+      "text": "This is our self-introduction. Hey, how are you today? I'm not finding you. Oh, I'm good. Just chillin",
+      "start": 0.37,
+      "end": 7.15,
+      "words": [
+        {
+          "word": "This",
+          "start": 0.37,
+          "end": 0.89,
+          "confidence": 0.8903725147247314
+        },
+        {
+          "word": "is",
+          "start": 0.89,
+          "end": 0.97,
+          "confidence": 0.9777249097824097
+        },
+        {
+          "word": "our",
+          "start": 0.97,
+          "end": 1.15,
+          "confidence": 0.5016850829124451
+        },
+        {
+          "word": "self",
+          "start": 1.15,
+          "end": 1.45,
+          "confidence": 0.9693748354911804
+        },
+        {
+          "word": "-introduction.",
+          "start": 1.45,
+          "end": 1.93,
+          "confidence": 0.8254479964574178
+        },
+        {
+          "word": "Hey,",
+          "start": 2.77,
+          "end": 3.17,
+          "confidence": 0.9563563466072083
+        },
+        {
+          "word": "how",
+          "start": 3.21,
+          "end": 3.33,
+          "confidence": 0.9854986667633057
+        },
+        {
+          "word": "are",
+          "start": 3.33,
+          "end": 3.43,
+          "confidence": 0.965223491191864
+        },
+        {
+          "word": "you",
+          "start": 3.43,
+          "end": 3.53,
+          "confidence": 0.9982002973556519
+        },
+        {
+          "word": "today?",
+          "start": 3.53,
+          "end": 3.75,
+          "confidence": 0.9867233633995056
+        },
+        {
+          "word": "I'm",
+          "start": 4.31,
+          "end": 4.43,
+          "confidence": 0.9763919413089752
+        },
+        {
+          "word": "not",
+          "start": 4.43,
+          "end": 4.49,
+          "confidence": 0.28539538383483887
+        },
+        {
+          "word": "finding",
+          "start": 4.49,
+          "end": 4.87,
+          "confidence": 0.8304945826530457
+        },
+        {
+          "word": "you.",
+          "start": 4.87,
+          "end": 5.23,
+          "confidence": 0.9990750551223755
+        },
+        {
+          "word": "Oh,",
+          "start": 5.61,
+          "end": 5.89,
+          "confidence": 0.5383808612823486
+        },
+        {
+          "word": "I'm",
+          "start": 5.95,
+          "end": 6.09,
+          "confidence": 0.9712755084037781
+        },
+        {
+          "word": "good.",
+          "start": 6.09,
+          "end": 6.33,
+          "confidence": 0.9958435893058777
+        },
+        {
+          "word": "Just",
+          "start": 6.55,
+          "end": 6.69,
+          "confidence": 0.9828002452850342
+        },
+        {
+          "word": "chillin",
+          "start": 6.69,
+          "end": 7.15,
+          "confidence": 0.60431357473135
+        }
+      ]
+    },
+    {
+      "text": "So what do you do like for a living? Yeah, like are you in school? Do you work?",
+      "start": 7.57,
+      "end": 12.81,
+      "words": [
+        {
+          "word": "So",
+          "start": 7.57,
+          "end": 7.97,
+          "confidence": 0.01892441138625145
+        },
+        {
+          "word": "what",
+          "start": 7.97,
+          "end": 8.23,
+          "confidence": 0.6424079537391663
+        },
+        {
+          "word": "do",
+          "start": 8.23,
+          "end": 8.29,
+          "confidence": 0.8401276469230652
+        },
+        {
+          "word": "you",
+          "start": 8.29,
+          "end": 8.41,
+          "confidence": 0.9986466765403748
+        },
+        {
+          "word": "do",
+          "start": 8.41,
+          "end": 8.63,
+          "confidence": 0.995094895362854
+        },
+        {
+          "word": "like",
+          "start": 8.63,
+          "end": 9.49,
+          "confidence": 0.4979441463947296
+        },
+        {
+          "word": "for",
+          "start": 9.49,
+          "end": 9.73,
+          "confidence": 0.9543113708496094
+        },
+        {
+          "word": "a",
+          "start": 9.73,
+          "end": 9.87,
+          "confidence": 0.9483478665351868
+        },
+        {
+          "word": "living?",
+          "start": 9.87,
+          "end": 10.03,
+          "confidence": 0.9328576922416687
+        },
+        {
+          "word": "Yeah,",
+          "start": 10.49,
+          "end": 10.69,
+          "confidence": 0.9515783786773682
+        },
+        {
+          "word": "like",
+          "start": 10.79,
+          "end": 10.93,
+          "confidence": 0.8800168037414551
+        },
+        {
+          "word": "are",
+          "start": 10.93,
+          "end": 11.33,
+          "confidence": 0.9399706125259399
+        },
+        {
+          "word": "you",
+          "start": 11.33,
+          "end": 11.45,
+          "confidence": 0.9972085356712341
+        },
+        {
+          "word": "in",
+          "start": 11.45,
+          "end": 11.57,
+          "confidence": 0.9699090719223022
+        },
+        {
+          "word": "school?",
+          "start": 11.57,
+          "end": 11.89,
+          "confidence": 0.9647271037101746
+        },
+        {
+          "word": "Do",
+          "start": 12.29,
+          "end": 12.39,
+          "confidence": 0.9697006940841675
+        },
+        {
+          "word": "you",
+          "start": 12.39,
+          "end": 12.53,
+          "confidence": 0.9948110580444336
+        },
+        {
+          "word": "work?",
+          "start": 12.53,
+          "end": 12.81,
+          "confidence": 0.9985488057136536
+        }
+      ]
+    },
+    {
+      "text": "Well, no, I don't want to get a job yet because I'm still in high school because I want to focus on my studies",
+      "start": 13.77,
+      "end": 18.13,
+      "words": [
+        {
+          "word": "Well,",
+          "start": 13.77,
+          "end": 14.07,
+          "confidence": 0.9738733172416687
+        },
+        {
+          "word": "no,",
+          "start": 14.07,
+          "end": 14.27,
+          "confidence": 0.9852938055992126
+        },
+        {
+          "word": "I",
+          "start": 14.41,
+          "end": 14.49,
+          "confidence": 0.9987039566040039
+        },
+        {
+          "word": "don't",
+          "start": 14.49,
+          "end": 14.57,
+          "confidence": 0.9986012876033783
+        },
+        {
+          "word": "want",
+          "start": 14.57,
+          "end": 14.71,
+          "confidence": 0.9099685549736023
+        },
+        {
+          "word": "to",
+          "start": 14.71,
+          "end": 14.77,
+          "confidence": 0.9989050626754761
+        },
+        {
+          "word": "get",
+          "start": 14.77,
+          "end": 14.91,
+          "confidence": 0.9918477535247803
+        },
+        {
+          "word": "a",
+          "start": 14.91,
+          "end": 14.99,
+          "confidence": 0.9958524703979492
+        },
+        {
+          "word": "job",
+          "start": 14.99,
+          "end": 15.21,
+          "confidence": 0.9996046423912048
+        },
+        {
+          "word": "yet",
+          "start": 15.21,
+          "end": 15.41,
+          "confidence": 0.5059876441955566
+        },
+        {
+          "word": "because",
+          "start": 15.41,
+          "end": 15.59,
+          "confidence": 0.740760326385498
+        },
+        {
+          "word": "I'm",
+          "start": 15.59,
+          "end": 15.77,
+          "confidence": 0.9979329109191895
+        },
+        {
+          "word": "still",
+          "start": 15.77,
+          "end": 15.95,
+          "confidence": 0.9918308854103088
+        },
+        {
+          "word": "in",
+          "start": 15.95,
+          "end": 16.09,
+          "confidence": 0.9910321831703186
+        },
+        {
+          "word": "high",
+          "start": 16.09,
+          "end": 16.29,
+          "confidence": 0.9945060610771179
+        },
+        {
+          "word": "school",
+          "start": 16.29,
+          "end": 16.59,
+          "confidence": 0.994533896446228
+        },
+        {
+          "word": "because",
+          "start": 16.59,
+          "end": 16.87,
+          "confidence": 0.7222432494163513
+        },
+        {
+          "word": "I",
+          "start": 16.87,
+          "end": 16.95,
+          "confidence": 0.9984960556030273
+        },
+        {
+          "word": "want",
+          "start": 16.95,
+          "end": 17.07,
+          "confidence": 0.9785545468330383
+        },
+        {
+          "word": "to",
+          "start": 17.07,
+          "end": 17.15,
+          "confidence": 0.9979081153869629
+        },
+        {
+          "word": "focus",
+          "start": 17.15,
+          "end": 17.39,
+          "confidence": 0.9987282156944275
+        },
+        {
+          "word": "on",
+          "start": 17.39,
+          "end": 17.57,
+          "confidence": 0.9964106678962708
+        },
+        {
+          "word": "my",
+          "start": 17.57,
+          "end": 17.69,
+          "confidence": 0.9980975985527039
+        },
+        {
+          "word": "studies",
+          "start": 17.69,
+          "end": 18.13,
+          "confidence": 0.9964467883110046
+        }
+      ]
+    },
+    {
+      "text": "Okay, are you doing good in school?",
+      "start": 18.57,
+      "end": 20.19,
+      "words": [
+        {
+          "word": "Okay,",
+          "start": 18.57,
+          "end": 18.97,
+          "confidence": 0.42452821135520935
+        },
+        {
+          "word": "are",
+          "start": 19.01,
+          "end": 19.39,
+          "confidence": 0.9921520352363586
+        },
+        {
+          "word": "you",
+          "start": 19.39,
+          "end": 19.51,
+          "confidence": 0.9987485408782959
+        },
+        {
+          "word": "doing",
+          "start": 19.51,
+          "end": 19.69,
+          "confidence": 0.992339015007019
+        },
+        {
+          "word": "good",
+          "start": 19.69,
+          "end": 19.85,
+          "confidence": 0.9117304086685181
+        },
+        {
+          "word": "in",
+          "start": 19.85,
+          "end": 19.97,
+          "confidence": 0.7675098180770874
+        },
+        {
+          "word": "school?",
+          "start": 19.97,
+          "end": 20.19,
+          "confidence": 0.9972360730171204
+        }
+      ]
+    },
+    {
+      "text": "Yes, I'm a junior so I'm almost finished. Okay, that's cool. I'm a junior too, but I make college so it's a little different",
+      "start": 21.15,
+      "end": 28.73,
+      "words": [
+        {
+          "word": "Yes,",
+          "start": 21.15,
+          "end": 21.55,
+          "confidence": 0.9594547748565674
+        },
+        {
+          "word": "I'm",
+          "start": 21.91,
+          "end": 22.15,
+          "confidence": 0.9947387278079987
+        },
+        {
+          "word": "a",
+          "start": 22.15,
+          "end": 22.31,
+          "confidence": 0.793010950088501
+        },
+        {
+          "word": "junior",
+          "start": 22.31,
+          "end": 22.53,
+          "confidence": 0.9880254864692688
+        },
+        {
+          "word": "so",
+          "start": 22.53,
+          "end": 22.83,
+          "confidence": 0.42102304100990295
+        },
+        {
+          "word": "I'm",
+          "start": 22.83,
+          "end": 23.07,
+          "confidence": 0.986634224653244
+        },
+        {
+          "word": "almost",
+          "start": 23.07,
+          "end": 23.21,
+          "confidence": 0.9885650277137756
+        },
+        {
+          "word": "finished.",
+          "start": 23.21,
+          "end": 23.63,
+          "confidence": 0.9928885102272034
+        },
+        {
+          "word": "Okay,",
+          "start": 24.31,
+          "end": 24.71,
+          "confidence": 0.896843433380127
+        },
+        {
+          "word": "that's",
+          "start": 24.89,
+          "end": 25.05,
+          "confidence": 0.9902044534683228
+        },
+        {
+          "word": "cool.",
+          "start": 25.05,
+          "end": 25.31,
+          "confidence": 0.9940098524093628
+        },
+        {
+          "word": "I'm",
+          "start": 25.55,
+          "end": 25.65,
+          "confidence": 0.9969382882118225
+        },
+        {
+          "word": "a",
+          "start": 25.65,
+          "end": 25.71,
+          "confidence": 0.971794843673706
+        },
+        {
+          "word": "junior",
+          "start": 25.71,
+          "end": 25.85,
+          "confidence": 0.9941536784172058
+        },
+        {
+          "word": "too,",
+          "start": 25.85,
+          "end": 26.23,
+          "confidence": 0.5508226752281189
+        },
+        {
+          "word": "but",
+          "start": 26.23,
+          "end": 26.99,
+          "confidence": 0.9970929622650146
+        },
+        {
+          "word": "I",
+          "start": 26.99,
+          "end": 27.09,
+          "confidence": 0.9984055161476135
+        },
+        {
+          "word": "make",
+          "start": 27.09,
+          "end": 27.25,
+          "confidence": 0.7068533301353455
+        },
+        {
+          "word": "college",
+          "start": 27.25,
+          "end": 27.59,
+          "confidence": 0.9787982106208801
+        },
+        {
+          "word": "so",
+          "start": 27.59,
+          "end": 27.95,
+          "confidence": 0.8413703441619873
+        },
+        {
+          "word": "it's",
+          "start": 27.95,
+          "end": 28.17,
+          "confidence": 0.982350766658783
+        },
+        {
+          "word": "a",
+          "start": 28.17,
+          "end": 28.21,
+          "confidence": 0.9993715882301331
+        },
+        {
+          "word": "little",
+          "start": 28.21,
+          "end": 28.33,
+          "confidence": 0.9991772770881653
+        },
+        {
+          "word": "different",
+          "start": 28.33,
+          "end": 28.73,
+          "confidence": 0.9959838390350342
+        }
+      ]
+    },
+    {
+      "text": "Oh, what are you study",
+      "start": 28.73,
+      "end": 29.97,
+      "words": [
+        {
+          "word": "Oh,",
+          "start": 28.73,
+          "end": 29.37,
+          "confidence": 0.3144926130771637
+        },
+        {
+          "word": "what",
+          "start": 29.47,
+          "end": 29.57,
+          "confidence": 0.9737889766693115
+        },
+        {
+          "word": "are",
+          "start": 29.57,
+          "end": 29.59,
+          "confidence": 0.815402626991272
+        },
+        {
+          "word": "you",
+          "start": 29.59,
+          "end": 29.65,
+          "confidence": 0.8701388239860535
+        },
+        {
+          "word": "study",
+          "start": 29.65,
+          "end": 29.97,
+          "confidence": 0.5158225297927856
+        }
+      ]
+    },
+    {
+      "text": "I study management information systems. Is that like business?",
+      "start": 30.97,
+      "end": 35.94,
+      "words": [
+        {
+          "word": "I",
+          "start": 30.97,
+          "end": 31.41,
+          "confidence": 0.011045425198972225
+        },
+        {
+          "word": "study",
+          "start": 31.41,
+          "end": 31.85,
+          "confidence": 0.7897191047668457
+        },
+        {
+          "word": "management",
+          "start": 31.85,
+          "end": 32.43,
+          "confidence": 0.9623108506202698
+        },
+        {
+          "word": "information",
+          "start": 32.43,
+          "end": 32.93,
+          "confidence": 0.9842299818992615
+        },
+        {
+          "word": "systems.",
+          "start": 32.93,
+          "end": 33.75,
+          "confidence": 0.9909533262252808
+        },
+        {
+          "word": "Is",
+          "start": 34.8,
+          "end": 35.24,
+          "confidence": 0.9460455775260925
+        },
+        {
+          "word": "that",
+          "start": 35.24,
+          "end": 35.36,
+          "confidence": 0.9885662198066711
+        },
+        {
+          "word": "like",
+          "start": 35.36,
+          "end": 35.52,
+          "confidence": 0.9934563040733337
+        },
+        {
+          "word": "business?",
+          "start": 35.52,
+          "end": 35.94,
+          "confidence": 0.9855729937553406
+        }
+      ]
+    },
+    {
+      "text": "Yes, the business major. Why are you interested?",
+      "start": 36.66,
+      "end": 38.84,
+      "words": [
+        {
+          "word": "Yes,",
+          "start": 36.66,
+          "end": 36.96,
+          "confidence": 0.6914929151535034
+        },
+        {
+          "word": "the",
+          "start": 37.06,
+          "end": 37.12,
+          "confidence": 0.43498939275741577
+        },
+        {
+          "word": "business",
+          "start": 37.12,
+          "end": 37.38,
+          "confidence": 0.9913951754570007
+        },
+        {
+          "word": "major.",
+          "start": 37.38,
+          "end": 37.84,
+          "confidence": 0.9575451612472534
+        },
+        {
+          "word": "Why",
+          "start": 38.12,
+          "end": 38.34,
+          "confidence": 0.878757655620575
+        },
+        {
+          "word": "are",
+          "start": 38.34,
+          "end": 38.44,
+          "confidence": 0.7618355751037598
+        },
+        {
+          "word": "you",
+          "start": 38.44,
+          "end": 38.52,
+          "confidence": 0.994959831237793
+        },
+        {
+          "word": "interested?",
+          "start": 38.52,
+          "end": 38.84,
+          "confidence": 0.9956583976745605
+        }
+      ]
+    },
+    {
+      "text": "Yes, Lamar is a business school. So I'm thinking about starting my own business in the future. Okay, what do you want to do?",
+      "start": 39.8,
+      "end": 45.34,
+      "words": [
+        {
+          "word": "Yes,",
+          "start": 39.8,
+          "end": 40.02,
+          "confidence": 0.7443771362304688
+        },
+        {
+          "word": "Lamar",
+          "start": 40.24,
+          "end": 40.5,
+          "confidence": 0.5519645512104034
+        },
+        {
+          "word": "is",
+          "start": 40.5,
+          "end": 40.72,
+          "confidence": 0.9142377972602844
+        },
+        {
+          "word": "a",
+          "start": 40.72,
+          "end": 40.82,
+          "confidence": 0.9522087574005127
+        },
+        {
+          "word": "business",
+          "start": 40.82,
+          "end": 41.16,
+          "confidence": 0.9928978681564331
+        },
+        {
+          "word": "school.",
+          "start": 41.16,
+          "end": 41.48,
+          "confidence": 0.9782871603965759
+        },
+        {
+          "word": "So",
+          "start": 41.66,
+          "end": 41.66,
+          "confidence": 0.8660619258880615
+        },
+        {
+          "word": "I'm",
+          "start": 41.66,
+          "end": 41.76,
+          "confidence": 0.9771149158477783
+        },
+        {
+          "word": "thinking",
+          "start": 41.76,
+          "end": 41.9,
+          "confidence": 0.9892479777336121
+        },
+        {
+          "word": "about",
+          "start": 41.9,
+          "end": 42.08,
+          "confidence": 0.9986878037452698
+        },
+        {
+          "word": "starting",
+          "start": 42.08,
+          "end": 42.34,
+          "confidence": 0.9649620652198792
+        },
+        {
+          "word": "my",
+          "start": 42.34,
+          "end": 42.52,
+          "confidence": 0.9807894825935364
+        },
+        {
+          "word": "own",
+          "start": 42.52,
+          "end": 42.68,
+          "confidence": 0.9994046688079834
+        },
+        {
+          "word": "business",
+          "start": 42.68,
+          "end": 43.02,
+          "confidence": 0.9985528588294983
+        },
+        {
+          "word": "in",
+          "start": 43.02,
+          "end": 43.28,
+          "confidence": 0.9849289059638977
+        },
+        {
+          "word": "the",
+          "start": 43.28,
+          "end": 43.36,
+          "confidence": 0.9986552000045776
+        },
+        {
+          "word": "future.",
+          "start": 43.36,
+          "end": 43.68,
+          "confidence": 0.9987793564796448
+        },
+        {
+          "word": "Okay,",
+          "start": 44.26,
+          "end": 44.6,
+          "confidence": 0.7342922687530518
+        },
+        {
+          "word": "what",
+          "start": 44.76,
+          "end": 44.8,
+          "confidence": 0.9833914041519165
+        },
+        {
+          "word": "do",
+          "start": 44.8,
+          "end": 44.88,
+          "confidence": 0.989723801612854
+        },
+        {
+          "word": "you",
+          "start": 44.88,
+          "end": 44.94,
+          "confidence": 0.9990012049674988
+        },
+        {
+          "word": "want",
+          "start": 44.94,
+          "end": 45.08,
+          "confidence": 0.9000644683837891
+        },
+        {
+          "word": "to",
+          "start": 45.08,
+          "end": 45.16,
+          "confidence": 0.9990671277046204
+        },
+        {
+          "word": "do?",
+          "start": 45.16,
+          "end": 45.34,
+          "confidence": 0.9978431463241577
+        }
+      ]
+    },
+    {
+      "text": "I want to open a nail salon. A nail salon. You like doing nails? Yes. It's very fun for me",
+      "start": 46.0,
+      "end": 52.42,
+      "words": [
+        {
+          "word": "I",
+          "start": 46.0,
+          "end": 46.08,
+          "confidence": 0.9950036406517029
+        },
+        {
+          "word": "want",
+          "start": 46.08,
+          "end": 46.18,
+          "confidence": 0.9178235530853271
+        },
+        {
+          "word": "to",
+          "start": 46.18,
+          "end": 46.26,
+          "confidence": 0.9943072199821472
+        },
+        {
+          "word": "open",
+          "start": 46.26,
+          "end": 46.46,
+          "confidence": 0.9926159381866455
+        },
+        {
+          "word": "a",
+          "start": 46.46,
+          "end": 46.66,
+          "confidence": 0.8745182156562805
+        },
+        {
+          "word": "nail",
+          "start": 46.66,
+          "end": 46.76,
+          "confidence": 0.6264954805374146
+        },
+        {
+          "word": "salon.",
+          "start": 46.76,
+          "end": 47.0,
+          "confidence": 0.9876460433006287
+        },
+        {
+          "word": "A",
+          "start": 47.58,
+          "end": 47.92,
+          "confidence": 0.9296228289604187
+        },
+        {
+          "word": "nail",
+          "start": 47.92,
+          "end": 48.16,
+          "confidence": 0.9919022917747498
+        },
+        {
+          "word": "salon.",
+          "start": 48.16,
+          "end": 48.58,
+          "confidence": 0.9962839484214783
+        },
+        {
+          "word": "You",
+          "start": 48.86,
+          "end": 48.9,
+          "confidence": 0.8977078795433044
+        },
+        {
+          "word": "like",
+          "start": 48.9,
+          "end": 49.02,
+          "confidence": 0.9897521734237671
+        },
+        {
+          "word": "doing",
+          "start": 49.02,
+          "end": 49.2,
+          "confidence": 0.9731106758117676
+        },
+        {
+          "word": "nails?",
+          "start": 49.2,
+          "end": 49.6,
+          "confidence": 0.986676812171936
+        },
+        {
+          "word": "Yes.",
+          "start": 50.08,
+          "end": 50.34,
+          "confidence": 0.978772759437561
+        },
+        {
+          "word": "It's",
+          "start": 50.84,
+          "end": 51.2,
+          "confidence": 0.9925181269645691
+        },
+        {
+          "word": "very",
+          "start": 51.2,
+          "end": 51.4,
+          "confidence": 0.9972224235534668
+        },
+        {
+          "word": "fun",
+          "start": 51.4,
+          "end": 52.0,
+          "confidence": 0.9952338337898254
+        },
+        {
+          "word": "for",
+          "start": 52.0,
+          "end": 52.24,
+          "confidence": 0.9972980618476868
+        },
+        {
+          "word": "me",
+          "start": 52.24,
+          "end": 52.42,
+          "confidence": 0.9997815489768982
+        }
+      ]
+    },
+    {
+      "text": "It's like one of my hobbies",
+      "start": 53.22,
+      "end": 54.56,
+      "words": [
+        {
+          "word": "It's",
+          "start": 53.22,
+          "end": 53.66,
+          "confidence": 0.5642642229795456
+        },
+        {
+          "word": "like",
+          "start": 53.66,
+          "end": 53.76,
+          "confidence": 0.9866495728492737
+        },
+        {
+          "word": "one",
+          "start": 53.76,
+          "end": 53.96,
+          "confidence": 0.9905573129653931
+        },
+        {
+          "word": "of",
+          "start": 53.96,
+          "end": 54.04,
+          "confidence": 0.9991207718849182
+        },
+        {
+          "word": "my",
+          "start": 54.04,
+          "end": 54.26,
+          "confidence": 0.9984651803970337
+        },
+        {
+          "word": "hobbies",
+          "start": 54.26,
+          "end": 54.56,
+          "confidence": 0.9840642213821411
+        }
+      ]
+    },
+    {
+      "text": "Okay, what other hobbies do you have?",
+      "start": 55.6,
+      "end": 57.2,
+      "words": [
+        {
+          "word": "Okay,",
+          "start": 55.6,
+          "end": 56.04,
+          "confidence": 0.33359259366989136
+        },
+        {
+          "word": "what",
+          "start": 56.18,
+          "end": 56.26,
+          "confidence": 0.8564610481262207
+        },
+        {
+          "word": "other",
+          "start": 56.26,
+          "end": 56.46,
+          "confidence": 0.9755966067314148
+        },
+        {
+          "word": "hobbies",
+          "start": 56.46,
+          "end": 56.68,
+          "confidence": 0.9981725215911865
+        },
+        {
+          "word": "do",
+          "start": 56.68,
+          "end": 56.86,
+          "confidence": 0.9916049242019653
+        },
+        {
+          "word": "you",
+          "start": 56.86,
+          "end": 57.0,
+          "confidence": 0.9882370829582214
+        },
+        {
+          "word": "have?",
+          "start": 57.0,
+          "end": 57.2,
+          "confidence": 0.9891988635063171
+        }
+      ]
+    },
+    {
+      "text": "Um, well, I like doing makeup as well",
+      "start": 58.62,
+      "end": 61.02,
+      "words": [
+        {
+          "word": "Um,",
+          "start": 58.62,
+          "end": 58.98,
+          "confidence": 0.19540177285671234
+        },
+        {
+          "word": "well,",
+          "start": 59.42,
+          "end": 59.64,
+          "confidence": 0.9353041052818298
+        },
+        {
+          "word": "I",
+          "start": 59.76,
+          "end": 59.78,
+          "confidence": 0.9901330471038818
+        },
+        {
+          "word": "like",
+          "start": 59.78,
+          "end": 59.92,
+          "confidence": 0.9918892979621887
+        },
+        {
+          "word": "doing",
+          "start": 59.92,
+          "end": 60.12,
+          "confidence": 0.9905763864517212
+        },
+        {
+          "word": "makeup",
+          "start": 60.12,
+          "end": 60.42,
+          "confidence": 0.9324455857276917
+        },
+        {
+          "word": "as",
+          "start": 60.42,
+          "end": 60.68,
+          "confidence": 0.9587859511375427
+        },
+        {
+          "word": "well",
+          "start": 60.68,
+          "end": 61.02,
+          "confidence": 0.9888849258422852
+        }
+      ]
+    },
+    {
+      "text": "Makeup say you want to be a makeup artist?",
+      "start": 61.62,
+      "end": 63.1,
+      "words": [
+        {
+          "word": "Makeup",
+          "start": 61.62,
+          "end": 61.98,
+          "confidence": 0.47603923827409744
+        },
+        {
+          "word": "say",
+          "start": 61.98,
+          "end": 62.14,
+          "confidence": 0.245850071310997
+        },
+        {
+          "word": "you",
+          "start": 62.14,
+          "end": 62.24,
+          "confidence": 0.38134765625
+        },
+        {
+          "word": "want",
+          "start": 62.24,
+          "end": 62.3,
+          "confidence": 0.3661153018474579
+        },
+        {
+          "word": "to",
+          "start": 62.3,
+          "end": 62.38,
+          "confidence": 0.8925908207893372
+        },
+        {
+          "word": "be",
+          "start": 62.38,
+          "end": 62.44,
+          "confidence": 0.9974794983863831
+        },
+        {
+          "word": "a",
+          "start": 62.44,
+          "end": 62.52,
+          "confidence": 0.9834664463996887
+        },
+        {
+          "word": "makeup",
+          "start": 62.52,
+          "end": 62.74,
+          "confidence": 0.9950849413871765
+        },
+        {
+          "word": "artist?",
+          "start": 62.74,
+          "end": 63.1,
+          "confidence": 0.9816994667053223
+        }
+      ]
+    },
+    {
+      "text": "No, not really. I could only do my own face. Oh, you don't want to do anyone else's? I understand",
+      "start": 63.72,
+      "end": 68.5,
+      "words": [
+        {
+          "word": "No,",
+          "start": 63.72,
+          "end": 64.08,
+          "confidence": 0.9712315797805786
+        },
+        {
+          "word": "not",
+          "start": 64.2,
+          "end": 64.3,
+          "confidence": 0.945432722568512
+        },
+        {
+          "word": "really.",
+          "start": 64.3,
+          "end": 64.58,
+          "confidence": 0.9991050362586975
+        },
+        {
+          "word": "I",
+          "start": 64.74,
+          "end": 64.76,
+          "confidence": 0.9986513257026672
+        },
+        {
+          "word": "could",
+          "start": 64.76,
+          "end": 64.86,
+          "confidence": 0.6630331873893738
+        },
+        {
+          "word": "only",
+          "start": 64.86,
+          "end": 65.06,
+          "confidence": 0.9988333582878113
+        },
+        {
+          "word": "do",
+          "start": 65.06,
+          "end": 65.22,
+          "confidence": 0.9949916005134583
+        },
+        {
+          "word": "my",
+          "start": 65.22,
+          "end": 65.38,
+          "confidence": 0.9861798882484436
+        },
+        {
+          "word": "own",
+          "start": 65.38,
+          "end": 65.54,
+          "confidence": 0.9667162895202637
+        },
+        {
+          "word": "face.",
+          "start": 65.54,
+          "end": 65.9,
+          "confidence": 0.9876819252967834
+        },
+        {
+          "word": "Oh,",
+          "start": 66.38,
+          "end": 66.56,
+          "confidence": 0.9520029425621033
+        },
+        {
+          "word": "you",
+          "start": 66.66,
+          "end": 66.74,
+          "confidence": 0.9781762957572937
+        },
+        {
+          "word": "don't",
+          "start": 66.74,
+          "end": 66.84,
+          "confidence": 0.9963572323322296
+        },
+        {
+          "word": "want",
+          "start": 66.84,
+          "end": 66.98,
+          "confidence": 0.8804063200950623
+        },
+        {
+          "word": "to",
+          "start": 66.98,
+          "end": 67.06,
+          "confidence": 0.9884538054466248
+        },
+        {
+          "word": "do",
+          "start": 67.06,
+          "end": 67.16,
+          "confidence": 0.9648125171661377
+        },
+        {
+          "word": "anyone",
+          "start": 67.16,
+          "end": 67.4,
+          "confidence": 0.930879533290863
+        },
+        {
+          "word": "else's?",
+          "start": 67.4,
+          "end": 67.98,
+          "confidence": 0.9710904955863953
+        },
+        {
+          "word": "I",
+          "start": 68.08,
+          "end": 68.14,
+          "confidence": 0.9493804574012756
+        },
+        {
+          "word": "understand",
+          "start": 68.14,
+          "end": 68.5,
+          "confidence": 0.6140804290771484
+        }
+      ]
+    },
+    {
+      "text": "I don't do I don't wear makeup. I don't have the patience to do that. Oh, you should try it. It's really fun",
+      "start": 68.5,
+      "end": 73.8,
+      "words": [
+        {
+          "word": "I",
+          "start": 68.5,
+          "end": 68.76,
+          "confidence": 0.45513784885406494
+        },
+        {
+          "word": "don't",
+          "start": 68.76,
+          "end": 68.88,
+          "confidence": 0.9968917071819305
+        },
+        {
+          "word": "do",
+          "start": 68.88,
+          "end": 69.04,
+          "confidence": 0.9610412120819092
+        },
+        {
+          "word": "I",
+          "start": 69.04,
+          "end": 69.26,
+          "confidence": 0.7857065200805664
+        },
+        {
+          "word": "don't",
+          "start": 69.26,
+          "end": 69.38,
+          "confidence": 0.9972111582756042
+        },
+        {
+          "word": "wear",
+          "start": 69.38,
+          "end": 69.54,
+          "confidence": 0.9709199070930481
+        },
+        {
+          "word": "makeup.",
+          "start": 69.54,
+          "end": 69.86,
+          "confidence": 0.9928243160247803
+        },
+        {
+          "word": "I",
+          "start": 69.86,
+          "end": 70.14,
+          "confidence": 0.9982935786247253
+        },
+        {
+          "word": "don't",
+          "start": 70.14,
+          "end": 70.24,
+          "confidence": 0.9986047744750977
+        },
+        {
+          "word": "have",
+          "start": 70.24,
+          "end": 70.38,
+          "confidence": 0.9988968372344971
+        },
+        {
+          "word": "the",
+          "start": 70.38,
+          "end": 70.48,
+          "confidence": 0.9781672954559326
+        },
+        {
+          "word": "patience",
+          "start": 70.48,
+          "end": 70.84,
+          "confidence": 0.9804210662841797
+        },
+        {
+          "word": "to",
+          "start": 70.84,
+          "end": 71.1,
+          "confidence": 0.9969329833984375
+        },
+        {
+          "word": "do",
+          "start": 71.1,
+          "end": 71.26,
+          "confidence": 0.997879147529602
+        },
+        {
+          "word": "that.",
+          "start": 71.26,
+          "end": 71.48,
+          "confidence": 0.9923403263092041
+        },
+        {
+          "word": "Oh,",
+          "start": 72.16,
+          "end": 72.42,
+          "confidence": 0.9904875159263611
+        },
+        {
+          "word": "you",
+          "start": 72.54,
+          "end": 72.56,
+          "confidence": 0.9894660115242004
+        },
+        {
+          "word": "should",
+          "start": 72.56,
+          "end": 72.7,
+          "confidence": 0.9990811347961426
+        },
+        {
+          "word": "try",
+          "start": 72.7,
+          "end": 73.0,
+          "confidence": 0.9928066730499268
+        },
+        {
+          "word": "it.",
+          "start": 73.0,
+          "end": 73.12,
+          "confidence": 0.7722375392913818
+        },
+        {
+          "word": "It's",
+          "start": 73.18,
+          "end": 73.18,
+          "confidence": 0.9649699926376343
+        },
+        {
+          "word": "really",
+          "start": 73.18,
+          "end": 73.38,
+          "confidence": 0.9993316531181335
+        },
+        {
+          "word": "fun",
+          "start": 73.38,
+          "end": 73.8,
+          "confidence": 0.9961509704589844
+        }
+      ]
+    },
+    {
+      "text": "Yeah, it looks fun, but I don't think it's for me now. Okay, well, what about nails? Do you get your nails done?",
+      "start": 74.32,
+      "end": 80.7,
+      "words": [
+        {
+          "word": "Yeah,",
+          "start": 74.32,
+          "end": 74.68,
+          "confidence": 0.35215651988983154
+        },
+        {
+          "word": "it",
+          "start": 74.68,
+          "end": 74.86,
+          "confidence": 0.6683093309402466
+        },
+        {
+          "word": "looks",
+          "start": 74.86,
+          "end": 75.04,
+          "confidence": 0.9971578121185303
+        },
+        {
+          "word": "fun,",
+          "start": 75.04,
+          "end": 75.36,
+          "confidence": 0.943560779094696
+        },
+        {
+          "word": "but",
+          "start": 75.36,
+          "end": 75.78,
+          "confidence": 0.9976637363433838
+        },
+        {
+          "word": "I",
+          "start": 75.78,
+          "end": 76.12,
+          "confidence": 0.76598060131073
+        },
+        {
+          "word": "don't",
+          "start": 76.12,
+          "end": 76.82,
+          "confidence": 0.9548953175544739
+        },
+        {
+          "word": "think",
+          "start": 76.82,
+          "end": 77.22,
+          "confidence": 0.6298229694366455
+        },
+        {
+          "word": "it's",
+          "start": 77.22,
+          "end": 77.48,
+          "confidence": 0.9877852201461792
+        },
+        {
+          "word": "for",
+          "start": 77.48,
+          "end": 77.58,
+          "confidence": 0.9805786609649658
+        },
+        {
+          "word": "me",
+          "start": 77.58,
+          "end": 77.76,
+          "confidence": 0.9984946250915527
+        },
+        {
+          "word": "now.",
+          "start": 77.76,
+          "end": 78.14,
+          "confidence": 0.38569051027297974
+        },
+        {
+          "word": "Okay,",
+          "start": 78.56,
+          "end": 78.84,
+          "confidence": 0.9578244090080261
+        },
+        {
+          "word": "well,",
+          "start": 78.98,
+          "end": 79.02,
+          "confidence": 0.7004035115242004
+        },
+        {
+          "word": "what",
+          "start": 79.12,
+          "end": 79.18,
+          "confidence": 0.9939123392105103
+        },
+        {
+          "word": "about",
+          "start": 79.18,
+          "end": 79.34,
+          "confidence": 0.9979627132415771
+        },
+        {
+          "word": "nails?",
+          "start": 79.34,
+          "end": 79.68,
+          "confidence": 0.9639686942100525
+        },
+        {
+          "word": "Do",
+          "start": 79.72,
+          "end": 79.96,
+          "confidence": 0.26205214858055115
+        },
+        {
+          "word": "you",
+          "start": 79.96,
+          "end": 80.0,
+          "confidence": 0.9944273233413696
+        },
+        {
+          "word": "get",
+          "start": 80.0,
+          "end": 80.1,
+          "confidence": 0.995215892791748
+        },
+        {
+          "word": "your",
+          "start": 80.1,
+          "end": 80.22,
+          "confidence": 0.9946224689483643
+        },
+        {
+          "word": "nails",
+          "start": 80.22,
+          "end": 80.42,
+          "confidence": 0.9923795461654663
+        },
+        {
+          "word": "done?",
+          "start": 80.42,
+          "end": 80.7,
+          "confidence": 0.9680221676826477
+        }
+      ]
+    },
+    {
+      "text": "No, I don't get my nails and I used to when I stopped after, you know, I had my son. It's just not something that I've",
+      "start": 81.3,
+      "end": 86.66,
+      "words": [
+        {
+          "word": "No,",
+          "start": 81.3,
+          "end": 81.42,
+          "confidence": 0.9696804881095886
+        },
+        {
+          "word": "I",
+          "start": 81.54,
+          "end": 81.56,
+          "confidence": 0.8913763165473938
+        },
+        {
+          "word": "don't",
+          "start": 81.56,
+          "end": 81.68,
+          "confidence": 0.9922229051589966
+        },
+        {
+          "word": "get",
+          "start": 81.68,
+          "end": 81.8,
+          "confidence": 0.971668004989624
+        },
+        {
+          "word": "my",
+          "start": 81.8,
+          "end": 81.92,
+          "confidence": 0.9945987462997437
+        },
+        {
+          "word": "nails",
+          "start": 81.92,
+          "end": 82.12,
+          "confidence": 0.5277952551841736
+        },
+        {
+          "word": "and",
+          "start": 82.12,
+          "end": 82.3,
+          "confidence": 0.47729209065437317
+        },
+        {
+          "word": "I",
+          "start": 82.3,
+          "end": 82.38,
+          "confidence": 0.9916676878929138
+        },
+        {
+          "word": "used",
+          "start": 82.38,
+          "end": 82.64,
+          "confidence": 0.9760608077049255
+        },
+        {
+          "word": "to",
+          "start": 82.64,
+          "end": 82.86,
+          "confidence": 0.9945637583732605
+        },
+        {
+          "word": "when",
+          "start": 82.86,
+          "end": 83.04,
+          "confidence": 0.3952600955963135
+        },
+        {
+          "word": "I",
+          "start": 83.04,
+          "end": 83.16,
+          "confidence": 0.9978004097938538
+        },
+        {
+          "word": "stopped",
+          "start": 83.16,
+          "end": 83.58,
+          "confidence": 0.9911743402481079
+        },
+        {
+          "word": "after,",
+          "start": 83.58,
+          "end": 84.0,
+          "confidence": 0.9795950055122375
+        },
+        {
+          "word": "you",
+          "start": 84.16,
+          "end": 84.4,
+          "confidence": 0.9813546538352966
+        },
+        {
+          "word": "know,",
+          "start": 84.4,
+          "end": 84.5,
+          "confidence": 0.9978887438774109
+        },
+        {
+          "word": "I",
+          "start": 84.58,
+          "end": 84.64,
+          "confidence": 0.516147792339325
+        },
+        {
+          "word": "had",
+          "start": 84.64,
+          "end": 84.72,
+          "confidence": 0.9503419995307922
+        },
+        {
+          "word": "my",
+          "start": 84.72,
+          "end": 84.9,
+          "confidence": 0.998829185962677
+        },
+        {
+          "word": "son.",
+          "start": 84.9,
+          "end": 85.2,
+          "confidence": 0.7146660089492798
+        },
+        {
+          "word": "It's",
+          "start": 85.44,
+          "end": 85.52,
+          "confidence": 0.9138486385345459
+        },
+        {
+          "word": "just",
+          "start": 85.52,
+          "end": 85.64,
+          "confidence": 0.9978454113006592
+        },
+        {
+          "word": "not",
+          "start": 85.64,
+          "end": 85.86,
+          "confidence": 0.9861024618148804
+        },
+        {
+          "word": "something",
+          "start": 85.86,
+          "end": 86.22,
+          "confidence": 0.9963346719741821
+        },
+        {
+          "word": "that",
+          "start": 86.22,
+          "end": 86.44,
+          "confidence": 0.9464618563652039
+        },
+        {
+          "word": "I've",
+          "start": 86.44,
+          "end": 86.66,
+          "confidence": 0.6187478825449944
+        }
+      ]
+    },
+    {
+      "text": "Spinned I prefer to spend my money on. Oh, really? You have a son? How old is he?",
+      "start": 86.66,
+      "end": 91.4,
+      "words": [
+        {
+          "word": "Spinned",
+          "start": 86.66,
+          "end": 87.3,
+          "confidence": 0.03422633092850447
+        },
+        {
+          "word": "I",
+          "start": 87.3,
+          "end": 87.78,
+          "confidence": 0.65863436460495
+        },
+        {
+          "word": "prefer",
+          "start": 87.78,
+          "end": 88.18,
+          "confidence": 0.7133855223655701
+        },
+        {
+          "word": "to",
+          "start": 88.18,
+          "end": 88.38,
+          "confidence": 0.40416163206100464
+        },
+        {
+          "word": "spend",
+          "start": 88.38,
+          "end": 88.5,
+          "confidence": 0.0816890299320221
+        },
+        {
+          "word": "my",
+          "start": 88.5,
+          "end": 88.6,
+          "confidence": 0.7540215849876404
+        },
+        {
+          "word": "money",
+          "start": 88.6,
+          "end": 88.84,
+          "confidence": 0.8100207448005676
+        },
+        {
+          "word": "on.",
+          "start": 88.84,
+          "end": 89.12,
+          "confidence": 0.8837947845458984
+        },
+        {
+          "word": "Oh,",
+          "start": 89.44,
+          "end": 89.72,
+          "confidence": 0.88727205991745
+        },
+        {
+          "word": "really?",
+          "start": 89.96,
+          "end": 90.04,
+          "confidence": 0.9471287727355957
+        },
+        {
+          "word": "You",
+          "start": 90.16,
+          "end": 90.18,
+          "confidence": 0.15778672695159912
+        },
+        {
+          "word": "have",
+          "start": 90.18,
+          "end": 90.26,
+          "confidence": 0.9459642767906189
+        },
+        {
+          "word": "a",
+          "start": 90.26,
+          "end": 90.36,
+          "confidence": 0.9811006784439087
+        },
+        {
+          "word": "son?",
+          "start": 90.36,
+          "end": 90.64,
+          "confidence": 0.8309224247932434
+        },
+        {
+          "word": "How",
+          "start": 90.84,
+          "end": 90.86,
+          "confidence": 0.4015957713127136
+        },
+        {
+          "word": "old",
+          "start": 90.86,
+          "end": 91.06,
+          "confidence": 0.9511871337890625
+        },
+        {
+          "word": "is",
+          "start": 91.06,
+          "end": 91.16,
+          "confidence": 0.9935625791549683
+        },
+        {
+          "word": "he?",
+          "start": 91.16,
+          "end": 91.4,
+          "confidence": 0.9954075217247009
+        }
+      ]
+    },
+    {
+      "text": "He's like five months down",
+      "start": 92.38,
+      "end": 94.04,
+      "words": [
+        {
+          "word": "He's",
+          "start": 92.38,
+          "end": 92.82,
+          "confidence": 0.7771361172199249
+        },
+        {
+          "word": "like",
+          "start": 92.82,
+          "end": 93.02,
+          "confidence": 0.6850683093070984
+        },
+        {
+          "word": "five",
+          "start": 93.02,
+          "end": 93.34,
+          "confidence": 0.9227863550186157
+        },
+        {
+          "word": "months",
+          "start": 93.34,
+          "end": 93.64,
+          "confidence": 0.9931829571723938
+        },
+        {
+          "word": "down",
+          "start": 93.64,
+          "end": 94.04,
+          "confidence": 0.5578139424324036
+        }
+      ]
+    },
+    {
+      "text": "Also, he's just he's like fresh. He's my newborn. He's a newborn. Yeah. Oh",
+      "start": 95.04,
+      "end": 101.48,
+      "words": [
+        {
+          "word": "Also,",
+          "start": 95.04,
+          "end": 95.48,
+          "confidence": 0.3520207405090332
+        },
+        {
+          "word": "he's",
+          "start": 95.64,
+          "end": 95.86,
+          "confidence": 0.9715924561023712
+        },
+        {
+          "word": "just",
+          "start": 95.86,
+          "end": 96.02,
+          "confidence": 0.9657984972000122
+        },
+        {
+          "word": "he's",
+          "start": 96.02,
+          "end": 96.7,
+          "confidence": 0.9564989805221558
+        },
+        {
+          "word": "like",
+          "start": 96.7,
+          "end": 96.86,
+          "confidence": 0.9959249496459961
+        },
+        {
+          "word": "fresh.",
+          "start": 96.86,
+          "end": 97.24,
+          "confidence": 0.9802356958389282
+        },
+        {
+          "word": "He's",
+          "start": 97.24,
+          "end": 97.68,
+          "confidence": 0.984835684299469
+        },
+        {
+          "word": "my",
+          "start": 97.68,
+          "end": 97.76,
+          "confidence": 0.6045382022857666
+        },
+        {
+          "word": "newborn.",
+          "start": 97.76,
+          "end": 98.04,
+          "confidence": 0.9730710387229919
+        },
+        {
+          "word": "He's",
+          "start": 98.5,
+          "end": 98.94,
+          "confidence": 0.9921181797981262
+        },
+        {
+          "word": "a",
+          "start": 98.94,
+          "end": 99.0,
+          "confidence": 0.9638561606407166
+        },
+        {
+          "word": "newborn.",
+          "start": 99.0,
+          "end": 99.36,
+          "confidence": 0.9866505861282349
+        },
+        {
+          "word": "Yeah.",
+          "start": 99.44,
+          "end": 99.88,
+          "confidence": 0.9655882716178894
+        },
+        {
+          "word": "Oh",
+          "start": 101.04,
+          "end": 101.48,
+          "confidence": 0.99310302734375
+        }
+      ]
+    },
+    {
+      "text": "I would love to see him one day",
+      "start": 101.48,
+      "end": 103.0,
+      "words": [
+        {
+          "word": "I",
+          "start": 101.48,
+          "end": 101.68,
+          "confidence": 0.1094440147280693
+        },
+        {
+          "word": "would",
+          "start": 101.68,
+          "end": 101.82,
+          "confidence": 0.8344931602478027
+        },
+        {
+          "word": "love",
+          "start": 101.82,
+          "end": 102.02,
+          "confidence": 0.9956048727035522
+        },
+        {
+          "word": "to",
+          "start": 102.02,
+          "end": 102.18,
+          "confidence": 0.9966552257537842
+        },
+        {
+          "word": "see",
+          "start": 102.18,
+          "end": 102.38,
+          "confidence": 0.9507877230644226
+        },
+        {
+          "word": "him",
+          "start": 102.38,
+          "end": 102.52,
+          "confidence": 0.9906084537506104
+        },
+        {
+          "word": "one",
+          "start": 102.52,
+          "end": 102.66,
+          "confidence": 0.9622310400009155
+        },
+        {
+          "word": "day",
+          "start": 102.66,
+          "end": 103.0,
+          "confidence": 0.9984403252601624
+        }
+      ]
+    }
+  ]
+}

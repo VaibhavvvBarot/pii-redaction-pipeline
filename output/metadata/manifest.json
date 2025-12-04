@@ -1,0 +1,12 @@
+[
+  {
+    "conversation_id": "F2M2_USA_USA_010",
+    "duration_sec": 303.68,
+    "num_speakers": 2,
+    "sample_rate": 16000,
+    "has_pii": true,
+    "pii_count": 51,
+    "deid_version": "2025-12-03_v1",
+    "qa_status": "PASS"
+  }
+]

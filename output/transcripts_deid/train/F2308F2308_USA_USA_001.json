@@ -1,0 +1,1788 @@
+{
+  "conversation_id": "F2308F2308_USA_USA_001",
+  "original_text": "This is our self-introduction. Hey, how are you today? I'm not finding you. Oh, I'm good. Just chillin So what do you do like for a living? Yeah, like are you in school? Do you work? Well, no, I don't want to get a job yet because I'm still in high school because I want to focus on my studies Okay, are you doing good in school? Yes, I'm a junior so I'm almost finished. Okay, that's cool. I'm a junior too, but I make college so it's a little different Oh, what are you study I study management information systems. Is that like business? Yes, the business major. Why are you interested? Yes, Lamar is a business school. So I'm thinking about starting my own business in the future. Okay, what do you want to do? I want to open a nail salon. A nail salon. You like doing nails? Yes. It's very fun for me It's like one of my hobbies Okay, what other hobbies do you have? Um, well, I like doing makeup as well Makeup say you want to be a makeup artist? No, not really. I could only do my own face. Oh, you don't want to do anyone else's? I understand I don't do I don't wear makeup. I don't have the patience to do that. Oh, you should try it. It's really fun Yeah, it looks fun, but I don't think it's for me now. Okay, well, what about nails? Do you get your nails done? No, I don't get my nails and I used to when I stopped after, you know, I had my son. It's just not something that I've Spinned I prefer to spend my money on. Oh, really? You have a son? How old is he? He's like five months down Also, he's just he's like fresh. He's my newborn. He's a newborn. Yeah. Oh I would love to see him one day",
+  "redacted_text": "This is our self -introduction. Hey, how are you today? I'm not finding you. Oh, I'm good. Just chillin So what do you do like for a living? Yeah, like are you in school? Do you work? Well, no, I don't want to get a job yet because I'm still in high school because I want to focus on my studies Okay, are you doing good in school? Yes, I'm a junior so I'm almost finished. Okay, that's cool. I'm a junior too, but I make college so it's a little different Oh, what are you study I study management information systems. Is that like business? Yes, the business major. Why are you interested? Yes, Lamar is a business school. So I'm thinking about starting my own business in the future. Okay, what do you want to do? I want to open a nail salon. A nail salon. You like doing nails? Yes. It's very fun for me It's like one of my hobbies Okay, what other hobbies do you have? Um, well, I like doing makeup as well Makeup say you want to be a makeup artist? No, not really. I could only do my own face. Oh, you don't want to do anyone else's? I understand I don't do I don't wear makeup. I don't have the patience to do that. Oh, you should try it. It's really fun Yeah, it looks fun, but I don't think it's for me now. Okay, well, what about nails? Do you get your nails done? No, I don't get my nails and I used to when I stopped after, you know, I had my son. It's just not something that I've Spinned I prefer to spend my money on. Oh, really? You have a son? How old is he? He's like five months down Also, he's just he's like fresh. He's my newborn. He's a newborn. Yeah. Oh I would love to see him one day",
+  "segments": [
+    {
+      "text": "This is our self -introduction. Hey, how are you today? I'm not finding you. Oh, I'm good. Just chillin",
+      "start": 0.37,
+      "end": 7.15,
+      "words": [
+        {
+          "word": "This",
+          "start": 0.37,
+          "end": 0.89
+        },
+        {
+          "word": "is",
+          "start": 0.89,
+          "end": 0.97
+        },
+        {
+          "word": "our",
+          "start": 0.97,
+          "end": 1.15
+        },
+        {
+          "word": "self",
+          "start": 1.15,
+          "end": 1.45
+        },
+        {
+          "word": "-introduction.",
+          "start": 1.45,
+          "end": 1.93
+        },
+        {
+          "word": "Hey,",
+          "start": 2.77,
+          "end": 3.17
+        },
+        {
+          "word": "how",
+          "start": 3.21,
+          "end": 3.33
+        },
+        {
+          "word": "are",
+          "start": 3.33,
+          "end": 3.43
+        },
+        {
+          "word": "you",
+          "start": 3.43,
+          "end": 3.53
+        },
+        {
+          "word": "today?",
+          "start": 3.53,
+          "end": 3.75
+        },
+        {
+          "word": "I'm",
+          "start": 4.31,
+          "end": 4.43
+        },
+        {
+          "word": "not",
+          "start": 4.43,
+          "end": 4.49
+        },
+        {
+          "word": "finding",
+          "start": 4.49,
+          "end": 4.87
+        },
+        {
+          "word": "you.",
+          "start": 4.87,
+          "end": 5.23
+        },
+        {
+          "word": "Oh,",
+          "start": 5.61,
+          "end": 5.89
+        },
+        {
+          "word": "I'm",
+          "start": 5.95,
+          "end": 6.09
+        },
+        {
+          "word": "good.",
+          "start": 6.09,
+          "end": 6.33
+        },
+        {
+          "word": "Just",
+          "start": 6.55,
+          "end": 6.69
+        },
+        {
+          "word": "chillin",
+          "start": 6.69,
+          "end": 7.15
+        }
+      ]
+    },
+    {
+      "text": "So what do you do like for a living? Yeah, like are you in school? Do you work?",
+      "start": 7.57,
+      "end": 12.81,
+      "words": [
+        {
+          "word": "So",
+          "start": 7.57,
+          "end": 7.97
+        },
+        {
+          "word": "what",
+          "start": 7.97,
+          "end": 8.23
+        },
+        {
+          "word": "do",
+          "start": 8.23,
+          "end": 8.29
+        },
+        {
+          "word": "you",
+          "start": 8.29,
+          "end": 8.41
+        },
+        {
+          "word": "do",
+          "start": 8.41,
+          "end": 8.63
+        },
+        {
+          "word": "like",
+          "start": 8.63,
+          "end": 9.49
+        },
+        {
+          "word": "for",
+          "start": 9.49,
+          "end": 9.73
+        },
+        {
+          "word": "a",
+          "start": 9.73,
+          "end": 9.87
+        },
+        {
+          "word": "living?",
+          "start": 9.87,
+          "end": 10.03
+        },
+        {
+          "word": "Yeah,",
+          "start": 10.49,
+          "end": 10.69
+        },
+        {
+          "word": "like",
+          "start": 10.79,
+          "end": 10.93
+        },
+        {
+          "word": "are",
+          "start": 10.93,
+          "end": 11.33
+        },
+        {
+          "word": "you",
+          "start": 11.33,
+          "end": 11.45
+        },
+        {
+          "word": "in",
+          "start": 11.45,
+          "end": 11.57
+        },
+        {
+          "word": "school?",
+          "start": 11.57,
+          "end": 11.89
+        },
+        {
+          "word": "Do",
+          "start": 12.29,
+          "end": 12.39
+        },
+        {
+          "word": "you",
+          "start": 12.39,
+          "end": 12.53
+        },
+        {
+          "word": "work?",
+          "start": 12.53,
+          "end": 12.81
+        }
+      ]
+    },
+    {
+      "text": "Well, no, I don't want to get a job yet because I'm still in high school because I want to focus on my studies",
+      "start": 13.77,
+      "end": 18.13,
+      "words": [
+        {
+          "word": "Well,",
+          "start": 13.77,
+          "end": 14.07
+        },
+        {
+          "word": "no,",
+          "start": 14.07,
+          "end": 14.27
+        },
+        {
+          "word": "I",
+          "start": 14.41,
+          "end": 14.49
+        },
+        {
+          "word": "don't",
+          "start": 14.49,
+          "end": 14.57
+        },
+        {
+          "word": "want",
+          "start": 14.57,
+          "end": 14.71
+        },
+        {
+          "word": "to",
+          "start": 14.71,
+          "end": 14.77
+        },
+        {
+          "word": "get",
+          "start": 14.77,
+          "end": 14.91
+        },
+        {
+          "word": "a",
+          "start": 14.91,
+          "end": 14.99
+        },
+        {
+          "word": "job",
+          "start": 14.99,
+          "end": 15.21
+        },
+        {
+          "word": "yet",
+          "start": 15.21,
+          "end": 15.41
+        },
+        {
+          "word": "because",
+          "start": 15.41,
+          "end": 15.59
+        },
+        {
+          "word": "I'm",
+          "start": 15.59,
+          "end": 15.77
+        },
+        {
+          "word": "still",
+          "start": 15.77,
+          "end": 15.95
+        },
+        {
+          "word": "in",
+          "start": 15.95,
+          "end": 16.09
+        },
+        {
+          "word": "high",
+          "start": 16.09,
+          "end": 16.29
+        },
+        {
+          "word": "school",
+          "start": 16.29,
+          "end": 16.59
+        },
+        {
+          "word": "because",
+          "start": 16.59,
+          "end": 16.87
+        },
+        {
+          "word": "I",
+          "start": 16.87,
+          "end": 16.95
+        },
+        {
+          "word": "want",
+          "start": 16.95,
+          "end": 17.07
+        },
+        {
+          "word": "to",
+          "start": 17.07,
+          "end": 17.15
+        },
+        {
+          "word": "focus",
+          "start": 17.15,
+          "end": 17.39
+        },
+        {
+          "word": "on",
+          "start": 17.39,
+          "end": 17.57
+        },
+        {
+          "word": "my",
+          "start": 17.57,
+          "end": 17.69
+        },
+        {
+          "word": "studies",
+          "start": 17.69,
+          "end": 18.13
+        }
+      ]
+    },
+    {
+      "text": "Okay, are you doing good in school?",
+      "start": 18.57,
+      "end": 20.19,
+      "words": [
+        {
+          "word": "Okay,",
+          "start": 18.57,
+          "end": 18.97
+        },
+        {
+          "word": "are",
+          "start": 19.01,
+          "end": 19.39
+        },
+        {
+          "word": "you",
+          "start": 19.39,
+          "end": 19.51
+        },
+        {
+          "word": "doing",
+          "start": 19.51,
+          "end": 19.69
+        },
+        {
+          "word": "good",
+          "start": 19.69,
+          "end": 19.85
+        },
+        {
+          "word": "in",
+          "start": 19.85,
+          "end": 19.97
+        },
+        {
+          "word": "school?",
+          "start": 19.97,
+          "end": 20.19
+        }
+      ]
+    },
+    {
+      "text": "Yes, I'm a junior so I'm almost finished. Okay, that's cool. I'm a junior too, but I make college so it's a little different",
+      "start": 21.15,
+      "end": 28.73,
+      "words": [
+        {
+          "word": "Yes,",
+          "start": 21.15,
+          "end": 21.55
+        },
+        {
+          "word": "I'm",
+          "start": 21.91,
+          "end": 22.15
+        },
+        {
+          "word": "a",
+          "start": 22.15,
+          "end": 22.31
+        },
+        {
+          "word": "junior",
+          "start": 22.31,
+          "end": 22.53
+        },
+        {
+          "word": "so",
+          "start": 22.53,
+          "end": 22.83
+        },
+        {
+          "word": "I'm",
+          "start": 22.83,
+          "end": 23.07
+        },
+        {
+          "word": "almost",
+          "start": 23.07,
+          "end": 23.21
+        },
+        {
+          "word": "finished.",
+          "start": 23.21,
+          "end": 23.63
+        },
+        {
+          "word": "Okay,",
+          "start": 24.31,
+          "end": 24.71
+        },
+        {
+          "word": "that's",
+          "start": 24.89,
+          "end": 25.05
+        },
+        {
+          "word": "cool.",
+          "start": 25.05,
+          "end": 25.31
+        },
+        {
+          "word": "I'm",
+          "start": 25.55,
+          "end": 25.65
+        },
+        {
+          "word": "a",
+          "start": 25.65,
+          "end": 25.71
+        },
+        {
+          "word": "junior",
+          "start": 25.71,
+          "end": 25.85
+        },
+        {
+          "word": "too,",
+          "start": 25.85,
+          "end": 26.23
+        },
+        {
+          "word": "but",
+          "start": 26.23,
+          "end": 26.99
+        },
+        {
+          "word": "I",
+          "start": 26.99,
+          "end": 27.09
+        },
+        {
+          "word": "make",
+          "start": 27.09,
+          "end": 27.25
+        },
+        {
+          "word": "college",
+          "start": 27.25,
+          "end": 27.59
+        },
+        {
+          "word": "so",
+          "start": 27.59,
+          "end": 27.95
+        },
+        {
+          "word": "it's",
+          "start": 27.95,
+          "end": 28.17
+        },
+        {
+          "word": "a",
+          "start": 28.17,
+          "end": 28.21
+        },
+        {
+          "word": "little",
+          "start": 28.21,
+          "end": 28.33
+        },
+        {
+          "word": "different",
+          "start": 28.33,
+          "end": 28.73
+        }
+      ]
+    },
+    {
+      "text": "Oh, what are you study",
+      "start": 28.73,
+      "end": 29.97,
+      "words": [
+        {
+          "word": "Oh,",
+          "start": 28.73,
+          "end": 29.37
+        },
+        {
+          "word": "what",
+          "start": 29.47,
+          "end": 29.57
+        },
+        {
+          "word": "are",
+          "start": 29.57,
+          "end": 29.59
+        },
+        {
+          "word": "you",
+          "start": 29.59,
+          "end": 29.65
+        },
+        {
+          "word": "study",
+          "start": 29.65,
+          "end": 29.97
+        }
+      ]
+    },
+    {
+      "text": "I study management information systems. Is that like business?",
+      "start": 30.97,
+      "end": 35.94,
+      "words": [
+        {
+          "word": "I",
+          "start": 30.97,
+          "end": 31.41
+        },
+        {
+          "word": "study",
+          "start": 31.41,
+          "end": 31.85
+        },
+        {
+          "word": "management",
+          "start": 31.85,
+          "end": 32.43
+        },
+        {
+          "word": "information",
+          "start": 32.43,
+          "end": 32.93
+        },
+        {
+          "word": "systems.",
+          "start": 32.93,
+          "end": 33.75
+        },
+        {
+          "word": "Is",
+          "start": 34.8,
+          "end": 35.24
+        },
+        {
+          "word": "that",
+          "start": 35.24,
+          "end": 35.36
+        },
+        {
+          "word": "like",
+          "start": 35.36,
+          "end": 35.52
+        },
+        {
+          "word": "business?",
+          "start": 35.52,
+          "end": 35.94
+        }
+      ]
+    },
+    {
+      "text": "Yes, the business major. Why are you interested?",
+      "start": 36.66,
+      "end": 38.84,
+      "words": [
+        {
+          "word": "Yes,",
+          "start": 36.66,
+          "end": 36.96
+        },
+        {
+          "word": "the",
+          "start": 37.06,
+          "end": 37.12
+        },
+        {
+          "word": "business",
+          "start": 37.12,
+          "end": 37.38
+        },
+        {
+          "word": "major.",
+          "start": 37.38,
+          "end": 37.84
+        },
+        {
+          "word": "Why",
+          "start": 38.12,
+          "end": 38.34
+        },
+        {
+          "word": "are",
+          "start": 38.34,
+          "end": 38.44
+        },
+        {
+          "word": "you",
+          "start": 38.44,
+          "end": 38.52
+        },
+        {
+          "word": "interested?",
+          "start": 38.52,
+          "end": 38.84
+        }
+      ]
+    },
+    {
+      "text": "Yes, Lamar is a business school. So I'm thinking about starting my own business in the future. Okay, what do you want to do?",
+      "start": 39.8,
+      "end": 45.34,
+      "words": [
+        {
+          "word": "Yes,",
+          "start": 39.8,
+          "end": 40.02
+        },
+        {
+          "word": "Lamar",
+          "start": 40.24,
+          "end": 40.5
+        },
+        {
+          "word": "is",
+          "start": 40.5,
+          "end": 40.72
+        },
+        {
+          "word": "a",
+          "start": 40.72,
+          "end": 40.82
+        },
+        {
+          "word": "business",
+          "start": 40.82,
+          "end": 41.16
+        },
+        {
+          "word": "school.",
+          "start": 41.16,
+          "end": 41.48
+        },
+        {
+          "word": "So",
+          "start": 41.66,
+          "end": 41.66
+        },
+        {
+          "word": "I'm",
+          "start": 41.66,
+          "end": 41.76
+        },
+        {
+          "word": "thinking",
+          "start": 41.76,
+          "end": 41.9
+        },
+        {
+          "word": "about",
+          "start": 41.9,
+          "end": 42.08
+        },
+        {
+          "word": "starting",
+          "start": 42.08,
+          "end": 42.34
+        },
+        {
+          "word": "my",
+          "start": 42.34,
+          "end": 42.52
+        },
+        {
+          "word": "own",
+          "start": 42.52,
+          "end": 42.68
+        },
+        {
+          "word": "business",
+          "start": 42.68,
+          "end": 43.02
+        },
+        {
+          "word": "in",
+          "start": 43.02,
+          "end": 43.28
+        },
+        {
+          "word": "the",
+          "start": 43.28,
+          "end": 43.36
+        },
+        {
+          "word": "future.",
+          "start": 43.36,
+          "end": 43.68
+        },
+        {
+          "word": "Okay,",
+          "start": 44.26,
+          "end": 44.6
+        },
+        {
+          "word": "what",
+          "start": 44.76,
+          "end": 44.8
+        },
+        {
+          "word": "do",
+          "start": 44.8,
+          "end": 44.88
+        },
+        {
+          "word": "you",
+          "start": 44.88,
+          "end": 44.94
+        },
+        {
+          "word": "want",
+          "start": 44.94,
+          "end": 45.08
+        },
+        {
+          "word": "to",
+          "start": 45.08,
+          "end": 45.16
+        },
+        {
+          "word": "do?",
+          "start": 45.16,
+          "end": 45.34
+        }
+      ]
+    },
+    {
+      "text": "I want to open a nail salon. A nail salon. You like doing nails? Yes. It's very fun for me",
+      "start": 46.0,
+      "end": 52.42,
+      "words": [
+        {
+          "word": "I",
+          "start": 46.0,
+          "end": 46.08
+        },
+        {
+          "word": "want",
+          "start": 46.08,
+          "end": 46.18
+        },
+        {
+          "word": "to",
+          "start": 46.18,
+          "end": 46.26
+        },
+        {
+          "word": "open",
+          "start": 46.26,
+          "end": 46.46
+        },
+        {
+          "word": "a",
+          "start": 46.46,
+          "end": 46.66
+        },
+        {
+          "word": "nail",
+          "start": 46.66,
+          "end": 46.76
+        },
+        {
+          "word": "salon.",
+          "start": 46.76,
+          "end": 47.0
+        },
+        {
+          "word": "A",
+          "start": 47.58,
+          "end": 47.92
+        },
+        {
+          "word": "nail",
+          "start": 47.92,
+          "end": 48.16
+        },
+        {
+          "word": "salon.",
+          "start": 48.16,
+          "end": 48.58
+        },
+        {
+          "word": "You",
+          "start": 48.86,
+          "end": 48.9
+        },
+        {
+          "word": "like",
+          "start": 48.9,
+          "end": 49.02
+        },
+        {
+          "word": "doing",
+          "start": 49.02,
+          "end": 49.2
+        },
+        {
+          "word": "nails?",
+          "start": 49.2,
+          "end": 49.6
+        },
+        {
+          "word": "Yes.",
+          "start": 50.08,
+          "end": 50.34
+        },
+        {
+          "word": "It's",
+          "start": 50.84,
+          "end": 51.2
+        },
+        {
+          "word": "very",
+          "start": 51.2,
+          "end": 51.4
+        },
+        {
+          "word": "fun",
+          "start": 51.4,
+          "end": 52.0
+        },
+        {
+          "word": "for",
+          "start": 52.0,
+          "end": 52.24
+        },
+        {
+          "word": "me",
+          "start": 52.24,
+          "end": 52.42
+        }
+      ]
+    },
+    {
+      "text": "It's like one of my hobbies",
+      "start": 53.22,
+      "end": 54.56,
+      "words": [
+        {
+          "word": "It's",
+          "start": 53.22,
+          "end": 53.66
+        },
+        {
+          "word": "like",
+          "start": 53.66,
+          "end": 53.76
+        },
+        {
+          "word": "one",
+          "start": 53.76,
+          "end": 53.96
+        },
+        {
+          "word": "of",
+          "start": 53.96,
+          "end": 54.04
+        },
+        {
+          "word": "my",
+          "start": 54.04,
+          "end": 54.26
+        },
+        {
+          "word": "hobbies",
+          "start": 54.26,
+          "end": 54.56
+        }
+      ]
+    },
+    {
+      "text": "Okay, what other hobbies do you have?",
+      "start": 55.6,
+      "end": 57.2,
+      "words": [
+        {
+          "word": "Okay,",
+          "start": 55.6,
+          "end": 56.04
+        },
+        {
+          "word": "what",
+          "start": 56.18,
+          "end": 56.26
+        },
+        {
+          "word": "other",
+          "start": 56.26,
+          "end": 56.46
+        },
+        {
+          "word": "hobbies",
+          "start": 56.46,
+          "end": 56.68
+        },
+        {
+          "word": "do",
+          "start": 56.68,
+          "end": 56.86
+        },
+        {
+          "word": "you",
+          "start": 56.86,
+          "end": 57.0
+        },
+        {
+          "word": "have?",
+          "start": 57.0,
+          "end": 57.2
+        }
+      ]
+    },
+    {
+      "text": "Um, well, I like doing makeup as well",
+      "start": 58.62,
+      "end": 61.02,
+      "words": [
+        {
+          "word": "Um,",
+          "start": 58.62,
+          "end": 58.98
+        },
+        {
+          "word": "well,",
+          "start": 59.42,
+          "end": 59.64
+        },
+        {
+          "word": "I",
+          "start": 59.76,
+          "end": 59.78
+        },
+        {
+          "word": "like",
+          "start": 59.78,
+          "end": 59.92
+        },
+        {
+          "word": "doing",
+          "start": 59.92,
+          "end": 60.12
+        },
+        {
+          "word": "makeup",
+          "start": 60.12,
+          "end": 60.42
+        },
+        {
+          "word": "as",
+          "start": 60.42,
+          "end": 60.68
+        },
+        {
+          "word": "well",
+          "start": 60.68,
+          "end": 61.02
+        }
+      ]
+    },
+    {
+      "text": "Makeup say you want to be a makeup artist?",
+      "start": 61.62,
+      "end": 63.1,
+      "words": [
+        {
+          "word": "Makeup",
+          "start": 61.62,
+          "end": 61.98
+        },
+        {
+          "word": "say",
+          "start": 61.98,
+          "end": 62.14
+        },
+        {
+          "word": "you",
+          "start": 62.14,
+          "end": 62.24
+        },
+        {
+          "word": "want",
+          "start": 62.24,
+          "end": 62.3
+        },
+        {
+          "word": "to",
+          "start": 62.3,
+          "end": 62.38
+        },
+        {
+          "word": "be",
+          "start": 62.38,
+          "end": 62.44
+        },
+        {
+          "word": "a",
+          "start": 62.44,
+          "end": 62.52
+        },
+        {
+          "word": "makeup",
+          "start": 62.52,
+          "end": 62.74
+        },
+        {
+          "word": "artist?",
+          "start": 62.74,
+          "end": 63.1
+        }
+      ]
+    },
+    {
+      "text": "No, not really. I could only do my own face. Oh, you don't want to do anyone else's? I understand",
+      "start": 63.72,
+      "end": 68.5,
+      "words": [
+        {
+          "word": "No,",
+          "start": 63.72,
+          "end": 64.08
+        },
+        {
+          "word": "not",
+          "start": 64.2,
+          "end": 64.3
+        },
+        {
+          "word": "really.",
+          "start": 64.3,
+          "end": 64.58
+        },
+        {
+          "word": "I",
+          "start": 64.74,
+          "end": 64.76
+        },
+        {
+          "word": "could",
+          "start": 64.76,
+          "end": 64.86
+        },
+        {
+          "word": "only",
+          "start": 64.86,
+          "end": 65.06
+        },
+        {
+          "word": "do",
+          "start": 65.06,
+          "end": 65.22
+        },
+        {
+          "word": "my",
+          "start": 65.22,
+          "end": 65.38
+        },
+        {
+          "word": "own",
+          "start": 65.38,
+          "end": 65.54
+        },
+        {
+          "word": "face.",
+          "start": 65.54,
+          "end": 65.9
+        },
+        {
+          "word": "Oh,",
+          "start": 66.38,
+          "end": 66.56
+        },
+        {
+          "word": "you",
+          "start": 66.66,
+          "end": 66.74
+        },
+        {
+          "word": "don't",
+          "start": 66.74,
+          "end": 66.84
+        },
+        {
+          "word": "want",
+          "start": 66.84,
+          "end": 66.98
+        },
+        {
+          "word": "to",
+          "start": 66.98,
+          "end": 67.06
+        },
+        {
+          "word": "do",
+          "start": 67.06,
+          "end": 67.16
+        },
+        {
+          "word": "anyone",
+          "start": 67.16,
+          "end": 67.4
+        },
+        {
+          "word": "else's?",
+          "start": 67.4,
+          "end": 67.98
+        },
+        {
+          "word": "I",
+          "start": 68.08,
+          "end": 68.14
+        },
+        {
+          "word": "understand",
+          "start": 68.14,
+          "end": 68.5
+        }
+      ]
+    },
+    {
+      "text": "I don't do I don't wear makeup. I don't have the patience to do that. Oh, you should try it. It's really fun",
+      "start": 68.5,
+      "end": 73.8,
+      "words": [
+        {
+          "word": "I",
+          "start": 68.5,
+          "end": 68.76
+        },
+        {
+          "word": "don't",
+          "start": 68.76,
+          "end": 68.88
+        },
+        {
+          "word": "do",
+          "start": 68.88,
+          "end": 69.04
+        },
+        {
+          "word": "I",
+          "start": 69.04,
+          "end": 69.26
+        },
+        {
+          "word": "don't",
+          "start": 69.26,
+          "end": 69.38
+        },
+        {
+          "word": "wear",
+          "start": 69.38,
+          "end": 69.54
+        },
+        {
+          "word": "makeup.",
+          "start": 69.54,
+          "end": 69.86
+        },
+        {
+          "word": "I",
+          "start": 69.86,
+          "end": 70.14
+        },
+        {
+          "word": "don't",
+          "start": 70.14,
+          "end": 70.24
+        },
+        {
+          "word": "have",
+          "start": 70.24,
+          "end": 70.38
+        },
+        {
+          "word": "the",
+          "start": 70.38,
+          "end": 70.48
+        },
+        {
+          "word": "patience",
+          "start": 70.48,
+          "end": 70.84
+        },
+        {
+          "word": "to",
+          "start": 70.84,
+          "end": 71.1
+        },
+        {
+          "word": "do",
+          "start": 71.1,
+          "end": 71.26
+        },
+        {
+          "word": "that.",
+          "start": 71.26,
+          "end": 71.48
+        },
+        {
+          "word": "Oh,",
+          "start": 72.16,
+          "end": 72.42
+        },
+        {
+          "word": "you",
+          "start": 72.54,
+          "end": 72.56
+        },
+        {
+          "word": "should",
+          "start": 72.56,
+          "end": 72.7
+        },
+        {
+          "word": "try",
+          "start": 72.7,
+          "end": 73.0
+        },
+        {
+          "word": "it.",
+          "start": 73.0,
+          "end": 73.12
+        },
+        {
+          "word": "It's",
+          "start": 73.18,
+          "end": 73.18
+        },
+        {
+          "word": "really",
+          "start": 73.18,
+          "end": 73.38
+        },
+        {
+          "word": "fun",
+          "start": 73.38,
+          "end": 73.8
+        }
+      ]
+    },
+    {
+      "text": "Yeah, it looks fun, but I don't think it's for me now. Okay, well, what about nails? Do you get your nails done?",
+      "start": 74.32,
+      "end": 80.7,
+      "words": [
+        {
+          "word": "Yeah,",
+          "start": 74.32,
+          "end": 74.68
+        },
+        {
+          "word": "it",
+          "start": 74.68,
+          "end": 74.86
+        },
+        {
+          "word": "looks",
+          "start": 74.86,
+          "end": 75.04
+        },
+        {
+          "word": "fun,",
+          "start": 75.04,
+          "end": 75.36
+        },
+        {
+          "word": "but",
+          "start": 75.36,
+          "end": 75.78
+        },
+        {
+          "word": "I",
+          "start": 75.78,
+          "end": 76.12
+        },
+        {
+          "word": "don't",
+          "start": 76.12,
+          "end": 76.82
+        },
+        {
+          "word": "think",
+          "start": 76.82,
+          "end": 77.22
+        },
+        {
+          "word": "it's",
+          "start": 77.22,
+          "end": 77.48
+        },
+        {
+          "word": "for",
+          "start": 77.48,
+          "end": 77.58
+        },
+        {
+          "word": "me",
+          "start": 77.58,
+          "end": 77.76
+        },
+        {
+          "word": "now.",
+          "start": 77.76,
+          "end": 78.14
+        },
+        {
+          "word": "Okay,",
+          "start": 78.56,
+          "end": 78.84
+        },
+        {
+          "word": "well,",
+          "start": 78.98,
+          "end": 79.02
+        },
+        {
+          "word": "what",
+          "start": 79.12,
+          "end": 79.18
+        },
+        {
+          "word": "about",
+          "start": 79.18,
+          "end": 79.34
+        },
+        {
+          "word": "nails?",
+          "start": 79.34,
+          "end": 79.68
+        },
+        {
+          "word": "Do",
+          "start": 79.72,
+          "end": 79.96
+        },
+        {
+          "word": "you",
+          "start": 79.96,
+          "end": 80.0
+        },
+        {
+          "word": "get",
+          "start": 80.0,
+          "end": 80.1
+        },
+        {
+          "word": "your",
+          "start": 80.1,
+          "end": 80.22
+        },
+        {
+          "word": "nails",
+          "start": 80.22,
+          "end": 80.42
+        },
+        {
+          "word": "done?",
+          "start": 80.42,
+          "end": 80.7
+        }
+      ]
+    },
+    {
+      "text": "No, I don't get my nails and I used to when I stopped after, you know, I had my son. It's just not something that I've",
+      "start": 81.3,
+      "end": 86.66,
+      "words": [
+        {
+          "word": "No,",
+          "start": 81.3,
+          "end": 81.42
+        },
+        {
+          "word": "I",
+          "start": 81.54,
+          "end": 81.56
+        },
+        {
+          "word": "don't",
+          "start": 81.56,
+          "end": 81.68
+        },
+        {
+          "word": "get",
+          "start": 81.68,
+          "end": 81.8
+        },
+        {
+          "word": "my",
+          "start": 81.8,
+          "end": 81.92
+        },
+        {
+          "word": "nails",
+          "start": 81.92,
+          "end": 82.12
+        },
+        {
+          "word": "and",
+          "start": 82.12,
+          "end": 82.3
+        },
+        {
+          "word": "I",
+          "start": 82.3,
+          "end": 82.38
+        },
+        {
+          "word": "used",
+          "start": 82.38,
+          "end": 82.64
+        },
+        {
+          "word": "to",
+          "start": 82.64,
+          "end": 82.86
+        },
+        {
+          "word": "when",
+          "start": 82.86,
+          "end": 83.04
+        },
+        {
+          "word": "I",
+          "start": 83.04,
+          "end": 83.16
+        },
+        {
+          "word": "stopped",
+          "start": 83.16,
+          "end": 83.58
+        },
+        {
+          "word": "after,",
+          "start": 83.58,
+          "end": 84.0
+        },
+        {
+          "word": "you",
+          "start": 84.16,
+          "end": 84.4
+        },
+        {
+          "word": "know,",
+          "start": 84.4,
+          "end": 84.5
+        },
+        {
+          "word": "I",
+          "start": 84.58,
+          "end": 84.64
+        },
+        {
+          "word": "had",
+          "start": 84.64,
+          "end": 84.72
+        },
+        {
+          "word": "my",
+          "start": 84.72,
+          "end": 84.9
+        },
+        {
+          "word": "son.",
+          "start": 84.9,
+          "end": 85.2
+        },
+        {
+          "word": "It's",
+          "start": 85.44,
+          "end": 85.52
+        },
+        {
+          "word": "just",
+          "start": 85.52,
+          "end": 85.64
+        },
+        {
+          "word": "not",
+          "start": 85.64,
+          "end": 85.86
+        },
+        {
+          "word": "something",
+          "start": 85.86,
+          "end": 86.22
+        },
+        {
+          "word": "that",
+          "start": 86.22,
+          "end": 86.44
+        },
+        {
+          "word": "I've",
+          "start": 86.44,
+          "end": 86.66
+        }
+      ]
+    },
+    {
+      "text": "Spinned I prefer to spend my money on. Oh, really? You have a son? How old is he?",
+      "start": 86.66,
+      "end": 91.4,
+      "words": [
+        {
+          "word": "Spinned",
+          "start": 86.66,
+          "end": 87.3
+        },
+        {
+          "word": "I",
+          "start": 87.3,
+          "end": 87.78
+        },
+        {
+          "word": "prefer",
+          "start": 87.78,
+          "end": 88.18
+        },
+        {
+          "word": "to",
+          "start": 88.18,
+          "end": 88.38
+        },
+        {
+          "word": "spend",
+          "start": 88.38,
+          "end": 88.5
+        },
+        {
+          "word": "my",
+          "start": 88.5,
+          "end": 88.6
+        },
+        {
+          "word": "money",
+          "start": 88.6,
+          "end": 88.84
+        },
+        {
+          "word": "on.",
+          "start": 88.84,
+          "end": 89.12
+        },
+        {
+          "word": "Oh,",
+          "start": 89.44,
+          "end": 89.72
+        },
+        {
+          "word": "really?",
+          "start": 89.96,
+          "end": 90.04
+        },
+        {
+          "word": "You",
+          "start": 90.16,
+          "end": 90.18
+        },
+        {
+          "word": "have",
+          "start": 90.18,
+          "end": 90.26
+        },
+        {
+          "word": "a",
+          "start": 90.26,
+          "end": 90.36
+        },
+        {
+          "word": "son?",
+          "start": 90.36,
+          "end": 90.64
+        },
+        {
+          "word": "How",
+          "start": 90.84,
+          "end": 90.86
+        },
+        {
+          "word": "old",
+          "start": 90.86,
+          "end": 91.06
+        },
+        {
+          "word": "is",
+          "start": 91.06,
+          "end": 91.16
+        },
+        {
+          "word": "he?",
+          "start": 91.16,
+          "end": 91.4
+        }
+      ]
+    },
+    {
+      "text": "He's like five months down",
+      "start": 92.38,
+      "end": 94.04,
+      "words": [
+        {
+          "word": "He's",
+          "start": 92.38,
+          "end": 92.82
+        },
+        {
+          "word": "like",
+          "start": 92.82,
+          "end": 93.02
+        },
+        {
+          "word": "five",
+          "start": 93.02,
+          "end": 93.34
+        },
+        {
+          "word": "months",
+          "start": 93.34,
+          "end": 93.64
+        },
+        {
+          "word": "down",
+          "start": 93.64,
+          "end": 94.04
+        }
+      ]
+    },
+    {
+      "text": "Also, he's just he's like fresh. He's my newborn. He's a newborn. Yeah. Oh",
+      "start": 95.04,
+      "end": 101.48,
+      "words": [
+        {
+          "word": "Also,",
+          "start": 95.04,
+          "end": 95.48
+        },
+        {
+          "word": "he's",
+          "start": 95.64,
+          "end": 95.86
+        },
+        {
+          "word": "just",
+          "start": 95.86,
+          "end": 96.02
+        },
+        {
+          "word": "he's",
+          "start": 96.02,
+          "end": 96.7
+        },
+        {
+          "word": "like",
+          "start": 96.7,
+          "end": 96.86
+        },
+        {
+          "word": "fresh.",
+          "start": 96.86,
+          "end": 97.24
+        },
+        {
+          "word": "He's",
+          "start": 97.24,
+          "end": 97.68
+        },
+        {
+          "word": "my",
+          "start": 97.68,
+          "end": 97.76
+        },
+        {
+          "word": "newborn.",
+          "start": 97.76,
+          "end": 98.04
+        },
+        {
+          "word": "He's",
+          "start": 98.5,
+          "end": 98.94
+        },
+        {
+          "word": "a",
+          "start": 98.94,
+          "end": 99.0
+        },
+        {
+          "word": "newborn.",
+          "start": 99.0,
+          "end": 99.36
+        },
+        {
+          "word": "Yeah.",
+          "start": 99.44,
+          "end": 99.88
+        },
+        {
+          "word": "Oh",
+          "start": 101.04,
+          "end": 101.48
+        }
+      ]
+    },
+    {
+      "text": "I would love to see him one day",
+      "start": 101.48,
+      "end": 103.0,
+      "words": [
+        {
+          "word": "I",
+          "start": 101.48,
+          "end": 101.68
+        },
+        {
+          "word": "would",
+          "start": 101.68,
+          "end": 101.82
+        },
+        {
+          "word": "love",
+          "start": 101.82,
+          "end": 102.02
+        },
+        {
+          "word": "to",
+          "start": 102.02,
+          "end": 102.18
+        },
+        {
+          "word": "see",
+          "start": 102.18,
+          "end": 102.38
+        },
+        {
+          "word": "him",
+          "start": 102.38,
+          "end": 102.52
+        },
+        {
+          "word": "one",
+          "start": 102.52,
+          "end": 102.66
+        },
+        {
+          "word": "day",
+          "start": 102.66,
+          "end": 103.0
+        }
+      ]
+    }
+  ],
+  "redactions": [],
+  "pii_count": 0
+}

@@ -1,0 +1,4855 @@
+{
+  "conversation_id": "F2M2_USA_USA_010",
+  "audio_path": "data_exploration/audio/F2M2_USA_USA_010.wav",
+  "audio_duration": 303.68,
+  "language": "en",
+  "language_probability": 1,
+  "segments": [
+    {
+      "text": "It's really hard to discuss color. Well, I guess it kind of goes back to",
+      "start": 1.42,
+      "end": 10.96,
+      "words": [
+        {
+          "word": "It's",
+          "start": 1.42,
+          "end": 2.02,
+          "confidence": 0.8664440512657166
+        },
+        {
+          "word": "really",
+          "start": 2.02,
+          "end": 2.28,
+          "confidence": 0.998917818069458
+        },
+        {
+          "word": "hard",
+          "start": 2.28,
+          "end": 2.62,
+          "confidence": 0.9978063702583313
+        },
+        {
+          "word": "to",
+          "start": 2.62,
+          "end": 3.28,
+          "confidence": 0.9960338473320007
+        },
+        {
+          "word": "discuss",
+          "start": 3.28,
+          "end": 4.26,
+          "confidence": 0.7293010950088501
+        },
+        {
+          "word": "color.",
+          "start": 4.26,
+          "end": 5.7,
+          "confidence": 0.7989570498466492
+        },
+        {
+          "word": "Well,",
+          "start": 7.41,
+          "end": 7.89,
+          "confidence": 0.9757973551750183
+        },
+        {
+          "word": "I",
+          "start": 7.89,
+          "end": 9.01,
+          "confidence": 0.9979530572891235
+        },
+        {
+          "word": "guess",
+          "start": 9.08,
+          "end": 9.28,
+          "confidence": 0.9722384810447693
+        },
+        {
+          "word": "it",
+          "start": 9.28,
+          "end": 9.6,
+          "confidence": 0.9961330890655518
+        },
+        {
+          "word": "kind",
+          "start": 9.6,
+          "end": 9.84,
+          "confidence": 0.9658189415931702
+        },
+        {
+          "word": "of",
+          "start": 9.84,
+          "end": 10.02,
+          "confidence": 0.9991675615310669
+        },
+        {
+          "word": "goes",
+          "start": 10.02,
+          "end": 10.22,
+          "confidence": 0.998934805393219
+        },
+        {
+          "word": "back",
+          "start": 10.22,
+          "end": 10.5,
+          "confidence": 0.9992935657501221
+        },
+        {
+          "word": "to",
+          "start": 10.5,
+          "end": 10.96,
+          "confidence": 0.998384952545166
+        }
+      ]
+    },
+    {
+      "text": "basics, right? Like being in school. They always had like a song about your colors.",
+      "start": 12.02,
+      "end": 17.43,
+      "words": [
+        {
+          "word": "basics,",
+          "start": 12.02,
+          "end": 12.5,
+          "confidence": 0.3483380973339081
+        },
+        {
+          "word": "right?",
+          "start": 12.54,
+          "end": 12.94,
+          "confidence": 0.9974218606948853
+        },
+        {
+          "word": "Like",
+          "start": 13.22,
+          "end": 13.44,
+          "confidence": 0.9418990015983582
+        },
+        {
+          "word": "being",
+          "start": 13.44,
+          "end": 13.66,
+          "confidence": 0.9524620175361633
+        },
+        {
+          "word": "in",
+          "start": 13.66,
+          "end": 13.8,
+          "confidence": 0.9949117302894592
+        },
+        {
+          "word": "school.",
+          "start": 13.8,
+          "end": 14.14,
+          "confidence": 0.9947009086608887
+        },
+        {
+          "word": "They",
+          "start": 14.79,
+          "end": 15.27,
+          "confidence": 0.8606688380241394
+        },
+        {
+          "word": "always",
+          "start": 15.27,
+          "end": 15.45,
+          "confidence": 0.9872730374336243
+        },
+        {
+          "word": "had",
+          "start": 15.45,
+          "end": 15.61,
+          "confidence": 0.99408358335495
+        },
+        {
+          "word": "like",
+          "start": 15.61,
+          "end": 15.79,
+          "confidence": 0.9555642604827881
+        },
+        {
+          "word": "a",
+          "start": 15.79,
+          "end": 15.95,
+          "confidence": 0.9924089908599854
+        },
+        {
+          "word": "song",
+          "start": 15.95,
+          "end": 16.23,
+          "confidence": 0.9990567564964294
+        },
+        {
+          "word": "about",
+          "start": 16.23,
+          "end": 16.59,
+          "confidence": 0.9990743398666382
+        },
+        {
+          "word": "your",
+          "start": 16.59,
+          "end": 16.85,
+          "confidence": 0.9951961636543274
+        },
+        {
+          "word": "colors.",
+          "start": 16.85,
+          "end": 17.43,
+          "confidence": 0.9836766123771667
+        }
+      ]
+    },
+    {
+      "text": "Don't sing the song. Don't sing the song? No, don't sing the song. I won't sing the song just for you.",
+      "start": 18.65,
+      "end": 24.31,
+      "words": [
+        {
+          "word": "Don't",
+          "start": 18.65,
+          "end": 19.13,
+          "confidence": 0.8487044870853424
+        },
+        {
+          "word": "sing",
+          "start": 19.13,
+          "end": 19.31,
+          "confidence": 0.9451425671577454
+        },
+        {
+          "word": "the",
+          "start": 19.31,
+          "end": 19.47,
+          "confidence": 0.8186755180358887
+        },
+        {
+          "word": "song.",
+          "start": 19.47,
+          "end": 19.67,
+          "confidence": 0.9961962699890137
+        },
+        {
+          "word": "Don't",
+          "start": 19.93,
+          "end": 20.17,
+          "confidence": 0.7762061059474945
+        },
+        {
+          "word": "sing",
+          "start": 20.17,
+          "end": 20.35,
+          "confidence": 0.994676947593689
+        },
+        {
+          "word": "the",
+          "start": 20.35,
+          "end": 20.49,
+          "confidence": 0.9971972703933716
+        },
+        {
+          "word": "song?",
+          "start": 20.49,
+          "end": 20.71,
+          "confidence": 0.9988387227058411
+        },
+        {
+          "word": "No,",
+          "start": 21.39,
+          "end": 21.69,
+          "confidence": 0.6908694505691528
+        },
+        {
+          "word": "don't",
+          "start": 21.93,
+          "end": 22.11,
+          "confidence": 0.8701762855052948
+        },
+        {
+          "word": "sing",
+          "start": 22.11,
+          "end": 22.41,
+          "confidence": 0.8291405439376831
+        },
+        {
+          "word": "the",
+          "start": 22.41,
+          "end": 22.59,
+          "confidence": 0.9493150115013123
+        },
+        {
+          "word": "song.",
+          "start": 22.59,
+          "end": 22.69,
+          "confidence": 0.99809330701828
+        },
+        {
+          "word": "I",
+          "start": 22.73,
+          "end": 22.79,
+          "confidence": 0.8740152716636658
+        },
+        {
+          "word": "won't",
+          "start": 22.79,
+          "end": 22.99,
+          "confidence": 0.966052919626236
+        },
+        {
+          "word": "sing",
+          "start": 22.99,
+          "end": 23.13,
+          "confidence": 0.9988338351249695
+        },
+        {
+          "word": "the",
+          "start": 23.13,
+          "end": 23.31,
+          "confidence": 0.995960533618927
+        },
+        {
+          "word": "song",
+          "start": 23.31,
+          "end": 23.53,
+          "confidence": 0.9989043474197388
+        },
+        {
+          "word": "just",
+          "start": 23.53,
+          "end": 23.93,
+          "confidence": 0.7014805674552917
+        },
+        {
+          "word": "for",
+          "start": 23.93,
+          "end": 24.15,
+          "confidence": 0.9989610910415649
+        },
+        {
+          "word": "you.",
+          "start": 24.15,
+          "end": 24.31,
+          "confidence": 0.9991469383239746
+        }
+      ]
+    },
+    {
+      "text": "But then, you know, there's always primary colors, right? So red, green, blue,",
+      "start": 25.2,
+      "end": 29.82,
+      "words": [
+        {
+          "word": "But",
+          "start": 25.2,
+          "end": 25.58,
+          "confidence": 0.9881442189216614
+        },
+        {
+          "word": "then,",
+          "start": 25.58,
+          "end": 25.94,
+          "confidence": 0.9896072745323181
+        },
+        {
+          "word": "you",
+          "start": 25.96,
+          "end": 26.06,
+          "confidence": 0.9699822068214417
+        },
+        {
+          "word": "know,",
+          "start": 26.06,
+          "end": 26.18,
+          "confidence": 0.999460756778717
+        },
+        {
+          "word": "there's",
+          "start": 26.28,
+          "end": 26.5,
+          "confidence": 0.995319664478302
+        },
+        {
+          "word": "always",
+          "start": 26.5,
+          "end": 26.64,
+          "confidence": 0.9989244341850281
+        },
+        {
+          "word": "primary",
+          "start": 26.64,
+          "end": 27.16,
+          "confidence": 0.9950215816497803
+        },
+        {
+          "word": "colors,",
+          "start": 27.16,
+          "end": 27.62,
+          "confidence": 0.9897381663322449
+        },
+        {
+          "word": "right?",
+          "start": 27.8,
+          "end": 28.0,
+          "confidence": 0.9965313076972961
+        },
+        {
+          "word": "So",
+          "start": 28.28,
+          "end": 28.4,
+          "confidence": 0.8466964960098267
+        },
+        {
+          "word": "red,",
+          "start": 28.4,
+          "end": 28.76,
+          "confidence": 0.955530047416687
+        },
+        {
+          "word": "green,",
+          "start": 29.16,
+          "end": 29.28,
+          "confidence": 0.9976969361305237
+        },
+        {
+          "word": "blue,",
+          "start": 29.6,
+          "end": 29.82,
+          "confidence": 0.9980021119117737
+        }
+      ]
+    },
+    {
+      "text": "whatever those other ones are. It's a rainbow, right? Are those primary? I don't feel like",
+      "start": 30.52,
+      "end": 37.79,
+      "words": [
+        {
+          "word": "whatever",
+          "start": 30.52,
+          "end": 31.04,
+          "confidence": 0.009047501720488071
+        },
+        {
+          "word": "those",
+          "start": 31.04,
+          "end": 31.54,
+          "confidence": 0.8590906858444214
+        },
+        {
+          "word": "other",
+          "start": 31.54,
+          "end": 31.72,
+          "confidence": 0.8486427068710327
+        },
+        {
+          "word": "ones",
+          "start": 31.72,
+          "end": 31.92,
+          "confidence": 0.9896309971809387
+        },
+        {
+          "word": "are.",
+          "start": 31.92,
+          "end": 32.88,
+          "confidence": 0.9951783418655396
+        },
+        {
+          "word": "It's",
+          "start": 33.18,
+          "end": 33.58,
+          "confidence": 0.5231935456395149
+        },
+        {
+          "word": "a",
+          "start": 33.58,
+          "end": 33.62,
+          "confidence": 0.7352252006530762
+        },
+        {
+          "word": "rainbow,",
+          "start": 33.62,
+          "end": 33.94,
+          "confidence": 0.996354341506958
+        },
+        {
+          "word": "right?",
+          "start": 34.18,
+          "end": 34.36,
+          "confidence": 0.9956947565078735
+        },
+        {
+          "word": "Are",
+          "start": 35.41,
+          "end": 35.59,
+          "confidence": 0.8315961956977844
+        },
+        {
+          "word": "those",
+          "start": 35.59,
+          "end": 35.81,
+          "confidence": 0.9940894842147827
+        },
+        {
+          "word": "primary?",
+          "start": 35.81,
+          "end": 36.25,
+          "confidence": 0.6566607356071472
+        },
+        {
+          "word": "I",
+          "start": 36.95,
+          "end": 37.21,
+          "confidence": 0.976677656173706
+        },
+        {
+          "word": "don't",
+          "start": 37.21,
+          "end": 37.35,
+          "confidence": 0.9969631135463715
+        },
+        {
+          "word": "feel",
+          "start": 37.35,
+          "end": 37.57,
+          "confidence": 0.9425255060195923
+        },
+        {
+          "word": "like",
+          "start": 37.57,
+          "end": 37.79,
+          "confidence": 0.9978440999984741
+        }
+      ]
+    },
+    {
+      "text": "violet's a primary color. No. Blue, green, red, and yellow. Yep, yellow was in there.",
+      "start": 37.79,
+      "end": 46.05,
+      "words": [
+        {
+          "word": "violet's",
+          "start": 37.79,
+          "end": 38.31,
+          "confidence": 0.4505544453859329
+        },
+        {
+          "word": "a",
+          "start": 38.31,
+          "end": 38.37,
+          "confidence": 0.9078162312507629
+        },
+        {
+          "word": "primary",
+          "start": 38.37,
+          "end": 38.73,
+          "confidence": 0.9986180067062378
+        },
+        {
+          "word": "color.",
+          "start": 38.73,
+          "end": 39.03,
+          "confidence": 0.9127572774887085
+        },
+        {
+          "word": "No.",
+          "start": 39.11,
+          "end": 39.29,
+          "confidence": 0.5429958701133728
+        },
+        {
+          "word": "Blue,",
+          "start": 40.15,
+          "end": 40.67,
+          "confidence": 0.9542844891548157
+        },
+        {
+          "word": "green,",
+          "start": 40.97,
+          "end": 41.13,
+          "confidence": 0.9613703489303589
+        },
+        {
+          "word": "red,",
+          "start": 41.73,
+          "end": 41.87,
+          "confidence": 0.9933409094810486
+        },
+        {
+          "word": "and",
+          "start": 42.73,
+          "end": 43.29,
+          "confidence": 0.8970807790756226
+        },
+        {
+          "word": "yellow.",
+          "start": 43.29,
+          "end": 43.67,
+          "confidence": 0.9966069459915161
+        },
+        {
+          "word": "Yep,",
+          "start": 44.35,
+          "end": 44.67,
+          "confidence": 0.6615026593208313
+        },
+        {
+          "word": "yellow",
+          "start": 45.07,
+          "end": 45.47,
+          "confidence": 0.6486148834228516
+        },
+        {
+          "word": "was",
+          "start": 45.47,
+          "end": 45.75,
+          "confidence": 0.8565585017204285
+        },
+        {
+          "word": "in",
+          "start": 45.75,
+          "end": 45.89,
+          "confidence": 0.9972853660583496
+        },
+        {
+          "word": "there.",
+          "start": 45.89,
+          "end": 46.05,
+          "confidence": 0.9984365105628967
+        }
+      ]
+    },
+    {
+      "text": "Because with those colors, you can make all the other colors, right? Right. And then you have the rainbow.",
+      "start": 46.79,
+      "end": 51.65,
+      "words": [
+        {
+          "word": "Because",
+          "start": 46.79,
+          "end": 47.11,
+          "confidence": 0.975233793258667
+        },
+        {
+          "word": "with",
+          "start": 47.11,
+          "end": 47.27,
+          "confidence": 0.9797093868255615
+        },
+        {
+          "word": "those",
+          "start": 47.27,
+          "end": 47.51,
+          "confidence": 0.9979578256607056
+        },
+        {
+          "word": "colors,",
+          "start": 47.51,
+          "end": 47.85,
+          "confidence": 0.991455078125
+        },
+        {
+          "word": "you",
+          "start": 48.05,
+          "end": 48.09,
+          "confidence": 0.9969872832298279
+        },
+        {
+          "word": "can",
+          "start": 48.09,
+          "end": 48.21,
+          "confidence": 0.9866438508033752
+        },
+        {
+          "word": "make",
+          "start": 48.21,
+          "end": 48.37,
+          "confidence": 0.9968727231025696
+        },
+        {
+          "word": "all",
+          "start": 48.37,
+          "end": 48.57,
+          "confidence": 0.9926704168319702
+        },
+        {
+          "word": "the",
+          "start": 48.57,
+          "end": 48.71,
+          "confidence": 0.9855279326438904
+        },
+        {
+          "word": "other",
+          "start": 48.71,
+          "end": 48.97,
+          "confidence": 0.9952257871627808
+        },
+        {
+          "word": "colors,",
+          "start": 48.97,
+          "end": 49.35,
+          "confidence": 0.9952563643455505
+        },
+        {
+          "word": "right?",
+          "start": 49.35,
+          "end": 49.67,
+          "confidence": 0.9984196424484253
+        },
+        {
+          "word": "Right.",
+          "start": 50.01,
+          "end": 50.19,
+          "confidence": 0.8897127509117126
+        },
+        {
+          "word": "And",
+          "start": 50.71,
+          "end": 50.81,
+          "confidence": 0.745679497718811
+        },
+        {
+          "word": "then",
+          "start": 50.81,
+          "end": 50.97,
+          "confidence": 0.9868937730789185
+        },
+        {
+          "word": "you",
+          "start": 50.97,
+          "end": 51.13,
+          "confidence": 0.9404719471931458
+        },
+        {
+          "word": "have",
+          "start": 51.13,
+          "end": 51.23,
+          "confidence": 0.9682373404502869
+        },
+        {
+          "word": "the",
+          "start": 51.23,
+          "end": 51.37,
+          "confidence": 0.925805926322937
+        },
+        {
+          "word": "rainbow.",
+          "start": 51.37,
+          "end": 51.65,
+          "confidence": 0.9989520311355591
+        }
+      ]
+    },
+    {
+      "text": "Right. Red, orange, yellow, green, blue, and to go violet. You got it. I know.",
+      "start": 52.29,
+      "end": 60.27,
+      "words": [
+        {
+          "word": "Right.",
+          "start": 52.29,
+          "end": 52.47,
+          "confidence": 0.35910871624946594
+        },
+        {
+          "word": "Red,",
+          "start": 52.63,
+          "end": 52.85,
+          "confidence": 0.9274677038192749
+        },
+        {
+          "word": "orange,",
+          "start": 53.01,
+          "end": 53.25,
+          "confidence": 0.995097815990448
+        },
+        {
+          "word": "yellow,",
+          "start": 54.05,
+          "end": 54.59,
+          "confidence": 0.9967606663703918
+        },
+        {
+          "word": "green,",
+          "start": 55.09,
+          "end": 55.39,
+          "confidence": 0.9841443300247192
+        },
+        {
+          "word": "blue,",
+          "start": 56.49,
+          "end": 57.33,
+          "confidence": 0.9822449088096619
+        },
+        {
+          "word": "and",
+          "start": 57.65,
+          "end": 58.21,
+          "confidence": 0.22193875908851624
+        },
+        {
+          "word": "to",
+          "start": 58.21,
+          "end": 58.33,
+          "confidence": 0.8473635911941528
+        },
+        {
+          "word": "go",
+          "start": 58.33,
+          "end": 58.45,
+          "confidence": 0.9834647178649902
+        },
+        {
+          "word": "violet.",
+          "start": 58.45,
+          "end": 58.77,
+          "confidence": 0.9856550097465515
+        },
+        {
+          "word": "You",
+          "start": 58.95,
+          "end": 59.11,
+          "confidence": 0.9761571884155273
+        },
+        {
+          "word": "got",
+          "start": 59.11,
+          "end": 59.35,
+          "confidence": 0.8938599824905396
+        },
+        {
+          "word": "it.",
+          "start": 59.35,
+          "end": 59.59,
+          "confidence": 0.9983066320419312
+        },
+        {
+          "word": "I",
+          "start": 59.85,
+          "end": 59.99,
+          "confidence": 0.9759954810142517
+        },
+        {
+          "word": "know.",
+          "start": 59.99,
+          "end": 60.27,
+          "confidence": 0.9901960492134094
+        }
+      ]
+    },
+    {
+      "text": "But you probably don't even remember what that was for, right? What do you mean, what it was for?",
+      "start": 60.27,
+      "end": 67.42,
+      "words": [
+        {
+          "word": "But",
+          "start": 60.27,
+          "end": 60.83,
+          "confidence": 0.24420861899852753
+        },
+        {
+          "word": "you",
+          "start": 60.83,
+          "end": 61.03,
+          "confidence": 0.9804865717887878
+        },
+        {
+          "word": "probably",
+          "start": 61.03,
+          "end": 61.35,
+          "confidence": 0.36095917224884033
+        },
+        {
+          "word": "don't",
+          "start": 61.35,
+          "end": 61.55,
+          "confidence": 0.9971731305122375
+        },
+        {
+          "word": "even",
+          "start": 61.55,
+          "end": 61.69,
+          "confidence": 0.9908177852630615
+        },
+        {
+          "word": "remember",
+          "start": 61.69,
+          "end": 61.97,
+          "confidence": 0.9893245100975037
+        },
+        {
+          "word": "what",
+          "start": 61.97,
+          "end": 62.17,
+          "confidence": 0.9902433753013611
+        },
+        {
+          "word": "that",
+          "start": 62.17,
+          "end": 62.31,
+          "confidence": 0.9959710240364075
+        },
+        {
+          "word": "was",
+          "start": 62.31,
+          "end": 62.49,
+          "confidence": 0.9986993074417114
+        },
+        {
+          "word": "for,",
+          "start": 62.49,
+          "end": 62.67,
+          "confidence": 0.994301438331604
+        },
+        {
+          "word": "right?",
+          "start": 62.83,
+          "end": 63.01,
+          "confidence": 0.9962258338928223
+        },
+        {
+          "word": "What",
+          "start": 66.32,
+          "end": 66.42,
+          "confidence": 0.4864673614501953
+        },
+        {
+          "word": "do",
+          "start": 66.42,
+          "end": 66.54,
+          "confidence": 0.7876017689704895
+        },
+        {
+          "word": "you",
+          "start": 66.54,
+          "end": 66.6,
+          "confidence": 0.9840393662452698
+        },
+        {
+          "word": "mean,",
+          "start": 66.6,
+          "end": 66.7,
+          "confidence": 0.9995587468147278
+        },
+        {
+          "word": "what",
+          "start": 66.86,
+          "end": 66.92,
+          "confidence": 0.7410261034965515
+        },
+        {
+          "word": "it",
+          "start": 66.92,
+          "end": 67.02,
+          "confidence": 0.9566106796264648
+        },
+        {
+          "word": "was",
+          "start": 67.02,
+          "end": 67.16,
+          "confidence": 0.9958498477935791
+        },
+        {
+          "word": "for?",
+          "start": 67.16,
+          "end": 67.42,
+          "confidence": 0.9831753969192505
+        }
+      ]
+    },
+    {
+      "text": "Like, why do we memorize that? Like, what the purpose of Ruegie Biv was?",
+      "start": 67.56,
+      "end": 72.12,
+      "words": [
+        {
+          "word": "Like,",
+          "start": 67.56,
+          "end": 67.66,
+          "confidence": 0.6622979044914246
+        },
+        {
+          "word": "why",
+          "start": 67.88,
+          "end": 68.18,
+          "confidence": 0.9642037153244019
+        },
+        {
+          "word": "do",
+          "start": 68.18,
+          "end": 68.66,
+          "confidence": 0.18770554661750793
+        },
+        {
+          "word": "we",
+          "start": 68.66,
+          "end": 68.72,
+          "confidence": 0.9789099097251892
+        },
+        {
+          "word": "memorize",
+          "start": 68.72,
+          "end": 69.06,
+          "confidence": 0.9730017185211182
+        },
+        {
+          "word": "that?",
+          "start": 69.06,
+          "end": 69.48,
+          "confidence": 0.9983940720558167
+        },
+        {
+          "word": "Like,",
+          "start": 69.76,
+          "end": 69.9,
+          "confidence": 0.9500381350517273
+        },
+        {
+          "word": "what",
+          "start": 70.0,
+          "end": 70.06,
+          "confidence": 0.9893187880516052
+        },
+        {
+          "word": "the",
+          "start": 70.06,
+          "end": 70.2,
+          "confidence": 0.990605890750885
+        },
+        {
+          "word": "purpose",
+          "start": 70.2,
+          "end": 70.5,
+          "confidence": 0.9993346333503723
+        },
+        {
+          "word": "of",
+          "start": 70.5,
+          "end": 71.04,
+          "confidence": 0.9928427934646606
+        },
+        {
+          "word": "Ruegie",
+          "start": 71.04,
+          "end": 71.48,
+          "confidence": 0.41509967545668286
+        },
+        {
+          "word": "Biv",
+          "start": 71.48,
+          "end": 71.68,
+          "confidence": 0.5251177251338959
+        },
+        {
+          "word": "was?",
+          "start": 71.68,
+          "end": 72.12,
+          "confidence": 0.991916835308075
+        }
+      ]
+    },
+    {
+      "text": "No. It was the spectrum of color. It's how your eye receives it. They're different wavelengths.",
+      "start": 72.48,
+      "end": 78.48,
+      "words": [
+        {
+          "word": "No.",
+          "start": 72.48,
+          "end": 72.66,
+          "confidence": 0.7349879145622253
+        },
+        {
+          "word": "It",
+          "start": 73.26,
+          "end": 73.38,
+          "confidence": 0.9436736702919006
+        },
+        {
+          "word": "was",
+          "start": 73.38,
+          "end": 73.52,
+          "confidence": 0.9987000226974487
+        },
+        {
+          "word": "the",
+          "start": 73.52,
+          "end": 73.8,
+          "confidence": 0.9865404963493347
+        },
+        {
+          "word": "spectrum",
+          "start": 73.8,
+          "end": 74.3,
+          "confidence": 0.9501419067382812
+        },
+        {
+          "word": "of",
+          "start": 74.3,
+          "end": 74.52,
+          "confidence": 0.9988648891448975
+        },
+        {
+          "word": "color.",
+          "start": 74.52,
+          "end": 74.82,
+          "confidence": 0.9753941297531128
+        },
+        {
+          "word": "It's",
+          "start": 75.56,
+          "end": 75.96,
+          "confidence": 0.9823253750801086
+        },
+        {
+          "word": "how",
+          "start": 75.96,
+          "end": 76.42,
+          "confidence": 0.9306854009628296
+        },
+        {
+          "word": "your",
+          "start": 76.42,
+          "end": 76.62,
+          "confidence": 0.9964877367019653
+        },
+        {
+          "word": "eye",
+          "start": 76.62,
+          "end": 76.86,
+          "confidence": 0.9850935935974121
+        },
+        {
+          "word": "receives",
+          "start": 76.86,
+          "end": 77.36,
+          "confidence": 0.9883809089660645
+        },
+        {
+          "word": "it.",
+          "start": 77.36,
+          "end": 77.56,
+          "confidence": 0.9946330785751343
+        },
+        {
+          "word": "They're",
+          "start": 77.7,
+          "end": 77.82,
+          "confidence": 0.9286324679851532
+        },
+        {
+          "word": "different",
+          "start": 77.82,
+          "end": 78.06,
+          "confidence": 0.9980030655860901
+        },
+        {
+          "word": "wavelengths.",
+          "start": 78.06,
+          "end": 78.48,
+          "confidence": 0.9514790773391724
+        }
+      ]
+    },
+    {
+      "text": "So, like, the strongest ones are the ones at the top. So, like, red, orange, yellow.",
+      "start": 79.26,
+      "end": 83.9,
+      "words": [
+        {
+          "word": "So,",
+          "start": 79.26,
+          "end": 79.62,
+          "confidence": 0.9752790331840515
+        },
+        {
+          "word": "like,",
+          "start": 79.68,
+          "end": 79.74,
+          "confidence": 0.9607148766517639
+        },
+        {
+          "word": "the",
+          "start": 79.84,
+          "end": 79.88,
+          "confidence": 0.9939985275268555
+        },
+        {
+          "word": "strongest",
+          "start": 79.88,
+          "end": 80.32,
+          "confidence": 0.9975137710571289
+        },
+        {
+          "word": "ones",
+          "start": 80.32,
+          "end": 80.86,
+          "confidence": 0.9936123490333557
+        },
+        {
+          "word": "are",
+          "start": 80.86,
+          "end": 81.12,
+          "confidence": 0.1592503935098648
+        },
+        {
+          "word": "the",
+          "start": 81.12,
+          "end": 81.3,
+          "confidence": 0.9755339026451111
+        },
+        {
+          "word": "ones",
+          "start": 81.3,
+          "end": 81.48,
+          "confidence": 0.9509646892547607
+        },
+        {
+          "word": "at",
+          "start": 81.48,
+          "end": 81.64,
+          "confidence": 0.9875046610832214
+        },
+        {
+          "word": "the",
+          "start": 81.64,
+          "end": 81.74,
+          "confidence": 0.9994175434112549
+        },
+        {
+          "word": "top.",
+          "start": 81.74,
+          "end": 82.0,
+          "confidence": 0.9992231130599976
+        },
+        {
+          "word": "So,",
+          "start": 82.5,
+          "end": 82.62,
+          "confidence": 0.9780694246292114
+        },
+        {
+          "word": "like,",
+          "start": 82.68,
+          "end": 82.76,
+          "confidence": 0.9854514598846436
+        },
+        {
+          "word": "red,",
+          "start": 82.9,
+          "end": 83.12,
+          "confidence": 0.9810325503349304
+        },
+        {
+          "word": "orange,",
+          "start": 83.38,
+          "end": 83.56,
+          "confidence": 0.9891275763511658
+        },
+        {
+          "word": "yellow.",
+          "start": 83.68,
+          "end": 83.9,
+          "confidence": 0.9982945322990417
+        }
+      ]
+    },
+    {
+      "text": "Yeah, that's why, like, the rainbow, as you always see, those predominant colors first.",
+      "start": 85.61,
+      "end": 90.01,
+      "words": [
+        {
+          "word": "Yeah,",
+          "start": 85.61,
+          "end": 86.01,
+          "confidence": 0.9806591272354126
+        },
+        {
+          "word": "that's",
+          "start": 86.25,
+          "end": 86.47,
+          "confidence": 0.9876942932605743
+        },
+        {
+          "word": "why,",
+          "start": 86.47,
+          "end": 86.59,
+          "confidence": 0.8351655006408691
+        },
+        {
+          "word": "like,",
+          "start": 86.83,
+          "end": 87.11,
+          "confidence": 0.9761969447135925
+        },
+        {
+          "word": "the",
+          "start": 87.23,
+          "end": 87.31,
+          "confidence": 0.9788015484809875
+        },
+        {
+          "word": "rainbow,",
+          "start": 87.31,
+          "end": 87.55,
+          "confidence": 0.7031661868095398
+        },
+        {
+          "word": "as",
+          "start": 87.63,
+          "end": 87.81,
+          "confidence": 0.6134747862815857
+        },
+        {
+          "word": "you",
+          "start": 87.81,
+          "end": 87.83,
+          "confidence": 0.9948903322219849
+        },
+        {
+          "word": "always",
+          "start": 87.83,
+          "end": 88.03,
+          "confidence": 0.9899685978889465
+        },
+        {
+          "word": "see,",
+          "start": 88.03,
+          "end": 88.25,
+          "confidence": 0.9947652816772461
+        },
+        {
+          "word": "those",
+          "start": 88.33,
+          "end": 88.49,
+          "confidence": 0.9877177476882935
+        },
+        {
+          "word": "predominant",
+          "start": 88.49,
+          "end": 89.37,
+          "confidence": 0.9936982989311218
+        },
+        {
+          "word": "colors",
+          "start": 89.37,
+          "end": 89.63,
+          "confidence": 0.9903541803359985
+        },
+        {
+          "word": "first.",
+          "start": 89.63,
+          "end": 90.01,
+          "confidence": 0.9645988941192627
+        }
+      ]
+    },
+    {
+      "text": "And then if it's a good rainbow, you would see, like, the violet and the indigo. And if it wasn't,",
+      "start": 90.01,
+      "end": 95.67,
+      "words": [
+        {
+          "word": "And",
+          "start": 90.01,
+          "end": 90.63,
+          "confidence": 0.10509317368268967
+        },
+        {
+          "word": "then",
+          "start": 90.63,
+          "end": 90.73,
+          "confidence": 0.82874995470047
+        },
+        {
+          "word": "if",
+          "start": 90.73,
+          "end": 90.89,
+          "confidence": 0.94669109582901
+        },
+        {
+          "word": "it's",
+          "start": 90.89,
+          "end": 91.03,
+          "confidence": 0.9820370376110077
+        },
+        {
+          "word": "a",
+          "start": 91.03,
+          "end": 91.09,
+          "confidence": 0.9925515651702881
+        },
+        {
+          "word": "good",
+          "start": 91.09,
+          "end": 91.41,
+          "confidence": 0.989624559879303
+        },
+        {
+          "word": "rainbow,",
+          "start": 91.41,
+          "end": 91.85,
+          "confidence": 0.9915243983268738
+        },
+        {
+          "word": "you",
+          "start": 92.13,
+          "end": 92.13,
+          "confidence": 0.9898675680160522
+        },
+        {
+          "word": "would",
+          "start": 92.13,
+          "end": 92.25,
+          "confidence": 0.9888904094696045
+        },
+        {
+          "word": "see,",
+          "start": 92.25,
+          "end": 92.43,
+          "confidence": 0.9921852946281433
+        },
+        {
+          "word": "like,",
+          "start": 92.55,
+          "end": 92.69,
+          "confidence": 0.9773757457733154
+        },
+        {
+          "word": "the",
+          "start": 92.91,
+          "end": 92.99,
+          "confidence": 0.9810619950294495
+        },
+        {
+          "word": "violet",
+          "start": 92.99,
+          "end": 93.45,
+          "confidence": 0.9860666394233704
+        },
+        {
+          "word": "and",
+          "start": 93.45,
+          "end": 93.69,
+          "confidence": 0.9151427745819092
+        },
+        {
+          "word": "the",
+          "start": 93.69,
+          "end": 93.81,
+          "confidence": 0.9922507405281067
+        },
+        {
+          "word": "indigo.",
+          "start": 93.81,
+          "end": 94.21,
+          "confidence": 0.8691083192825317
+        },
+        {
+          "word": "And",
+          "start": 94.65,
+          "end": 94.87,
+          "confidence": 0.948158860206604
+        },
+        {
+          "word": "if",
+          "start": 94.87,
+          "end": 94.99,
+          "confidence": 0.9853453040122986
+        },
+        {
+          "word": "it",
+          "start": 94.99,
+          "end": 95.09,
+          "confidence": 0.9948517680168152
+        },
+        {
+          "word": "wasn't,",
+          "start": 95.09,
+          "end": 95.67,
+          "confidence": 0.9944053590297699
+        }
+      ]
+    },
+    {
+      "text": "if the light wasn't strong enough, you would only see the other colors.",
+      "start": 95.73,
+      "end": 98.53,
+      "words": [
+        {
+          "word": "if",
+          "start": 95.73,
+          "end": 96.01,
+          "confidence": 0.9364847540855408
+        },
+        {
+          "word": "the",
+          "start": 96.01,
+          "end": 96.15,
+          "confidence": 0.8807154893875122
+        },
+        {
+          "word": "light",
+          "start": 96.15,
+          "end": 96.33,
+          "confidence": 0.9879213571548462
+        },
+        {
+          "word": "wasn't",
+          "start": 96.33,
+          "end": 96.67,
+          "confidence": 0.9886899590492249
+        },
+        {
+          "word": "strong",
+          "start": 96.67,
+          "end": 96.97,
+          "confidence": 0.9988190531730652
+        },
+        {
+          "word": "enough,",
+          "start": 96.97,
+          "end": 97.25,
+          "confidence": 0.9991625547409058
+        },
+        {
+          "word": "you",
+          "start": 97.39,
+          "end": 97.45,
+          "confidence": 0.9935736060142517
+        },
+        {
+          "word": "would",
+          "start": 97.45,
+          "end": 97.57,
+          "confidence": 0.9671077132225037
+        },
+        {
+          "word": "only",
+          "start": 97.57,
+          "end": 97.65,
+          "confidence": 0.9933649301528931
+        },
+        {
+          "word": "see",
+          "start": 97.65,
+          "end": 97.89,
+          "confidence": 0.993606686592102
+        },
+        {
+          "word": "the",
+          "start": 97.89,
+          "end": 98.01,
+          "confidence": 0.9858361482620239
+        },
+        {
+          "word": "other",
+          "start": 98.01,
+          "end": 98.19,
+          "confidence": 0.9923789501190186
+        },
+        {
+          "word": "colors.",
+          "start": 98.19,
+          "end": 98.53,
+          "confidence": 0.9685285687446594
+        }
+      ]
+    },
+    {
+      "text": "I guess that's there. I know that's some fun facts for you, right? Yeah. Whether it's true or not,",
+      "start": 100.31,
+      "end": 105.89,
+      "words": [
+        {
+          "word": "I",
+          "start": 100.31,
+          "end": 100.65,
+          "confidence": 0.3786185681819916
+        },
+        {
+          "word": "guess",
+          "start": 100.65,
+          "end": 100.91,
+          "confidence": 0.9821304678916931
+        },
+        {
+          "word": "that's",
+          "start": 100.91,
+          "end": 101.71,
+          "confidence": 0.8723105490207672
+        },
+        {
+          "word": "there.",
+          "start": 101.71,
+          "end": 101.99,
+          "confidence": 0.08533928543329239
+        },
+        {
+          "word": "I",
+          "start": 102.55,
+          "end": 102.71,
+          "confidence": 0.9309634566307068
+        },
+        {
+          "word": "know",
+          "start": 102.71,
+          "end": 102.89,
+          "confidence": 0.9974929094314575
+        },
+        {
+          "word": "that's",
+          "start": 102.89,
+          "end": 103.19,
+          "confidence": 0.6455657780170441
+        },
+        {
+          "word": "some",
+          "start": 103.19,
+          "end": 103.29,
+          "confidence": 0.9869193434715271
+        },
+        {
+          "word": "fun",
+          "start": 103.29,
+          "end": 103.49,
+          "confidence": 0.9960716962814331
+        },
+        {
+          "word": "facts",
+          "start": 103.49,
+          "end": 103.83,
+          "confidence": 0.991445779800415
+        },
+        {
+          "word": "for",
+          "start": 103.83,
+          "end": 104.03,
+          "confidence": 0.9754860997200012
+        },
+        {
+          "word": "you,",
+          "start": 104.03,
+          "end": 104.15,
+          "confidence": 0.9900965690612793
+        },
+        {
+          "word": "right?",
+          "start": 104.25,
+          "end": 104.33,
+          "confidence": 0.997751772403717
+        },
+        {
+          "word": "Yeah.",
+          "start": 104.51,
+          "end": 104.65,
+          "confidence": 0.8984838128089905
+        },
+        {
+          "word": "Whether",
+          "start": 104.93,
+          "end": 105.17,
+          "confidence": 0.9575775265693665
+        },
+        {
+          "word": "it's",
+          "start": 105.17,
+          "end": 105.37,
+          "confidence": 0.9886072874069214
+        },
+        {
+          "word": "true",
+          "start": 105.37,
+          "end": 105.57,
+          "confidence": 0.9886243343353271
+        },
+        {
+          "word": "or",
+          "start": 105.57,
+          "end": 105.75,
+          "confidence": 0.998460054397583
+        },
+        {
+          "word": "not,",
+          "start": 105.75,
+          "end": 105.89,
+          "confidence": 0.9978110194206238
+        }
+      ]
+    },
+    {
+      "text": "we'll never know. No, because I don't remember that, but we learned, you know, colors in kindergarten.",
+      "start": 105.99,
+      "end": 112.93,
+      "words": [
+        {
+          "word": "we'll",
+          "start": 105.99,
+          "end": 106.09,
+          "confidence": 0.9781716167926788
+        },
+        {
+          "word": "never",
+          "start": 106.09,
+          "end": 106.29,
+          "confidence": 0.9991461038589478
+        },
+        {
+          "word": "know.",
+          "start": 106.29,
+          "end": 106.59,
+          "confidence": 0.9987976551055908
+        },
+        {
+          "word": "No,",
+          "start": 108.27,
+          "end": 108.67,
+          "confidence": 0.8933438658714294
+        },
+        {
+          "word": "because",
+          "start": 109.03,
+          "end": 109.15,
+          "confidence": 0.5719309449195862
+        },
+        {
+          "word": "I",
+          "start": 109.15,
+          "end": 109.37,
+          "confidence": 0.9909235835075378
+        },
+        {
+          "word": "don't",
+          "start": 109.37,
+          "end": 109.53,
+          "confidence": 0.9991476237773895
+        },
+        {
+          "word": "remember",
+          "start": 109.53,
+          "end": 109.93,
+          "confidence": 0.9974943399429321
+        },
+        {
+          "word": "that,",
+          "start": 109.93,
+          "end": 110.17,
+          "confidence": 0.9988191723823547
+        },
+        {
+          "word": "but",
+          "start": 110.29,
+          "end": 110.39,
+          "confidence": 0.9859905242919922
+        },
+        {
+          "word": "we",
+          "start": 110.39,
+          "end": 111.03,
+          "confidence": 0.844996988773346
+        },
+        {
+          "word": "learned,",
+          "start": 111.03,
+          "end": 111.31,
+          "confidence": 0.6240463256835938
+        },
+        {
+          "word": "you",
+          "start": 111.43,
+          "end": 111.67,
+          "confidence": 0.9895656108856201
+        },
+        {
+          "word": "know,",
+          "start": 111.67,
+          "end": 111.81,
+          "confidence": 0.9993233680725098
+        },
+        {
+          "word": "colors",
+          "start": 112.05,
+          "end": 112.23,
+          "confidence": 0.9908348321914673
+        },
+        {
+          "word": "in",
+          "start": 112.23,
+          "end": 112.53,
+          "confidence": 0.8738809823989868
+        },
+        {
+          "word": "kindergarten.",
+          "start": 112.53,
+          "end": 112.93,
+          "confidence": 0.9595367312431335
+        }
+      ]
+    },
+    {
+      "text": "So, what was your favorite color? Like, do you remember growing up? You were like, this is my color.",
+      "start": 113.93,
+      "end": 118.61,
+      "words": [
+        {
+          "word": "So,",
+          "start": 113.93,
+          "end": 114.33,
+          "confidence": 0.9911729693412781
+        },
+        {
+          "word": "what",
+          "start": 114.41,
+          "end": 114.47,
+          "confidence": 0.8862479329109192
+        },
+        {
+          "word": "was",
+          "start": 114.47,
+          "end": 114.61,
+          "confidence": 0.9960746765136719
+        },
+        {
+          "word": "your",
+          "start": 114.61,
+          "end": 114.79,
+          "confidence": 0.9975324869155884
+        },
+        {
+          "word": "favorite",
+          "start": 114.79,
+          "end": 115.17,
+          "confidence": 0.9836724400520325
+        },
+        {
+          "word": "color?",
+          "start": 115.17,
+          "end": 115.49,
+          "confidence": 0.996832549571991
+        },
+        {
+          "word": "Like,",
+          "start": 115.99,
+          "end": 116.07,
+          "confidence": 0.8456444144248962
+        },
+        {
+          "word": "do",
+          "start": 116.15,
+          "end": 116.23,
+          "confidence": 0.9918528199195862
+        },
+        {
+          "word": "you",
+          "start": 116.23,
+          "end": 116.29,
+          "confidence": 0.9963712692260742
+        },
+        {
+          "word": "remember",
+          "start": 116.29,
+          "end": 116.49,
+          "confidence": 0.9984273910522461
+        },
+        {
+          "word": "growing",
+          "start": 116.49,
+          "end": 116.83,
+          "confidence": 0.9898345470428467
+        },
+        {
+          "word": "up?",
+          "start": 116.83,
+          "end": 117.07,
+          "confidence": 0.9988744854927063
+        },
+        {
+          "word": "You",
+          "start": 117.15,
+          "end": 117.23,
+          "confidence": 0.9878638386726379
+        },
+        {
+          "word": "were",
+          "start": 117.23,
+          "end": 117.33,
+          "confidence": 0.9893976449966431
+        },
+        {
+          "word": "like,",
+          "start": 117.33,
+          "end": 117.45,
+          "confidence": 0.9377334713935852
+        },
+        {
+          "word": "this",
+          "start": 117.55,
+          "end": 117.79,
+          "confidence": 0.3401278853416443
+        },
+        {
+          "word": "is",
+          "start": 117.79,
+          "end": 118.05,
+          "confidence": 0.9973726272583008
+        },
+        {
+          "word": "my",
+          "start": 118.05,
+          "end": 118.23,
+          "confidence": 0.9975530505180359
+        },
+        {
+          "word": "color.",
+          "start": 118.23,
+          "end": 118.61,
+          "confidence": 0.9981040954589844
+        }
+      ]
+    },
+    {
+      "text": "No. No. I've never, I honestly don't have a favorite color.",
+      "start": 119.37,
+      "end": 125.97,
+      "words": [
+        {
+          "word": "No.",
+          "start": 119.37,
+          "end": 119.69,
+          "confidence": 0.6226620078086853
+        },
+        {
+          "word": "No.",
+          "start": 120.25,
+          "end": 120.75,
+          "confidence": 0.6382737159729004
+        },
+        {
+          "word": "I've",
+          "start": 120.95,
+          "end": 121.15,
+          "confidence": 0.8321136236190796
+        },
+        {
+          "word": "never,",
+          "start": 121.15,
+          "end": 121.51,
+          "confidence": 0.9933423399925232
+        },
+        {
+          "word": "I",
+          "start": 121.77,
+          "end": 122.13,
+          "confidence": 0.9592707753181458
+        },
+        {
+          "word": "honestly",
+          "start": 122.13,
+          "end": 122.67,
+          "confidence": 0.9950278401374817
+        },
+        {
+          "word": "don't",
+          "start": 122.67,
+          "end": 123.29,
+          "confidence": 0.9897282123565674
+        },
+        {
+          "word": "have",
+          "start": 123.29,
+          "end": 123.67,
+          "confidence": 0.9928584098815918
+        },
+        {
+          "word": "a",
+          "start": 123.67,
+          "end": 124.39,
+          "confidence": 0.9889587163925171
+        },
+        {
+          "word": "favorite",
+          "start": 124.39,
+          "end": 125.05,
+          "confidence": 0.9502809643745422
+        },
+        {
+          "word": "color.",
+          "start": 125.05,
+          "end": 125.97,
+          "confidence": 0.9798991680145264
+        }
+      ]
+    },
+    {
+      "text": "Never had a favorite color. No. No. Man, that's tough. See, I was always a blue guy. I loved blue.",
+      "start": 126.27,
+      "end": 134.78,
+      "words": [
+        {
+          "word": "Never",
+          "start": 126.27,
+          "end": 126.59,
+          "confidence": 0.6649872660636902
+        },
+        {
+          "word": "had",
+          "start": 126.59,
+          "end": 126.81,
+          "confidence": 0.9931911826133728
+        },
+        {
+          "word": "a",
+          "start": 126.81,
+          "end": 126.93,
+          "confidence": 0.9987748265266418
+        },
+        {
+          "word": "favorite",
+          "start": 126.93,
+          "end": 127.15,
+          "confidence": 0.9911376237869263
+        },
+        {
+          "word": "color.",
+          "start": 127.15,
+          "end": 127.47,
+          "confidence": 0.997077226638794
+        },
+        {
+          "word": "No.",
+          "start": 127.77,
+          "end": 127.91,
+          "confidence": 0.9439574480056763
+        },
+        {
+          "word": "No.",
+          "start": 128.51,
+          "end": 128.89,
+          "confidence": 0.8795456886291504
+        },
+        {
+          "word": "Man,",
+          "start": 130.26,
+          "end": 130.9,
+          "confidence": 0.8700558543205261
+        },
+        {
+          "word": "that's",
+          "start": 131.0,
+          "end": 131.24,
+          "confidence": 0.9844742119312286
+        },
+        {
+          "word": "tough.",
+          "start": 131.24,
+          "end": 131.38,
+          "confidence": 0.9931830763816833
+        },
+        {
+          "word": "See,",
+          "start": 131.62,
+          "end": 131.78,
+          "confidence": 0.9579669237136841
+        },
+        {
+          "word": "I",
+          "start": 131.96,
+          "end": 132.04,
+          "confidence": 0.8664544224739075
+        },
+        {
+          "word": "was",
+          "start": 132.04,
+          "end": 132.84,
+          "confidence": 0.9048589468002319
+        },
+        {
+          "word": "always",
+          "start": 132.84,
+          "end": 133.1,
+          "confidence": 0.996159553527832
+        },
+        {
+          "word": "a",
+          "start": 133.1,
+          "end": 133.26,
+          "confidence": 0.9894814491271973
+        },
+        {
+          "word": "blue",
+          "start": 133.26,
+          "end": 133.48,
+          "confidence": 0.8545726537704468
+        },
+        {
+          "word": "guy.",
+          "start": 133.48,
+          "end": 133.7,
+          "confidence": 0.9815966486930847
+        },
+        {
+          "word": "I",
+          "start": 134.12,
+          "end": 134.2,
+          "confidence": 0.9970384836196899
+        },
+        {
+          "word": "loved",
+          "start": 134.2,
+          "end": 134.42,
+          "confidence": 0.9701611399650574
+        },
+        {
+          "word": "blue.",
+          "start": 134.42,
+          "end": 134.78,
+          "confidence": 0.990362823009491
+        }
+      ]
+    },
+    {
+      "text": "And he used to be dark blue. That was my jam. And then somewhere around teens, it turned into green.",
+      "start": 135.79,
+      "end": 143.94,
+      "words": [
+        {
+          "word": "And",
+          "start": 135.79,
+          "end": 136.13,
+          "confidence": 0.9671378135681152
+        },
+        {
+          "word": "he",
+          "start": 136.13,
+          "end": 136.21,
+          "confidence": 0.6190070509910583
+        },
+        {
+          "word": "used",
+          "start": 136.21,
+          "end": 136.39,
+          "confidence": 0.9986358284950256
+        },
+        {
+          "word": "to",
+          "start": 136.39,
+          "end": 136.55,
+          "confidence": 0.9988970756530762
+        },
+        {
+          "word": "be",
+          "start": 136.55,
+          "end": 136.67,
+          "confidence": 0.9993937015533447
+        },
+        {
+          "word": "dark",
+          "start": 136.67,
+          "end": 137.05,
+          "confidence": 0.9712978601455688
+        },
+        {
+          "word": "blue.",
+          "start": 137.05,
+          "end": 137.45,
+          "confidence": 0.9953736662864685
+        },
+        {
+          "word": "That",
+          "start": 138.09,
+          "end": 138.41,
+          "confidence": 0.9943411350250244
+        },
+        {
+          "word": "was",
+          "start": 138.41,
+          "end": 138.57,
+          "confidence": 0.9988172054290771
+        },
+        {
+          "word": "my",
+          "start": 138.57,
+          "end": 138.81,
+          "confidence": 0.9921407103538513
+        },
+        {
+          "word": "jam.",
+          "start": 138.81,
+          "end": 139.21,
+          "confidence": 0.981283962726593
+        },
+        {
+          "word": "And",
+          "start": 140.36,
+          "end": 140.54,
+          "confidence": 0.990006148815155
+        },
+        {
+          "word": "then",
+          "start": 140.54,
+          "end": 140.74,
+          "confidence": 0.9935464262962341
+        },
+        {
+          "word": "somewhere",
+          "start": 140.74,
+          "end": 141.38,
+          "confidence": 0.8006410598754883
+        },
+        {
+          "word": "around",
+          "start": 141.38,
+          "end": 141.76,
+          "confidence": 0.9988892674446106
+        },
+        {
+          "word": "teens,",
+          "start": 141.76,
+          "end": 142.48,
+          "confidence": 0.9485599398612976
+        },
+        {
+          "word": "it",
+          "start": 142.62,
+          "end": 142.78,
+          "confidence": 0.9953536987304688
+        },
+        {
+          "word": "turned",
+          "start": 142.78,
+          "end": 143.04,
+          "confidence": 0.9982036352157593
+        },
+        {
+          "word": "into",
+          "start": 143.04,
+          "end": 143.48,
+          "confidence": 0.9871794581413269
+        },
+        {
+          "word": "green.",
+          "start": 143.48,
+          "end": 143.94,
+          "confidence": 0.9869600534439087
+        }
+      ]
+    },
+    {
+      "text": "I'm not sure why. Probably for a girl.",
+      "start": 143.94,
+      "end": 147.22,
+      "words": [
+        {
+          "word": "I'm",
+          "start": 143.94,
+          "end": 144.66,
+          "confidence": 0.43468615412712097
+        },
+        {
+          "word": "not",
+          "start": 144.66,
+          "end": 144.78,
+          "confidence": 0.9421393275260925
+        },
+        {
+          "word": "sure",
+          "start": 144.78,
+          "end": 145.04,
+          "confidence": 0.9990184307098389
+        },
+        {
+          "word": "why.",
+          "start": 145.04,
+          "end": 145.4,
+          "confidence": 0.493482768535614
+        },
+        {
+          "word": "Probably",
+          "start": 146.34,
+          "end": 146.62,
+          "confidence": 0.8696252703666687
+        },
+        {
+          "word": "for",
+          "start": 146.62,
+          "end": 146.84,
+          "confidence": 0.980076253414154
+        },
+        {
+          "word": "a",
+          "start": 146.84,
+          "end": 147.0,
+          "confidence": 0.9863190650939941
+        },
+        {
+          "word": "girl.",
+          "start": 147.0,
+          "end": 147.22,
+          "confidence": 0.9964981079101562
+        }
+      ]
+    },
+    {
+      "text": "Everything was for a girl in high school, right? And then I remember after high school,",
+      "start": 148.44,
+      "end": 154.3,
+      "words": [
+        {
+          "word": "Everything",
+          "start": 148.44,
+          "end": 148.88,
+          "confidence": 0.614669680595398
+        },
+        {
+          "word": "was",
+          "start": 148.88,
+          "end": 149.22,
+          "confidence": 0.9929481744766235
+        },
+        {
+          "word": "for",
+          "start": 149.22,
+          "end": 149.38,
+          "confidence": 0.9958723187446594
+        },
+        {
+          "word": "a",
+          "start": 149.38,
+          "end": 149.52,
+          "confidence": 0.9540020823478699
+        },
+        {
+          "word": "girl",
+          "start": 149.52,
+          "end": 149.7,
+          "confidence": 0.9976040720939636
+        },
+        {
+          "word": "in",
+          "start": 149.7,
+          "end": 149.94,
+          "confidence": 0.9754877090454102
+        },
+        {
+          "word": "high",
+          "start": 149.94,
+          "end": 150.12,
+          "confidence": 0.988781213760376
+        },
+        {
+          "word": "school,",
+          "start": 150.12,
+          "end": 150.38,
+          "confidence": 0.9831493496894836
+        },
+        {
+          "word": "right?",
+          "start": 150.48,
+          "end": 150.6,
+          "confidence": 0.9947139620780945
+        },
+        {
+          "word": "And",
+          "start": 151.64,
+          "end": 151.74,
+          "confidence": 0.8991317749023438
+        },
+        {
+          "word": "then",
+          "start": 151.74,
+          "end": 151.96,
+          "confidence": 0.989408016204834
+        },
+        {
+          "word": "I",
+          "start": 151.96,
+          "end": 152.76,
+          "confidence": 0.6987450122833252
+        },
+        {
+          "word": "remember",
+          "start": 152.76,
+          "end": 153.08,
+          "confidence": 0.9891987442970276
+        },
+        {
+          "word": "after",
+          "start": 153.08,
+          "end": 153.72,
+          "confidence": 0.9253809452056885
+        },
+        {
+          "word": "high",
+          "start": 153.72,
+          "end": 153.96,
+          "confidence": 0.9851981997489929
+        },
+        {
+          "word": "school,",
+          "start": 153.96,
+          "end": 154.3,
+          "confidence": 0.9979017972946167
+        }
+      ]
+    },
+    {
+      "text": "it was more of a light blue. I guess the colors got lighter. Light blue, dark blue, you know,",
+      "start": 154.62,
+      "end": 159.88,
+      "words": [
+        {
+          "word": "it",
+          "start": 154.62,
+          "end": 154.66,
+          "confidence": 0.9874688386917114
+        },
+        {
+          "word": "was",
+          "start": 154.66,
+          "end": 154.82,
+          "confidence": 0.9992419481277466
+        },
+        {
+          "word": "more",
+          "start": 154.82,
+          "end": 155.0,
+          "confidence": 0.9991956353187561
+        },
+        {
+          "word": "of",
+          "start": 155.0,
+          "end": 155.14,
+          "confidence": 0.9901240468025208
+        },
+        {
+          "word": "a",
+          "start": 155.14,
+          "end": 155.26,
+          "confidence": 0.9918419122695923
+        },
+        {
+          "word": "light",
+          "start": 155.26,
+          "end": 155.56,
+          "confidence": 0.9885619878768921
+        },
+        {
+          "word": "blue.",
+          "start": 155.56,
+          "end": 155.94,
+          "confidence": 0.9841469526290894
+        },
+        {
+          "word": "I",
+          "start": 156.4,
+          "end": 156.46,
+          "confidence": 0.9918807148933411
+        },
+        {
+          "word": "guess",
+          "start": 156.46,
+          "end": 156.58,
+          "confidence": 0.9968100190162659
+        },
+        {
+          "word": "the",
+          "start": 156.58,
+          "end": 156.74,
+          "confidence": 0.9938001036643982
+        },
+        {
+          "word": "colors",
+          "start": 156.74,
+          "end": 156.96,
+          "confidence": 0.731374979019165
+        },
+        {
+          "word": "got",
+          "start": 156.96,
+          "end": 157.16,
+          "confidence": 0.9915698766708374
+        },
+        {
+          "word": "lighter.",
+          "start": 157.16,
+          "end": 157.52,
+          "confidence": 0.995653510093689
+        },
+        {
+          "word": "Light",
+          "start": 157.72,
+          "end": 157.86,
+          "confidence": 0.884632408618927
+        },
+        {
+          "word": "blue,",
+          "start": 157.86,
+          "end": 158.28,
+          "confidence": 0.8618209958076477
+        },
+        {
+          "word": "dark",
+          "start": 158.56,
+          "end": 158.74,
+          "confidence": 0.9981189370155334
+        },
+        {
+          "word": "blue,",
+          "start": 158.74,
+          "end": 159.2,
+          "confidence": 0.9894011616706848
+        },
+        {
+          "word": "you",
+          "start": 159.68,
+          "end": 159.7,
+          "confidence": 0.9372292160987854
+        },
+        {
+          "word": "know,",
+          "start": 159.7,
+          "end": 159.88,
+          "confidence": 0.9988952279090881
+        }
+      ]
+    },
+    {
+      "text": "it was still blue, but it wasn't the same. No, right. Yeah, I don't have a favorite. I like",
+      "start": 160.56,
+      "end": 167.02,
+      "words": [
+        {
+          "word": "it",
+          "start": 160.56,
+          "end": 160.7,
+          "confidence": 0.9608953595161438
+        },
+        {
+          "word": "was",
+          "start": 160.7,
+          "end": 161.16,
+          "confidence": 0.8404701352119446
+        },
+        {
+          "word": "still",
+          "start": 161.16,
+          "end": 161.38,
+          "confidence": 0.9981443881988525
+        },
+        {
+          "word": "blue,",
+          "start": 161.38,
+          "end": 161.76,
+          "confidence": 0.9978984594345093
+        },
+        {
+          "word": "but",
+          "start": 161.88,
+          "end": 162.04,
+          "confidence": 0.9986306428909302
+        },
+        {
+          "word": "it",
+          "start": 162.04,
+          "end": 162.16,
+          "confidence": 0.9972406625747681
+        },
+        {
+          "word": "wasn't",
+          "start": 162.16,
+          "end": 162.52,
+          "confidence": 0.9974973201751709
+        },
+        {
+          "word": "the",
+          "start": 162.52,
+          "end": 162.94,
+          "confidence": 0.9975645542144775
+        },
+        {
+          "word": "same.",
+          "start": 162.94,
+          "end": 163.24,
+          "confidence": 0.999862790107727
+        },
+        {
+          "word": "No,",
+          "start": 164.12,
+          "end": 164.34,
+          "confidence": 0.14694418013095856
+        },
+        {
+          "word": "right.",
+          "start": 164.48,
+          "end": 164.64,
+          "confidence": 0.9803482890129089
+        },
+        {
+          "word": "Yeah,",
+          "start": 165.0,
+          "end": 165.16,
+          "confidence": 0.9831036329269409
+        },
+        {
+          "word": "I",
+          "start": 165.24,
+          "end": 165.28,
+          "confidence": 0.9947348833084106
+        },
+        {
+          "word": "don't",
+          "start": 165.28,
+          "end": 165.38,
+          "confidence": 0.9991893768310547
+        },
+        {
+          "word": "have",
+          "start": 165.38,
+          "end": 165.58,
+          "confidence": 0.9991150498390198
+        },
+        {
+          "word": "a",
+          "start": 165.58,
+          "end": 165.74,
+          "confidence": 0.9630998969078064
+        },
+        {
+          "word": "favorite.",
+          "start": 165.74,
+          "end": 166.08,
+          "confidence": 0.9754341840744019
+        },
+        {
+          "word": "I",
+          "start": 166.44,
+          "end": 166.52,
+          "confidence": 0.9862152934074402
+        },
+        {
+          "word": "like",
+          "start": 166.52,
+          "end": 167.02,
+          "confidence": 0.9971729516983032
+        }
+      ]
+    },
+    {
+      "text": "teal. Teal, that's like green or blue. No, I think it's more on the blue spectrum.",
+      "start": 168.42,
+      "end": 176.45,
+      "words": [
+        {
+          "word": "teal.",
+          "start": 168.42,
+          "end": 168.92,
+          "confidence": 0.502393240109086
+        },
+        {
+          "word": "Teal,",
+          "start": 170.25,
+          "end": 170.75,
+          "confidence": 0.7212662398815155
+        },
+        {
+          "word": "that's",
+          "start": 170.89,
+          "end": 171.25,
+          "confidence": 0.6695573776960373
+        },
+        {
+          "word": "like",
+          "start": 171.25,
+          "end": 171.35,
+          "confidence": 0.5946305394172668
+        },
+        {
+          "word": "green",
+          "start": 171.35,
+          "end": 171.73,
+          "confidence": 0.9740239381790161
+        },
+        {
+          "word": "or",
+          "start": 171.73,
+          "end": 172.45,
+          "confidence": 0.8272326588630676
+        },
+        {
+          "word": "blue.",
+          "start": 172.45,
+          "end": 172.83,
+          "confidence": 0.9941110014915466
+        },
+        {
+          "word": "No,",
+          "start": 174.19,
+          "end": 174.37,
+          "confidence": 0.20951949059963226
+        },
+        {
+          "word": "I",
+          "start": 174.53,
+          "end": 174.63,
+          "confidence": 0.9789774417877197
+        },
+        {
+          "word": "think",
+          "start": 174.63,
+          "end": 174.79,
+          "confidence": 0.9965853691101074
+        },
+        {
+          "word": "it's",
+          "start": 174.79,
+          "end": 174.99,
+          "confidence": 0.9790508449077606
+        },
+        {
+          "word": "more",
+          "start": 174.99,
+          "end": 175.17,
+          "confidence": 0.8649125695228577
+        },
+        {
+          "word": "on",
+          "start": 175.17,
+          "end": 175.35,
+          "confidence": 0.9387030601501465
+        },
+        {
+          "word": "the",
+          "start": 175.35,
+          "end": 175.47,
+          "confidence": 0.9440960884094238
+        },
+        {
+          "word": "blue",
+          "start": 175.47,
+          "end": 175.85,
+          "confidence": 0.97139972448349
+        },
+        {
+          "word": "spectrum.",
+          "start": 175.85,
+          "end": 176.45,
+          "confidence": 0.9945054650306702
+        }
+      ]
+    },
+    {
+      "text": "Teal. That's a super light blue, right? It's like seafoam almost.",
+      "start": 177.23,
+      "end": 181.37,
+      "words": [
+        {
+          "word": "Teal.",
+          "start": 177.23,
+          "end": 177.67,
+          "confidence": 0.9481453895568848
+        },
+        {
+          "word": "That's",
+          "start": 177.97,
+          "end": 178.23,
+          "confidence": 0.674815446138382
+        },
+        {
+          "word": "a",
+          "start": 178.23,
+          "end": 178.31,
+          "confidence": 0.532014012336731
+        },
+        {
+          "word": "super",
+          "start": 178.31,
+          "end": 178.89,
+          "confidence": 0.9778575897216797
+        },
+        {
+          "word": "light",
+          "start": 178.89,
+          "end": 179.13,
+          "confidence": 0.95791095495224
+        },
+        {
+          "word": "blue,",
+          "start": 179.13,
+          "end": 179.49,
+          "confidence": 0.9894651174545288
+        },
+        {
+          "word": "right?",
+          "start": 179.65,
+          "end": 179.79,
+          "confidence": 0.9899266958236694
+        },
+        {
+          "word": "It's",
+          "start": 180.09,
+          "end": 180.25,
+          "confidence": 0.9884466826915741
+        },
+        {
+          "word": "like",
+          "start": 180.25,
+          "end": 180.35,
+          "confidence": 0.9803388118743896
+        },
+        {
+          "word": "seafoam",
+          "start": 180.35,
+          "end": 181.03,
+          "confidence": 0.6681433990597725
+        },
+        {
+          "word": "almost.",
+          "start": 181.03,
+          "end": 181.37,
+          "confidence": 0.9573992490768433
+        }
+      ]
+    },
+    {
+      "text": "No, a little darker than that. But yeah, you think you're in the general area.",
+      "start": 182.21,
+      "end": 187.42,
+      "words": [
+        {
+          "word": "No,",
+          "start": 182.21,
+          "end": 182.49,
+          "confidence": 0.7600895762443542
+        },
+        {
+          "word": "a",
+          "start": 182.49,
+          "end": 182.55,
+          "confidence": 0.23484037816524506
+        },
+        {
+          "word": "little",
+          "start": 182.55,
+          "end": 182.67,
+          "confidence": 0.9908875226974487
+        },
+        {
+          "word": "darker",
+          "start": 182.67,
+          "end": 183.01,
+          "confidence": 0.9949280023574829
+        },
+        {
+          "word": "than",
+          "start": 183.01,
+          "end": 183.31,
+          "confidence": 0.9692060351371765
+        },
+        {
+          "word": "that.",
+          "start": 183.31,
+          "end": 183.47,
+          "confidence": 0.9834825992584229
+        },
+        {
+          "word": "But",
+          "start": 184.96,
+          "end": 185.26,
+          "confidence": 0.9065751433372498
+        },
+        {
+          "word": "yeah,",
+          "start": 185.26,
+          "end": 185.52,
+          "confidence": 0.885079562664032
+        },
+        {
+          "word": "you",
+          "start": 185.8,
+          "end": 186.18,
+          "confidence": 0.5017910599708557
+        },
+        {
+          "word": "think",
+          "start": 186.18,
+          "end": 186.38,
+          "confidence": 0.9218772053718567
+        },
+        {
+          "word": "you're",
+          "start": 186.38,
+          "end": 186.58,
+          "confidence": 0.9355218708515167
+        },
+        {
+          "word": "in",
+          "start": 186.58,
+          "end": 186.68,
+          "confidence": 0.9965332746505737
+        },
+        {
+          "word": "the",
+          "start": 186.68,
+          "end": 186.78,
+          "confidence": 0.5353222489356995
+        },
+        {
+          "word": "general",
+          "start": 186.78,
+          "end": 187.06,
+          "confidence": 0.975532054901123
+        },
+        {
+          "word": "area.",
+          "start": 187.06,
+          "end": 187.42,
+          "confidence": 0.9913866519927979
+        }
+      ]
+    },
+    {
+      "text": "See, I like, I don't know. I like darker colors. No, I think I think I went back.",
+      "start": 188.12,
+      "end": 193.68,
+      "words": [
+        {
+          "word": "See,",
+          "start": 188.12,
+          "end": 188.38,
+          "confidence": 0.9412209391593933
+        },
+        {
+          "word": "I",
+          "start": 188.5,
+          "end": 188.58,
+          "confidence": 0.9946601986885071
+        },
+        {
+          "word": "like,",
+          "start": 188.58,
+          "end": 188.78,
+          "confidence": 0.7186906337738037
+        },
+        {
+          "word": "I",
+          "start": 188.96,
+          "end": 189.6,
+          "confidence": 0.9895291924476624
+        },
+        {
+          "word": "don't",
+          "start": 189.6,
+          "end": 189.7,
+          "confidence": 0.9917795658111572
+        },
+        {
+          "word": "know.",
+          "start": 189.7,
+          "end": 189.88,
+          "confidence": 0.9978772401809692
+        },
+        {
+          "word": "I",
+          "start": 190.4,
+          "end": 190.42,
+          "confidence": 0.9909769296646118
+        },
+        {
+          "word": "like",
+          "start": 190.42,
+          "end": 190.6,
+          "confidence": 0.9953044652938843
+        },
+        {
+          "word": "darker",
+          "start": 190.6,
+          "end": 190.92,
+          "confidence": 0.9968196153640747
+        },
+        {
+          "word": "colors.",
+          "start": 190.92,
+          "end": 191.36,
+          "confidence": 0.9833827614784241
+        },
+        {
+          "word": "No,",
+          "start": 191.9,
+          "end": 192.2,
+          "confidence": 0.8267979621887207
+        },
+        {
+          "word": "I",
+          "start": 192.44,
+          "end": 192.58,
+          "confidence": 0.997718870639801
+        },
+        {
+          "word": "think",
+          "start": 192.58,
+          "end": 192.8,
+          "confidence": 0.9987583160400391
+        },
+        {
+          "word": "I",
+          "start": 192.8,
+          "end": 193.0,
+          "confidence": 0.6139415502548218
+        },
+        {
+          "word": "think",
+          "start": 193.0,
+          "end": 193.18,
+          "confidence": 0.8748453855514526
+        },
+        {
+          "word": "I",
+          "start": 193.18,
+          "end": 193.28,
+          "confidence": 0.98573237657547
+        },
+        {
+          "word": "went",
+          "start": 193.28,
+          "end": 193.4,
+          "confidence": 0.920954167842865
+        },
+        {
+          "word": "back.",
+          "start": 193.4,
+          "end": 193.68,
+          "confidence": 0.9987358450889587
+        }
+      ]
+    },
+    {
+      "text": "I like those really dark colors like the magenta. I don't really like black. I've never",
+      "start": 194.45,
+      "end": 201.5,
+      "words": [
+        {
+          "word": "I",
+          "start": 194.45,
+          "end": 194.93,
+          "confidence": 0.48164287209510803
+        },
+        {
+          "word": "like",
+          "start": 194.93,
+          "end": 195.07,
+          "confidence": 0.7638246417045593
+        },
+        {
+          "word": "those",
+          "start": 195.07,
+          "end": 195.25,
+          "confidence": 0.9196493029594421
+        },
+        {
+          "word": "really",
+          "start": 195.25,
+          "end": 195.55,
+          "confidence": 0.9472352266311646
+        },
+        {
+          "word": "dark",
+          "start": 195.55,
+          "end": 195.91,
+          "confidence": 0.9865626692771912
+        },
+        {
+          "word": "colors",
+          "start": 195.91,
+          "end": 196.33,
+          "confidence": 0.9730916023254395
+        },
+        {
+          "word": "like",
+          "start": 196.33,
+          "end": 196.63,
+          "confidence": 0.6993480920791626
+        },
+        {
+          "word": "the",
+          "start": 196.63,
+          "end": 196.91,
+          "confidence": 0.9774009585380554
+        },
+        {
+          "word": "magenta.",
+          "start": 196.91,
+          "end": 197.65,
+          "confidence": 0.8776300549507141
+        },
+        {
+          "word": "I",
+          "start": 199.88,
+          "end": 200.36,
+          "confidence": 0.9810343384742737
+        },
+        {
+          "word": "don't",
+          "start": 200.36,
+          "end": 200.48,
+          "confidence": 0.9906346201896667
+        },
+        {
+          "word": "really",
+          "start": 200.48,
+          "end": 200.64,
+          "confidence": 0.9865311980247498
+        },
+        {
+          "word": "like",
+          "start": 200.64,
+          "end": 200.88,
+          "confidence": 0.9976047277450562
+        },
+        {
+          "word": "black.",
+          "start": 200.88,
+          "end": 201.14,
+          "confidence": 0.9691799283027649
+        },
+        {
+          "word": "I've",
+          "start": 201.3,
+          "end": 201.44,
+          "confidence": 0.9711082875728607
+        },
+        {
+          "word": "never",
+          "start": 201.44,
+          "end": 201.5,
+          "confidence": 0.9994105100631714
+        }
+      ]
+    },
+    {
+      "text": "liked black. No, and you know, girls are supposed to like pink when they're little.",
+      "start": 201.5,
+      "end": 205.86,
+      "words": [
+        {
+          "word": "liked",
+          "start": 201.5,
+          "end": 201.76,
+          "confidence": 0.5617751479148865
+        },
+        {
+          "word": "black.",
+          "start": 201.76,
+          "end": 202.32,
+          "confidence": 0.9896891117095947
+        },
+        {
+          "word": "No,",
+          "start": 203.04,
+          "end": 203.32,
+          "confidence": 0.3258318305015564
+        },
+        {
+          "word": "and",
+          "start": 203.42,
+          "end": 203.52,
+          "confidence": 0.3851920962333679
+        },
+        {
+          "word": "you",
+          "start": 203.52,
+          "end": 203.62,
+          "confidence": 0.866269052028656
+        },
+        {
+          "word": "know,",
+          "start": 203.62,
+          "end": 203.72,
+          "confidence": 0.9928663969039917
+        },
+        {
+          "word": "girls",
+          "start": 203.8,
+          "end": 204.02,
+          "confidence": 0.9885210990905762
+        },
+        {
+          "word": "are",
+          "start": 204.02,
+          "end": 204.14,
+          "confidence": 0.9958788156509399
+        },
+        {
+          "word": "supposed",
+          "start": 204.14,
+          "end": 204.38,
+          "confidence": 0.9884260892868042
+        },
+        {
+          "word": "to",
+          "start": 204.38,
+          "end": 204.64,
+          "confidence": 0.9979028701782227
+        },
+        {
+          "word": "like",
+          "start": 204.64,
+          "end": 204.78,
+          "confidence": 0.8064059615135193
+        },
+        {
+          "word": "pink",
+          "start": 204.78,
+          "end": 205.02,
+          "confidence": 0.922581136226654
+        },
+        {
+          "word": "when",
+          "start": 205.02,
+          "end": 205.4,
+          "confidence": 0.9652858376502991
+        },
+        {
+          "word": "they're",
+          "start": 205.4,
+          "end": 205.52,
+          "confidence": 0.9913553297519684
+        },
+        {
+          "word": "little.",
+          "start": 205.52,
+          "end": 205.86,
+          "confidence": 0.8700633645057678
+        }
+      ]
+    },
+    {
+      "text": "I didn't care for pink, but I didn't care for purple, but I didn't like blue or green, you know,",
+      "start": 206.5,
+      "end": 213.26,
+      "words": [
+        {
+          "word": "I",
+          "start": 206.5,
+          "end": 206.78,
+          "confidence": 0.9774911403656006
+        },
+        {
+          "word": "didn't",
+          "start": 206.78,
+          "end": 206.88,
+          "confidence": 0.9761559069156647
+        },
+        {
+          "word": "care",
+          "start": 206.88,
+          "end": 207.06,
+          "confidence": 0.9970723390579224
+        },
+        {
+          "word": "for",
+          "start": 207.06,
+          "end": 207.22,
+          "confidence": 0.9678759574890137
+        },
+        {
+          "word": "pink,",
+          "start": 207.22,
+          "end": 207.54,
+          "confidence": 0.9916459918022156
+        },
+        {
+          "word": "but",
+          "start": 207.8,
+          "end": 208.0,
+          "confidence": 0.9975470900535583
+        },
+        {
+          "word": "I",
+          "start": 208.0,
+          "end": 208.12,
+          "confidence": 0.9954308271408081
+        },
+        {
+          "word": "didn't",
+          "start": 208.12,
+          "end": 208.22,
+          "confidence": 0.9953582286834717
+        },
+        {
+          "word": "care",
+          "start": 208.22,
+          "end": 208.4,
+          "confidence": 0.9951640367507935
+        },
+        {
+          "word": "for",
+          "start": 208.4,
+          "end": 208.56,
+          "confidence": 0.996091902256012
+        },
+        {
+          "word": "purple,",
+          "start": 208.56,
+          "end": 208.9,
+          "confidence": 0.9986133575439453
+        },
+        {
+          "word": "but",
+          "start": 209.36,
+          "end": 209.64,
+          "confidence": 0.9928227663040161
+        },
+        {
+          "word": "I",
+          "start": 209.64,
+          "end": 209.76,
+          "confidence": 0.9935733675956726
+        },
+        {
+          "word": "didn't",
+          "start": 209.76,
+          "end": 210.02,
+          "confidence": 0.9976963102817535
+        },
+        {
+          "word": "like",
+          "start": 210.02,
+          "end": 210.2,
+          "confidence": 0.9757969379425049
+        },
+        {
+          "word": "blue",
+          "start": 210.2,
+          "end": 211.54,
+          "confidence": 0.9000175595283508
+        },
+        {
+          "word": "or",
+          "start": 212.08,
+          "end": 212.56,
+          "confidence": 0.909428060054779
+        },
+        {
+          "word": "green,",
+          "start": 212.56,
+          "end": 212.84,
+          "confidence": 0.8628907799720764
+        },
+        {
+          "word": "you",
+          "start": 212.98,
+          "end": 213.08,
+          "confidence": 0.9809267520904541
+        },
+        {
+          "word": "know,",
+          "start": 213.08,
+          "end": 213.26,
+          "confidence": 0.9989136457443237
+        }
+      ]
+    },
+    {
+      "text": "like, I guess I feel about them all equally, because I don't have one that I hate either.",
+      "start": 213.6,
+      "end": 221.21,
+      "words": [
+        {
+          "word": "like,",
+          "start": 213.6,
+          "end": 213.72,
+          "confidence": 0.919959545135498
+        },
+        {
+          "word": "I",
+          "start": 214.04,
+          "end": 214.7,
+          "confidence": 0.9970398545265198
+        },
+        {
+          "word": "guess",
+          "start": 214.7,
+          "end": 214.92,
+          "confidence": 0.9979090690612793
+        },
+        {
+          "word": "I",
+          "start": 214.92,
+          "end": 215.82,
+          "confidence": 0.6331154108047485
+        },
+        {
+          "word": "feel",
+          "start": 215.82,
+          "end": 216.04,
+          "confidence": 0.9902910590171814
+        },
+        {
+          "word": "about",
+          "start": 216.04,
+          "end": 216.36,
+          "confidence": 0.9946448802947998
+        },
+        {
+          "word": "them",
+          "start": 216.36,
+          "end": 216.56,
+          "confidence": 0.9995131492614746
+        },
+        {
+          "word": "all",
+          "start": 216.56,
+          "end": 216.9,
+          "confidence": 0.9986257553100586
+        },
+        {
+          "word": "equally,",
+          "start": 216.9,
+          "end": 217.56,
+          "confidence": 0.9964367151260376
+        },
+        {
+          "word": "because",
+          "start": 218.81,
+          "end": 219.27,
+          "confidence": 0.9932138919830322
+        },
+        {
+          "word": "I",
+          "start": 219.27,
+          "end": 219.47,
+          "confidence": 0.9981158971786499
+        },
+        {
+          "word": "don't",
+          "start": 219.47,
+          "end": 219.71,
+          "confidence": 0.9995547831058502
+        },
+        {
+          "word": "have",
+          "start": 219.71,
+          "end": 219.95,
+          "confidence": 0.9988337159156799
+        },
+        {
+          "word": "one",
+          "start": 219.95,
+          "end": 220.21,
+          "confidence": 0.9964565634727478
+        },
+        {
+          "word": "that",
+          "start": 220.21,
+          "end": 220.39,
+          "confidence": 0.9948156476020813
+        },
+        {
+          "word": "I",
+          "start": 220.39,
+          "end": 220.53,
+          "confidence": 0.9977999329566956
+        },
+        {
+          "word": "hate",
+          "start": 220.53,
+          "end": 220.75,
+          "confidence": 0.9988150596618652
+        },
+        {
+          "word": "either.",
+          "start": 220.75,
+          "end": 221.21,
+          "confidence": 0.8744320869445801
+        }
+      ]
+    },
+    {
+      "text": "Yeah, no, I really don't have a lot of colors. I necessarily hate. I guess there's certain",
+      "start": 222.24,
+      "end": 227.38,
+      "words": [
+        {
+          "word": "Yeah,",
+          "start": 222.24,
+          "end": 222.76,
+          "confidence": 0.5804835557937622
+        },
+        {
+          "word": "no,",
+          "start": 222.94,
+          "end": 223.12,
+          "confidence": 0.901762068271637
+        },
+        {
+          "word": "I",
+          "start": 223.3,
+          "end": 223.3,
+          "confidence": 0.9847049713134766
+        },
+        {
+          "word": "really",
+          "start": 223.3,
+          "end": 223.52,
+          "confidence": 0.9950616955757141
+        },
+        {
+          "word": "don't",
+          "start": 223.52,
+          "end": 223.7,
+          "confidence": 0.9985543191432953
+        },
+        {
+          "word": "have",
+          "start": 223.7,
+          "end": 223.9,
+          "confidence": 0.9948002099990845
+        },
+        {
+          "word": "a",
+          "start": 223.9,
+          "end": 224.02,
+          "confidence": 0.9929214119911194
+        },
+        {
+          "word": "lot",
+          "start": 224.02,
+          "end": 224.22,
+          "confidence": 0.9983720183372498
+        },
+        {
+          "word": "of",
+          "start": 224.22,
+          "end": 224.4,
+          "confidence": 0.998015284538269
+        },
+        {
+          "word": "colors.",
+          "start": 224.4,
+          "end": 224.68,
+          "confidence": 0.9754301905632019
+        },
+        {
+          "word": "I",
+          "start": 225.28,
+          "end": 225.34,
+          "confidence": 0.9960860013961792
+        },
+        {
+          "word": "necessarily",
+          "start": 225.34,
+          "end": 226.0,
+          "confidence": 0.9184157252311707
+        },
+        {
+          "word": "hate.",
+          "start": 226.0,
+          "end": 226.48,
+          "confidence": 0.9802841544151306
+        },
+        {
+          "word": "I",
+          "start": 226.64,
+          "end": 226.72,
+          "confidence": 0.9985301494598389
+        },
+        {
+          "word": "guess",
+          "start": 226.72,
+          "end": 226.86,
+          "confidence": 0.9928336143493652
+        },
+        {
+          "word": "there's",
+          "start": 226.86,
+          "end": 227.12,
+          "confidence": 0.9205118119716644
+        },
+        {
+          "word": "certain",
+          "start": 227.12,
+          "end": 227.38,
+          "confidence": 0.996012806892395
+        }
+      ]
+    },
+    {
+      "text": "objects I wouldn't want a specific color on. Like, I wouldn't want my color pink, or I wouldn't want my",
+      "start": 227.38,
+      "end": 235.18,
+      "words": [
+        {
+          "word": "objects",
+          "start": 227.38,
+          "end": 227.82,
+          "confidence": 0.9878616333007812
+        },
+        {
+          "word": "I",
+          "start": 227.82,
+          "end": 228.14,
+          "confidence": 0.771831214427948
+        },
+        {
+          "word": "wouldn't",
+          "start": 228.14,
+          "end": 228.62,
+          "confidence": 0.993973046541214
+        },
+        {
+          "word": "want",
+          "start": 228.62,
+          "end": 228.88,
+          "confidence": 0.9920557141304016
+        },
+        {
+          "word": "a",
+          "start": 228.88,
+          "end": 229.32,
+          "confidence": 0.9837116599082947
+        },
+        {
+          "word": "specific",
+          "start": 229.32,
+          "end": 229.74,
+          "confidence": 0.9985008239746094
+        },
+        {
+          "word": "color",
+          "start": 229.74,
+          "end": 230.18,
+          "confidence": 0.9948896169662476
+        },
+        {
+          "word": "on.",
+          "start": 230.18,
+          "end": 230.62,
+          "confidence": 0.9943916201591492
+        },
+        {
+          "word": "Like,",
+          "start": 230.92,
+          "end": 231.44,
+          "confidence": 0.9377220273017883
+        },
+        {
+          "word": "I",
+          "start": 231.46,
+          "end": 231.48,
+          "confidence": 0.9036709070205688
+        },
+        {
+          "word": "wouldn't",
+          "start": 231.48,
+          "end": 231.8,
+          "confidence": 0.9977080821990967
+        },
+        {
+          "word": "want",
+          "start": 231.8,
+          "end": 231.9,
+          "confidence": 0.9953201413154602
+        },
+        {
+          "word": "my",
+          "start": 231.9,
+          "end": 232.08,
+          "confidence": 0.9976297616958618
+        },
+        {
+          "word": "color",
+          "start": 232.08,
+          "end": 232.48,
+          "confidence": 0.5974650382995605
+        },
+        {
+          "word": "pink,",
+          "start": 232.48,
+          "end": 232.98,
+          "confidence": 0.5897310972213745
+        },
+        {
+          "word": "or",
+          "start": 233.44,
+          "end": 234.22,
+          "confidence": 0.959784746170044
+        },
+        {
+          "word": "I",
+          "start": 234.22,
+          "end": 234.34,
+          "confidence": 0.9897512197494507
+        },
+        {
+          "word": "wouldn't",
+          "start": 234.34,
+          "end": 234.6,
+          "confidence": 0.9987852871417999
+        },
+        {
+          "word": "want",
+          "start": 234.6,
+          "end": 234.78,
+          "confidence": 0.9956648945808411
+        },
+        {
+          "word": "my",
+          "start": 234.78,
+          "end": 235.18,
+          "confidence": 0.9959981441497803
+        }
+      ]
+    },
+    {
+      "text": "floor to be like orange or something. I can't wear orange. It looks makes my skin look like orange.",
+      "start": 236.79,
+      "end": 245.38,
+      "words": [
+        {
+          "word": "floor",
+          "start": 236.79,
+          "end": 237.31,
+          "confidence": 0.757373034954071
+        },
+        {
+          "word": "to",
+          "start": 237.31,
+          "end": 237.83,
+          "confidence": 0.9713823199272156
+        },
+        {
+          "word": "be",
+          "start": 237.83,
+          "end": 238.15,
+          "confidence": 0.997128427028656
+        },
+        {
+          "word": "like",
+          "start": 238.15,
+          "end": 238.47,
+          "confidence": 0.6919095516204834
+        },
+        {
+          "word": "orange",
+          "start": 238.47,
+          "end": 238.97,
+          "confidence": 0.9707796573638916
+        },
+        {
+          "word": "or",
+          "start": 238.97,
+          "end": 239.27,
+          "confidence": 0.8426744341850281
+        },
+        {
+          "word": "something.",
+          "start": 239.27,
+          "end": 239.69,
+          "confidence": 0.9960793852806091
+        },
+        {
+          "word": "I",
+          "start": 240.21,
+          "end": 240.29,
+          "confidence": 0.8953392505645752
+        },
+        {
+          "word": "can't",
+          "start": 240.29,
+          "end": 240.55,
+          "confidence": 0.9970442056655884
+        },
+        {
+          "word": "wear",
+          "start": 240.55,
+          "end": 240.67,
+          "confidence": 0.9972295165061951
+        },
+        {
+          "word": "orange.",
+          "start": 240.67,
+          "end": 241.11,
+          "confidence": 0.9823881983757019
+        },
+        {
+          "word": "It",
+          "start": 242.38,
+          "end": 242.54,
+          "confidence": 0.19046427309513092
+        },
+        {
+          "word": "looks",
+          "start": 242.54,
+          "end": 242.8,
+          "confidence": 0.8370552659034729
+        },
+        {
+          "word": "makes",
+          "start": 242.8,
+          "end": 243.78,
+          "confidence": 0.09990297257900238
+        },
+        {
+          "word": "my",
+          "start": 243.78,
+          "end": 244.08,
+          "confidence": 0.9841133952140808
+        },
+        {
+          "word": "skin",
+          "start": 244.08,
+          "end": 244.4,
+          "confidence": 0.9894880056381226
+        },
+        {
+          "word": "look",
+          "start": 244.4,
+          "end": 244.48,
+          "confidence": 0.9308621883392334
+        },
+        {
+          "word": "like",
+          "start": 244.48,
+          "end": 245.04,
+          "confidence": 0.2462185025215149
+        },
+        {
+          "word": "orange.",
+          "start": 245.04,
+          "end": 245.38,
+          "confidence": 0.9729788303375244
+        }
+      ]
+    },
+    {
+      "text": "No, it just makes my skin look weird. But I don't dislike the color because of it. I still like orange.",
+      "start": 246.3,
+      "end": 252.03,
+      "words": [
+        {
+          "word": "No,",
+          "start": 246.3,
+          "end": 246.44,
+          "confidence": 0.4815984070301056
+        },
+        {
+          "word": "it",
+          "start": 246.54,
+          "end": 246.6,
+          "confidence": 0.9100894927978516
+        },
+        {
+          "word": "just",
+          "start": 246.6,
+          "end": 246.66,
+          "confidence": 0.9888639450073242
+        },
+        {
+          "word": "makes",
+          "start": 246.66,
+          "end": 246.82,
+          "confidence": 0.9943017959594727
+        },
+        {
+          "word": "my",
+          "start": 246.82,
+          "end": 247.02,
+          "confidence": 0.997421145439148
+        },
+        {
+          "word": "skin",
+          "start": 247.02,
+          "end": 247.22,
+          "confidence": 0.9990314245223999
+        },
+        {
+          "word": "look",
+          "start": 247.22,
+          "end": 247.42,
+          "confidence": 0.9945077300071716
+        },
+        {
+          "word": "weird.",
+          "start": 247.42,
+          "end": 247.68,
+          "confidence": 0.9915069937705994
+        },
+        {
+          "word": "But",
+          "start": 248.39,
+          "end": 248.79,
+          "confidence": 0.9811355471611023
+        },
+        {
+          "word": "I",
+          "start": 248.79,
+          "end": 248.89,
+          "confidence": 0.9539963006973267
+        },
+        {
+          "word": "don't",
+          "start": 248.89,
+          "end": 249.07,
+          "confidence": 0.9094808399677277
+        },
+        {
+          "word": "dislike",
+          "start": 249.07,
+          "end": 249.33,
+          "confidence": 0.9765058159828186
+        },
+        {
+          "word": "the",
+          "start": 249.33,
+          "end": 249.55,
+          "confidence": 0.9907059073448181
+        },
+        {
+          "word": "color",
+          "start": 249.55,
+          "end": 249.81,
+          "confidence": 0.9920740127563477
+        },
+        {
+          "word": "because",
+          "start": 249.81,
+          "end": 250.29,
+          "confidence": 0.8394703269004822
+        },
+        {
+          "word": "of",
+          "start": 250.29,
+          "end": 250.53,
+          "confidence": 0.9969660639762878
+        },
+        {
+          "word": "it.",
+          "start": 250.53,
+          "end": 250.69,
+          "confidence": 0.9966309666633606
+        },
+        {
+          "word": "I",
+          "start": 250.87,
+          "end": 250.91,
+          "confidence": 0.868266224861145
+        },
+        {
+          "word": "still",
+          "start": 250.91,
+          "end": 251.05,
+          "confidence": 0.9916626214981079
+        },
+        {
+          "word": "like",
+          "start": 251.05,
+          "end": 251.31,
+          "confidence": 0.9956610798835754
+        },
+        {
+          "word": "orange.",
+          "start": 251.31,
+          "end": 252.03,
+          "confidence": 0.9918248057365417
+        }
+      ]
+    },
+    {
+      "text": "You know what? I saw a guy with a lavender tie and like a light, light blue shirt,",
+      "start": 252.43,
+      "end": 260.25,
+      "words": [
+        {
+          "word": "You",
+          "start": 252.43,
+          "end": 252.75,
+          "confidence": 0.21190248429775238
+        },
+        {
+          "word": "know",
+          "start": 252.75,
+          "end": 252.83,
+          "confidence": 0.9630614519119263
+        },
+        {
+          "word": "what?",
+          "start": 252.83,
+          "end": 252.97,
+          "confidence": 0.9419021606445312
+        },
+        {
+          "word": "I",
+          "start": 253.09,
+          "end": 253.21,
+          "confidence": 0.9909610152244568
+        },
+        {
+          "word": "saw",
+          "start": 253.21,
+          "end": 253.35,
+          "confidence": 0.9984575510025024
+        },
+        {
+          "word": "a",
+          "start": 253.35,
+          "end": 253.57,
+          "confidence": 0.9840793013572693
+        },
+        {
+          "word": "guy",
+          "start": 253.57,
+          "end": 253.75,
+          "confidence": 0.997753918170929
+        },
+        {
+          "word": "with",
+          "start": 253.75,
+          "end": 254.29,
+          "confidence": 0.9936907291412354
+        },
+        {
+          "word": "a",
+          "start": 254.29,
+          "end": 254.47,
+          "confidence": 0.9801499247550964
+        },
+        {
+          "word": "lavender",
+          "start": 254.47,
+          "end": 254.91,
+          "confidence": 0.969738245010376
+        },
+        {
+          "word": "tie",
+          "start": 254.91,
+          "end": 255.39,
+          "confidence": 0.9858492612838745
+        },
+        {
+          "word": "and",
+          "start": 255.39,
+          "end": 256.57,
+          "confidence": 0.7012896537780762
+        },
+        {
+          "word": "like",
+          "start": 257.3,
+          "end": 257.46,
+          "confidence": 0.8510953187942505
+        },
+        {
+          "word": "a",
+          "start": 257.46,
+          "end": 257.58,
+          "confidence": 0.9713839888572693
+        },
+        {
+          "word": "light,",
+          "start": 257.58,
+          "end": 258.12,
+          "confidence": 0.9878877997398376
+        },
+        {
+          "word": "light",
+          "start": 258.49,
+          "end": 259.57,
+          "confidence": 0.9879187941551208
+        },
+        {
+          "word": "blue",
+          "start": 259.57,
+          "end": 259.87,
+          "confidence": 0.9682551026344299
+        },
+        {
+          "word": "shirt,",
+          "start": 259.87,
+          "end": 260.25,
+          "confidence": 0.998327910900116
+        }
+      ]
+    },
+    {
+      "text": "and it looked really good, and I never thought lavender would be a color I liked. But",
+      "start": 261.08,
+      "end": 267.62,
+      "words": [
+        {
+          "word": "and",
+          "start": 261.08,
+          "end": 261.54,
+          "confidence": 0.9888784289360046
+        },
+        {
+          "word": "it",
+          "start": 261.54,
+          "end": 261.62,
+          "confidence": 0.9797037839889526
+        },
+        {
+          "word": "looked",
+          "start": 261.62,
+          "end": 261.84,
+          "confidence": 0.9965950846672058
+        },
+        {
+          "word": "really",
+          "start": 261.84,
+          "end": 262.48,
+          "confidence": 0.9970058798789978
+        },
+        {
+          "word": "good,",
+          "start": 262.48,
+          "end": 262.92,
+          "confidence": 0.9990647435188293
+        },
+        {
+          "word": "and",
+          "start": 263.14,
+          "end": 263.36,
+          "confidence": 0.9935922026634216
+        },
+        {
+          "word": "I",
+          "start": 263.36,
+          "end": 263.56,
+          "confidence": 0.9962751865386963
+        },
+        {
+          "word": "never",
+          "start": 263.56,
+          "end": 264.04,
+          "confidence": 0.9882116913795471
+        },
+        {
+          "word": "thought",
+          "start": 264.04,
+          "end": 264.48,
+          "confidence": 0.9971091151237488
+        },
+        {
+          "word": "lavender",
+          "start": 264.48,
+          "end": 264.96,
+          "confidence": 0.9575818777084351
+        },
+        {
+          "word": "would",
+          "start": 264.96,
+          "end": 265.28,
+          "confidence": 0.9967652559280396
+        },
+        {
+          "word": "be",
+          "start": 265.28,
+          "end": 265.42,
+          "confidence": 0.9981092214584351
+        },
+        {
+          "word": "a",
+          "start": 265.42,
+          "end": 265.52,
+          "confidence": 0.9732839465141296
+        },
+        {
+          "word": "color",
+          "start": 265.52,
+          "end": 265.72,
+          "confidence": 0.9819938540458679
+        },
+        {
+          "word": "I",
+          "start": 265.72,
+          "end": 265.92,
+          "confidence": 0.978657066822052
+        },
+        {
+          "word": "liked.",
+          "start": 265.92,
+          "end": 266.4,
+          "confidence": 0.962104320526123
+        },
+        {
+          "word": "But",
+          "start": 267.24,
+          "end": 267.62,
+          "confidence": 0.9717797636985779
+        }
+      ]
+    },
+    {
+      "text": "that was pretty slick, so I guess I'm with you. I don't really have any colors I don't like",
+      "start": 268.12,
+      "end": 274.2,
+      "words": [
+        {
+          "word": "that",
+          "start": 268.12,
+          "end": 268.58,
+          "confidence": 0.635861337184906
+        },
+        {
+          "word": "was",
+          "start": 268.58,
+          "end": 268.7,
+          "confidence": 0.9957653284072876
+        },
+        {
+          "word": "pretty",
+          "start": 268.7,
+          "end": 268.92,
+          "confidence": 0.9984655380249023
+        },
+        {
+          "word": "slick,",
+          "start": 268.92,
+          "end": 269.22,
+          "confidence": 0.9960934519767761
+        },
+        {
+          "word": "so",
+          "start": 269.4,
+          "end": 269.6,
+          "confidence": 0.9920765161514282
+        },
+        {
+          "word": "I",
+          "start": 269.6,
+          "end": 269.72,
+          "confidence": 0.9768841862678528
+        },
+        {
+          "word": "guess",
+          "start": 269.72,
+          "end": 269.84,
+          "confidence": 0.9969965219497681
+        },
+        {
+          "word": "I'm",
+          "start": 269.84,
+          "end": 270.96,
+          "confidence": 0.9308831095695496
+        },
+        {
+          "word": "with",
+          "start": 270.96,
+          "end": 271.1,
+          "confidence": 0.9991928935050964
+        },
+        {
+          "word": "you.",
+          "start": 271.1,
+          "end": 271.3,
+          "confidence": 0.9991469383239746
+        },
+        {
+          "word": "I",
+          "start": 271.52,
+          "end": 271.62,
+          "confidence": 0.9578773379325867
+        },
+        {
+          "word": "don't",
+          "start": 271.62,
+          "end": 271.82,
+          "confidence": 0.9968741834163666
+        },
+        {
+          "word": "really",
+          "start": 271.82,
+          "end": 272.06,
+          "confidence": 0.9776625037193298
+        },
+        {
+          "word": "have",
+          "start": 272.06,
+          "end": 272.32,
+          "confidence": 0.9983421564102173
+        },
+        {
+          "word": "any",
+          "start": 272.32,
+          "end": 272.58,
+          "confidence": 0.9940783977508545
+        },
+        {
+          "word": "colors",
+          "start": 272.58,
+          "end": 272.94,
+          "confidence": 0.9874080419540405
+        },
+        {
+          "word": "I",
+          "start": 272.94,
+          "end": 273.34,
+          "confidence": 0.9227771162986755
+        },
+        {
+          "word": "don't",
+          "start": 273.34,
+          "end": 273.94,
+          "confidence": 0.9959926903247833
+        },
+        {
+          "word": "like",
+          "start": 273.94,
+          "end": 274.2,
+          "confidence": 0.9982272982597351
+        }
+      ]
+    },
+    {
+      "text": "necessarily, and I don't really have any favorites. I kind of love them all.",
+      "start": 275.06,
+      "end": 279.16,
+      "words": [
+        {
+          "word": "necessarily,",
+          "start": 275.06,
+          "end": 275.52,
+          "confidence": 0.7111027836799622
+        },
+        {
+          "word": "and",
+          "start": 275.9,
+          "end": 275.98,
+          "confidence": 0.9961918592453003
+        },
+        {
+          "word": "I",
+          "start": 275.98,
+          "end": 276.08,
+          "confidence": 0.9988126754760742
+        },
+        {
+          "word": "don't",
+          "start": 276.08,
+          "end": 276.26,
+          "confidence": 0.9988031685352325
+        },
+        {
+          "word": "really",
+          "start": 276.26,
+          "end": 276.46,
+          "confidence": 0.9925582408905029
+        },
+        {
+          "word": "have",
+          "start": 276.46,
+          "end": 276.72,
+          "confidence": 0.9982978701591492
+        },
+        {
+          "word": "any",
+          "start": 276.72,
+          "end": 276.9,
+          "confidence": 0.993239164352417
+        },
+        {
+          "word": "favorites.",
+          "start": 276.9,
+          "end": 277.44,
+          "confidence": 0.9903666973114014
+        },
+        {
+          "word": "I",
+          "start": 277.88,
+          "end": 277.94,
+          "confidence": 0.6929989457130432
+        },
+        {
+          "word": "kind",
+          "start": 277.94,
+          "end": 278.4,
+          "confidence": 0.901688277721405
+        },
+        {
+          "word": "of",
+          "start": 278.4,
+          "end": 278.54,
+          "confidence": 0.997818112373352
+        },
+        {
+          "word": "love",
+          "start": 278.54,
+          "end": 278.72,
+          "confidence": 0.9566159248352051
+        },
+        {
+          "word": "them",
+          "start": 278.72,
+          "end": 278.92,
+          "confidence": 0.9991488456726074
+        },
+        {
+          "word": "all.",
+          "start": 278.92,
+          "end": 279.16,
+          "confidence": 0.9987329840660095
+        }
+      ]
+    },
+    {
+      "text": "And they really should stop asking people what their favorite color is. I think you force people",
+      "start": 279.16,
+      "end": 284.28,
+      "words": [
+        {
+          "word": "And",
+          "start": 279.16,
+          "end": 279.68,
+          "confidence": 0.3542505204677582
+        },
+        {
+          "word": "they",
+          "start": 279.68,
+          "end": 279.78,
+          "confidence": 0.6011316180229187
+        },
+        {
+          "word": "really",
+          "start": 279.78,
+          "end": 280.26,
+          "confidence": 0.36927053332328796
+        },
+        {
+          "word": "should",
+          "start": 280.26,
+          "end": 280.48,
+          "confidence": 0.9830838441848755
+        },
+        {
+          "word": "stop",
+          "start": 280.48,
+          "end": 280.72,
+          "confidence": 0.6220884323120117
+        },
+        {
+          "word": "asking",
+          "start": 280.72,
+          "end": 281.06,
+          "confidence": 0.9962698221206665
+        },
+        {
+          "word": "people",
+          "start": 281.06,
+          "end": 281.34,
+          "confidence": 0.9479681253433228
+        },
+        {
+          "word": "what",
+          "start": 281.34,
+          "end": 281.52,
+          "confidence": 0.983649492263794
+        },
+        {
+          "word": "their",
+          "start": 281.52,
+          "end": 281.66,
+          "confidence": 0.9693698883056641
+        },
+        {
+          "word": "favorite",
+          "start": 281.66,
+          "end": 281.92,
+          "confidence": 0.9230456948280334
+        },
+        {
+          "word": "color",
+          "start": 281.92,
+          "end": 282.2,
+          "confidence": 0.987485945224762
+        },
+        {
+          "word": "is.",
+          "start": 282.2,
+          "end": 282.6,
+          "confidence": 0.9926666617393494
+        },
+        {
+          "word": "I",
+          "start": 283.14,
+          "end": 283.38,
+          "confidence": 0.9880778193473816
+        },
+        {
+          "word": "think",
+          "start": 283.38,
+          "end": 283.52,
+          "confidence": 0.9975010752677917
+        },
+        {
+          "word": "you",
+          "start": 283.52,
+          "end": 283.68,
+          "confidence": 0.9944879412651062
+        },
+        {
+          "word": "force",
+          "start": 283.68,
+          "end": 283.92,
+          "confidence": 0.3540593981742859
+        },
+        {
+          "word": "people",
+          "start": 283.92,
+          "end": 284.28,
+          "confidence": 0.9993306398391724
+        }
+      ]
+    },
+    {
+      "text": "to choose. You do. It's more of a personality question. Did you know that?",
+      "start": 284.28,
+      "end": 289.66,
+      "words": [
+        {
+          "word": "to",
+          "start": 284.28,
+          "end": 284.44,
+          "confidence": 0.9994361996650696
+        },
+        {
+          "word": "choose.",
+          "start": 284.44,
+          "end": 284.88,
+          "confidence": 0.9905926585197449
+        },
+        {
+          "word": "You",
+          "start": 285.6,
+          "end": 285.94,
+          "confidence": 0.9256547093391418
+        },
+        {
+          "word": "do.",
+          "start": 285.94,
+          "end": 286.18,
+          "confidence": 0.9947787523269653
+        },
+        {
+          "word": "It's",
+          "start": 286.34,
+          "end": 286.52,
+          "confidence": 0.9897651374340057
+        },
+        {
+          "word": "more",
+          "start": 286.52,
+          "end": 286.68,
+          "confidence": 0.9988436698913574
+        },
+        {
+          "word": "of",
+          "start": 286.68,
+          "end": 286.88,
+          "confidence": 0.9918341636657715
+        },
+        {
+          "word": "a",
+          "start": 286.88,
+          "end": 287.1,
+          "confidence": 0.9930013418197632
+        },
+        {
+          "word": "personality",
+          "start": 287.1,
+          "end": 287.96,
+          "confidence": 0.9655820727348328
+        },
+        {
+          "word": "question.",
+          "start": 287.96,
+          "end": 288.6,
+          "confidence": 0.996051013469696
+        },
+        {
+          "word": "Did",
+          "start": 289.1,
+          "end": 289.18,
+          "confidence": 0.8720251321792603
+        },
+        {
+          "word": "you",
+          "start": 289.18,
+          "end": 289.32,
+          "confidence": 0.9878371357917786
+        },
+        {
+          "word": "know",
+          "start": 289.32,
+          "end": 289.42,
+          "confidence": 0.9966946840286255
+        },
+        {
+          "word": "that?",
+          "start": 289.42,
+          "end": 289.66,
+          "confidence": 0.9935184121131897
+        }
+      ]
+    },
+    {
+      "text": "They face a lot of the personality questions down on shapes and colors, and by using those,",
+      "start": 290.61,
+      "end": 296.52,
+      "words": [
+        {
+          "word": "They",
+          "start": 290.61,
+          "end": 290.91,
+          "confidence": 0.14020000398159027
+        },
+        {
+          "word": "face",
+          "start": 290.91,
+          "end": 291.23,
+          "confidence": 0.5755813717842102
+        },
+        {
+          "word": "a",
+          "start": 291.23,
+          "end": 291.39,
+          "confidence": 0.9364449381828308
+        },
+        {
+          "word": "lot",
+          "start": 291.39,
+          "end": 291.83,
+          "confidence": 0.9971663355827332
+        },
+        {
+          "word": "of",
+          "start": 291.83,
+          "end": 291.93,
+          "confidence": 0.9976467490196228
+        },
+        {
+          "word": "the",
+          "start": 291.93,
+          "end": 292.01,
+          "confidence": 0.9877704381942749
+        },
+        {
+          "word": "personality",
+          "start": 292.01,
+          "end": 292.47,
+          "confidence": 0.9905170798301697
+        },
+        {
+          "word": "questions",
+          "start": 292.47,
+          "end": 292.89,
+          "confidence": 0.9780785441398621
+        },
+        {
+          "word": "down",
+          "start": 292.89,
+          "end": 293.15,
+          "confidence": 0.8443572521209717
+        },
+        {
+          "word": "on",
+          "start": 293.15,
+          "end": 293.35,
+          "confidence": 0.9753856062889099
+        },
+        {
+          "word": "shapes",
+          "start": 293.35,
+          "end": 293.71,
+          "confidence": 0.9967265129089355
+        },
+        {
+          "word": "and",
+          "start": 293.71,
+          "end": 294.03,
+          "confidence": 0.9932431578636169
+        },
+        {
+          "word": "colors,",
+          "start": 294.03,
+          "end": 294.39,
+          "confidence": 0.9913010001182556
+        },
+        {
+          "word": "and",
+          "start": 294.82,
+          "end": 295.78,
+          "confidence": 0.939620852470398
+        },
+        {
+          "word": "by",
+          "start": 295.78,
+          "end": 296.0,
+          "confidence": 0.991400420665741
+        },
+        {
+          "word": "using",
+          "start": 296.0,
+          "end": 296.3,
+          "confidence": 0.9989433884620667
+        },
+        {
+          "word": "those,",
+          "start": 296.3,
+          "end": 296.52,
+          "confidence": 0.9842610359191895
+        }
+      ]
+    },
+    {
+      "text": "they can separate you out into three or four different groups. I don't know what they'd say about me.",
+      "start": 296.68,
+      "end": 301.55,
+      "words": [
+        {
+          "word": "they",
+          "start": 296.68,
+          "end": 296.72,
+          "confidence": 0.9900021553039551
+        },
+        {
+          "word": "can",
+          "start": 296.72,
+          "end": 296.88,
+          "confidence": 0.9870744943618774
+        },
+        {
+          "word": "separate",
+          "start": 296.88,
+          "end": 297.64,
+          "confidence": 0.9651572108268738
+        },
+        {
+          "word": "you",
+          "start": 297.64,
+          "end": 297.86,
+          "confidence": 0.9881529211997986
+        },
+        {
+          "word": "out",
+          "start": 297.86,
+          "end": 297.98,
+          "confidence": 0.6884691715240479
+        },
+        {
+          "word": "into",
+          "start": 297.98,
+          "end": 298.12,
+          "confidence": 0.9695120453834534
+        },
+        {
+          "word": "three",
+          "start": 298.12,
+          "end": 298.34,
+          "confidence": 0.8795346021652222
+        },
+        {
+          "word": "or",
+          "start": 298.34,
+          "end": 298.4,
+          "confidence": 0.9908851981163025
+        },
+        {
+          "word": "four",
+          "start": 298.4,
+          "end": 298.58,
+          "confidence": 0.9977810978889465
+        },
+        {
+          "word": "different",
+          "start": 298.58,
+          "end": 298.82,
+          "confidence": 0.9995471835136414
+        },
+        {
+          "word": "groups.",
+          "start": 298.82,
+          "end": 299.2,
+          "confidence": 0.9980217218399048
+        },
+        {
+          "word": "I",
+          "start": 300.35,
+          "end": 300.53,
+          "confidence": 0.8707648515701294
+        },
+        {
+          "word": "don't",
+          "start": 300.53,
+          "end": 300.63,
+          "confidence": 0.9853541553020477
+        },
+        {
+          "word": "know",
+          "start": 300.63,
+          "end": 300.77,
+          "confidence": 0.9971362352371216
+        },
+        {
+          "word": "what",
+          "start": 300.77,
+          "end": 300.87,
+          "confidence": 0.9934410452842712
+        },
+        {
+          "word": "they'd",
+          "start": 300.87,
+          "end": 301.09,
+          "confidence": 0.981071799993515
+        },
+        {
+          "word": "say",
+          "start": 301.09,
+          "end": 301.19,
+          "confidence": 0.98139488697052
+        },
+        {
+          "word": "about",
+          "start": 301.19,
+          "end": 301.37,
+          "confidence": 0.9923310279846191
+        },
+        {
+          "word": "me.",
+          "start": 301.37,
+          "end": 301.55,
+          "confidence": 0.9946685433387756
+        }
+      ]
+    },
+    {
+      "text": "I just don't care.",
+      "start": 301.65,
+      "end": 302.35,
+      "words": [
+        {
+          "word": "I",
+          "start": 301.65,
+          "end": 301.71,
+          "confidence": 0.9967149496078491
+        },
+        {
+          "word": "just",
+          "start": 301.71,
+          "end": 301.85,
+          "confidence": 0.9987817406654358
+        },
+        {
+          "word": "don't",
+          "start": 301.85,
+          "end": 302.13,
+          "confidence": 0.9996131658554077
+        },
+        {
+          "word": "care.",
+          "start": 302.13,
+          "end": 302.35,
+          "confidence": 0.9988743662834167
+        }
+      ]
+    }
+  ]
+}
