@@ -1,87 +1,142 @@
-"""PII lexicon - days, months, colors, cities, states."""
+"""
+PII Lexicon - all the terms we detect and redact.
+Days, months, colors, states, and cities.
+"may" is handled separately with context rules.
+Cities with color names (Brownsville, Greenville) need to match as cities first.
+"""
 
-DAYS = [
-    "monday", "tuesday", "wednesday", "thursday", 
-    "friday", "saturday", "sunday"
+from typing import Dict, List, Set
+
+# Days of the week (+ common abbreviations)
+DAYS: List[str] = [
+    "monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday",
+    "mon", "tue", "tues", "wed", "thu", "thur", "thurs", "fri", "sat", "sun"
 ]
 
-MONTHS = [
-    "january", "february", "march", "april", "may", "june",
-    "july", "august", "september", "october", "november", "december"
+# Months (excluding "may" - handled with context rules)
+MONTHS: List[str] = [
+    "january", "february", "march", "april", "june", "july",
+    "august", "september", "october", "november", "december",
+    "jan", "feb", "mar", "apr", "jun", "jul", "aug", "sep", "sept", "oct", "nov", "dec"
 ]
 
-COLORS = [
+# Colors (common color names)
+COLORS: List[str] = [
     "red", "orange", "yellow", "green", "blue", "purple", "pink",
-    "brown", "black", "white", "gray", "grey", "gold", "silver",
-    "beige", "maroon", "navy", "teal", "coral", "salmon", "tan",
-    "olive", "cyan", "magenta", "turquoise", "indigo", "violet"
+    "black", "white", "gray", "grey", "brown", "gold", "silver",
+    "violet", "indigo", "teal", "cyan", "magenta", "maroon", "navy",
+    "beige", "tan", "coral", "turquoise", "lavender", "crimson",
+    "amber", "aqua", "bronze", "burgundy", "charcoal", "chartreuse",
+    "chocolate", "copper", "cream", "fuchsia", "ivory", "jade",
+    "khaki", "lilac", "lime", "mauve", "olive", "peach", "periwinkle",
+    "plum", "rose", "ruby", "salmon", "sapphire", "scarlet", "sienna",
+    "slate", "taupe", "topaz", "vermillion"
 ]
 
-STATES = [
-    "alabama", "alaska", "arizona", "arkansas", "california",
-    "colorado", "connecticut", "delaware", "florida", "georgia",
-    "hawaii", "idaho", "illinois", "indiana", "iowa", "kansas",
-    "kentucky", "louisiana", "maine", "maryland", "massachusetts",
-    "michigan", "minnesota", "mississippi", "missouri", "montana",
-    "nebraska", "nevada", "new hampshire", "new jersey", "new mexico",
-    "new york", "north carolina", "north dakota", "ohio", "oklahoma",
-    "oregon", "pennsylvania", "rhode island", "south carolina",
-    "south dakota", "tennessee", "texas", "utah", "vermont",
-    "virginia", "washington", "west virginia", "wisconsin", "wyoming"
+# US States (full names only - no abbreviations found in data)
+STATES: List[str] = [
+    "alabama", "alaska", "arizona", "arkansas", "california", "colorado",
+    "connecticut", "delaware", "florida", "georgia", "hawaii", "idaho",
+    "illinois", "indiana", "iowa", "kansas", "kentucky", "louisiana",
+    "maine", "maryland", "massachusetts", "michigan", "minnesota",
+    "mississippi", "missouri", "montana", "nebraska", "nevada",
+    "new hampshire", "new jersey", "new mexico", "new york",
+    "north carolina", "north dakota", "ohio", "oklahoma", "oregon",
+    "pennsylvania", "rhode island", "south carolina", "south dakota",
+    "tennessee", "texas", "utah", "vermont", "virginia", "washington",
+    "west virginia", "wisconsin", "wyoming",
+    # DC
+    "district of columbia"
 ]
 
-# Multi-word cities (need to match as phrases)
-CITIES_MULTI = [
-    "new york city", "los angeles", "las vegas", "san francisco",
-    "san diego", "san antonio", "san jose", "fort worth", 
-    "el paso", "kansas city", "oklahoma city", "salt lake city",
-    "new orleans", "virginia beach", "colorado springs"
+# Cities - Multi-word (MUST match before single-word to avoid partial matches)
+# Match cities before colors to avoid "Brownsville" -> "[COLOR]sville"
+CITIES_MULTI: List[str] = [
+    # 3-word cities
+    "salt lake city", "new york city", "oklahoma city", "kansas city",
+    "virginia beach",
+    # 2-word cities
+    "new york", "los angeles", "san francisco", "san diego", "san antonio",
+    "san jose", "las vegas", "fort worth", "el paso", "new orleans",
+    "long beach", "colorado springs", "st louis", "st paul", "st petersburg",
+    "santa fe", "santa ana", "santa monica", "baton rouge", "little rock",
+    "grand rapids", "des moines", "ann arbor", "corpus christi",
+    "round rock", "college station"
 ]
 
-# Single-word cities
-CITIES_SINGLE = [
-    "houston", "phoenix", "philadelphia", "dallas", "austin",
-    "jacksonville", "chicago", "columbus", "charlotte", "seattle",
-    "denver", "boston", "detroit", "nashville", "memphis",
-    "portland", "baltimore", "milwaukee", "albuquerque", "tucson",
-    "fresno", "sacramento", "atlanta", "miami", "oakland",
-    "minneapolis", "tulsa", "cleveland", "pittsburgh", "raleigh",
-    "omaha", "tampa", "honolulu", "anchorage", "brownsville"
+# Cities - Single word
+CITIES_SINGLE: List[str] = [
+    # Major US cities
+    "houston", "phoenix", "philadelphia", "dallas", "austin", "jacksonville",
+    "charlotte", "seattle", "denver", "boston", "detroit", "portland",
+    "memphis", "baltimore", "milwaukee", "albuquerque", "tucson", "fresno",
+    "sacramento", "atlanta", "miami", "oakland", "minneapolis", "cleveland",
+    "tulsa", "pittsburgh", "cincinnati", "indianapolis", "nashville",
+    "chicago", "omaha", "raleigh", "richmond", "buffalo", "orlando",
+    "tampa", "honolulu", "anchorage",
+    # Texas cities (from data)
+    "arlington", "irving", "garland", "mesquite", "plano", "waco",
+    "lubbock", "amarillo", "laredo", "midland", "odessa", "brownsville",
+    "mcallen", "killeen", "pasadena", "beaumont", "abilene", "carrollton",
+    "frisco", "lewisville", "denton", "richardson", "tyler",
+    "pearland", "conroe", "edinburg",
+    # Other from data
+    "burkburnett", "hilton", "lincoln", "savannah", "mobile",
+    # Cities containing color names (match as cities, not colors)
+    "greenville", "greensboro", "brownwood", "blacksburg", "whitehall",
+    "goldsboro", "silverdale", "bluefield", "redmond", "redding",
+    "orangeburg", "pinkville"
 ]
 
-CATEGORY_LABELS = {
+# Category labels for redaction
+CATEGORY_LABELS: Dict[str, str] = {
     "day": "[DAY]",
-    "month": "[MONTH]", 
+    "month": "[MONTH]",
     "color": "[COLOR]",
-    "city": "[CITY]",
-    "state": "[STATE]"
+    "state": "[STATE]",
+    "city": "[CITY]"
 }
 
-def get_sorted_terms_by_length():
-    """Get all PII terms sorted by length (longest first).
-    Cities come before colors to prevent partial matches."""
-    terms = []
-    
-    # Add multi-word cities first (longest)
-    for city in CITIES_MULTI:
-        terms.append((city, "city"))
-    
-    # Add states (some are multi-word like "new york")
-    for state in STATES:
-        terms.append((state, "state"))
-    
-    # Add single-word cities
-    for city in CITIES_SINGLE:
-        terms.append((city, "city"))
-    
-    # Add other categories
-    for day in DAYS:
-        terms.append((day, "day"))
-    for month in MONTHS:
-        terms.append((month, "month"))
-    for color in COLORS:
-        terms.append((color, "color"))
-    
-    # Sort by length descending
-    terms.sort(key=lambda x: len(x[0]), reverse=True)
-    return terms
+def get_all_pii_terms() -> Dict[str, Set[str]]:
+    """Return all PII terms organized by category."""
+    return {
+        "day": set(DAYS),
+        "month": set(MONTHS),
+        "color": set(COLORS),
+        "state": set(STATES),
+        "city": set(CITIES_MULTI + CITIES_SINGLE)
+    }
+
+def get_sorted_terms_by_length() -> List[tuple]:
+    """
+    Return all PII terms sorted by length (longest first).
+    This ensures "New York City" matches before "New York" before "New".
+
+    Cities are checked before colors to prevent
+    "Brownsville" from becoming "[COLOR]sville".
+
+    Returns:
+        List of (term, category) tuples sorted by term length descending.
+    """
+    all_terms = []
+
+    # Add in priority order: cities first (to catch color-containing city names)
+    for term in CITIES_MULTI:
+        all_terms.append((term, "city"))
+    for term in CITIES_SINGLE:
+        all_terms.append((term, "city"))
+
+    # Then states (multi-word states like "New York" the state)
+    for term in STATES:
+        all_terms.append((term, "state"))
+
+    # Then other categories
+    for term in DAYS:
+        all_terms.append((term, "day"))
+    for term in MONTHS:
+        all_terms.append((term, "month"))
+    for term in COLORS:
+        all_terms.append((term, "color"))
+
+    # Sort by length (longest first), then alphabetically for stability
+    return sorted(all_terms, key=lambda x: (-len(x[0]), x[0]))
